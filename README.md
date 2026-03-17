@@ -6,3 +6,7 @@ Here the docs with info and stuff
 
 Here's a nice github repository kinda like what we want to do: https://github.com/stanfordnlp/stanza
 
+And here's an example from previous years that are kinda similar:
+examples/noisy_ner_paper.pdf
+
+We can use these examples to guide ourselves for the project
