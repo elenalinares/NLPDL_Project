@@ -12,3 +12,13 @@ And here's an example from previous years that are kinda similar:
 ### examples/noisy_ner_paper.pdf
 
 We can use these examples to guide ourselves for the project
+
+##
+
+The first submision is the 18th of March and we have to submit: _"The poster should be a single-page PDF file describing the ideas for your project."_
+
+* Title of the project
+* Names
+* Breifly Descri e the project
+* What is the topic of your project, what is the current state off this topic/task/setup
+* What is the new art of your projet? What is the research quesiton of your project
