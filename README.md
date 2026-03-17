@@ -2,7 +2,7 @@
 This is our project for Natural Language Processing and Deep Learning.
 
 Here the docs with info and stuff
-'''https://docs.google.com/document/d/1eFa8uVd11gDIJYd-29SsodJffLX6QiSLuEj7furr1jM/edit?usp=sharing'''
+''' https://docs.google.com/document/d/1eFa8uVd11gDIJYd-29SsodJffLX6QiSLuEj7furr1jM/edit?usp=sharing '''
 
 Here's a nice github repository kinda like what we want to do: https://github.com/stanfordnlp/stanza
 
