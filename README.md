@@ -22,3 +22,7 @@ The first submision is the 18th of March and we have to submit: _"The poster sho
 * Breifly Descri e the project
 * What is the topic of your project, what is the current state off this topic/task/setup
 * What is the new art of your projet? What is the research quesiton of your project
+
+##
+Topic for our project:
+### https://arxiv.org/pdf/2201.07281
