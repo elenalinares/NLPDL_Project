@@ -1,3 +1,5 @@
+from transformers import BertTokenizerFast
+
 from data_loader import read_iob2
 
 train_path = "data/en_ewt-ud-train.iob2"
