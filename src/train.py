@@ -42,7 +42,7 @@ tokenized_inputs = tokenizer(
     truncation=True
 )
 
-print("Keys:", list(tokenized_inputs.keys())[:10])
+print("Keys:", list(tokenized_inputs.keys())[:5])
 print("First input_ids:", tokenized_inputs["input_ids"][0])
 
 aligned_labels = []
@@ -70,3 +70,27 @@ for i, sentence_labels in enumerate(encoded_labels):
 
 print("Tokenized input_ids:", tokenized_inputs["input_ids"][0])
 print("Aligned labels:", aligned_labels[0])
+
+
+import torch
+
+import torch
+
+class NERDataset(torch.utils.data.Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item["labels"] = torch.tensor(self.labels[idx])
+        return item
+
+    def __len__(self):
+        return len(self.labels)
+    
+
+dataset = NERDataset(tokenized_inputs, aligned_labels)
+
+print(len(dataset))
+print(dataset[0])

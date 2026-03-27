@@ -26,3 +26,7 @@ The first submision is the 18th of March and we have to submit: _"The poster sho
 ##
 Topic for our project:
 ### https://arxiv.org/pdf/2201.07281
+
+## 
+# IMPORTANT TO READ THE JUPYTER NOTEBOOK IN EXAMPLES
+It has all the info we need ngl
