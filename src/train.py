@@ -158,6 +158,7 @@ dataloader = DataLoader(dataset, batch_size=8, shuffle=True) #this now gives us 
 #It's a BERT + a classifier on top (NN) and it predict s alabel for each token --> BertForTokenClassification
 #BERT is a very deep neural network that already learned language form a huge text data so it understands grammar, meaning and context, 
 #the calssifier is a small neural network layer
+
 from transformers import BertForTokenClassification
 
 model = BertForTokenClassification.from_pretrained(
@@ -173,7 +174,7 @@ from torch.optim import AdamW
 
 optimizer = AdamW(model.parameters(), lr=5e-5)
 
-#TRAINING LOOP
+#TRAINING LOOP!!!!
 
 from tqdm import tqdm
 
@@ -201,11 +202,14 @@ for epoch in range(1):  # start simple
     print(f"Epoch {epoch}, Loss: {loss.item()}")
 
 model.eval()
+
+
 # encode dev labels
 dev_encoded_labels = [
     [label2id[label] for label in sentence]
     for sentence in dev_labels
 ]
+
 
 # tokenize dev
 dev_tokenized = tokenizer(
@@ -214,6 +218,7 @@ dev_tokenized = tokenizer(
     padding=True,
     truncation=True
 )
+
 
 # align dev labels
 dev_aligned_labels = []
@@ -236,6 +241,8 @@ for i, sentence_labels in enumerate(dev_encoded_labels):
 
     dev_aligned_labels.append(label_ids)
 
+
+
 #Here's the evaluation -> DEV set
 
 predictions = []
@@ -253,6 +260,7 @@ with torch.no_grad():
 
         predictions += preds.tolist()
         true_labels += batch["labels"].tolist()
+
 #now we convert the predicitons back to labels
 
 decoded_preds = [
@@ -262,10 +270,11 @@ decoded_preds = [
 
 
 #TEST 
-test_path = "data/en_ewt-ud-test.iob2"
+test_path = "data/en_ewt-ud-test-masked.iob2"
 test_sentences, _ = read_iob2(test_path)
 
-#SAVE PREDICITONS REALLY IMPORTANT
+
+#SAVE PREDICITONS REALLY IMPORTANT!!!!
 
 # clean predictions (remove padding)
 clean_preds = []
@@ -283,7 +292,8 @@ def save_predictions(sentences, predictions, output_file):
     with open(output_file, "w", encoding="utf-8") as f:
         for sentence, preds in zip(sentences, predictions):
             for i, (word, label) in enumerate(zip(sentence, preds)):
-                f.write(f"{i}\t{word}\t{label}\n")
+                f.write(f"{i+1}\t{word}\t{label}\t-\t-\n")
             f.write("\n")
 
+            
 save_predictions(dev_sentences, clean_preds, "dev_predictions.iob2")
