@@ -1,3 +1,7 @@
+#HEre we only read the data
+#It returns sentences + labels
+
+
 def read_iob2(file_path):
     sentences = []
     labels = []
