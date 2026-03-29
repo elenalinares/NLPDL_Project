@@ -30,3 +30,7 @@ Topic for our project:
 ## 
 # IMPORTANT TO READ THE JUPYTER NOTEBOOK IN EXAMPLES
 It has all the info we need ngl
+
+## REPORT FOR THE PROJECT PROPOSAL
+[Project_proposal_submission.pdf](https://github.com/user-attachments/files/26330900/Project_proposal_submission.pdf)
+
