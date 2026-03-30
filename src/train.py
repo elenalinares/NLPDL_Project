@@ -180,11 +180,11 @@ from tqdm import tqdm
 
 model.train()
 
-for epoch in range(1):  # start simple
+for epoch in range(3):  # start simple
     print(f"Epoch {epoch}")
 
     for i, batch in enumerate(tqdm(dataloader)):
-        if i > 50:   
+        if i > 50:   #this right here is just so that the run time is reasonable and easy to work with, will probably change it later on, for now only a small portion
             break        
         optimizer.zero_grad()
 
@@ -297,3 +297,42 @@ def save_predictions(sentences, predictions, output_file):
 
             
 save_predictions(dev_sentences, clean_preds, "dev_predictions.iob2")
+
+
+
+# RESULT ANALYSIS:
+
+# After generating the predictions file (dev_predictions.iob2), we evaluate the model
+# using the script "span_f1.py" provided in the data folder.
+
+# This is the command used:
+# python data/span_f1.py dev_predictions.iob2 data/en_ewt-ud-dev.iob2
+
+# The evaluation provides the following results:
+
+# recall:    0.232
+# precision: 0.406
+# slot-f1:   0.296
+
+# unlabeled
+# ul_recall:    0.261
+# ul_precision: 0.455
+# ul_slot-f1:   0.332
+
+# loose (partial overlap with same label)
+# l_recall:    0.513
+# l_precision: 0.665
+# l_slot-f1:   0.579
+
+
+# We evaluate performance using span-level F1 score on the development set.
+# The model achieves:
+
+# - Precision: 0.41
+# - Recall: 0.23
+# - F1 score: 0.30
+
+# Compared to the initial run, performance improved significantly after training
+# for more epochs. This shows that the model benefits from additional training.
+
+# This baseline will serve as a reference point for further improvements.
