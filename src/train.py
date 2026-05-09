@@ -268,10 +268,6 @@ decoded_preds = [
 ]
 
 
-#TEST 
-test_path = "data/en_ewt-ud-test-masked.iob2"
-test_sentences, _ = read_iob2(test_path)
-
 
 #SAVE PREDICITONS REALLY IMPORTANT!!!!
 
@@ -336,13 +332,17 @@ with torch.no_grad():
 
         test_predictions.append(preds)
 
-# clean predictions (remove -100)
+# clean predictions
 clean_test_preds = []
 
-for preds, input_ids in zip(test_predictions, test_tokenized["input_ids"]):
+for sentence, preds in zip(test_sentences, test_predictions):
+
     clean_sentence = []
-    for p in preds:
-        clean_sentence.append(id2label[p])
+
+    # only keep predictions for REAL WORDS -- it used to also keep some stuff we dont really want
+    for pred in preds[1:len(sentence)+1]:
+        clean_sentence.append(id2label[pred])
+
     clean_test_preds.append(clean_sentence)
 
 # save
