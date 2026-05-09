@@ -84,7 +84,6 @@ print("Aligned labels:", aligned_labels[0])
 
 import torch
 
-import torch
 
 class NERDataset(torch.utils.data.Dataset):
     def __init__(self, encodings, labels):
@@ -298,6 +297,62 @@ def save_predictions(sentences, predictions, output_file):
             
 save_predictions(dev_sentences, clean_preds, "dev_predictions.iob2")
 
+
+
+
+#--------------------------------------------------------------------------------------
+#----------------------------MODIFICAITONS AFTER FEEDBACK------------------------------
+#--------------------------------------------------------------------------------------
+#Turns out I sent the wrong predictions, like the predictions are ok it's just the file from where i took the data for thos predictions if that makes sense
+#So yeah let's fix that
+
+
+
+# TEST PREDICTIONS
+
+test_path = "data/en_ewt-ud-test-masked.iob2"
+test_sentences, _ = read_iob2(test_path)
+
+# tokenize
+test_tokenized = tokenizer(
+    test_sentences,
+    is_split_into_words=True,
+    padding=True,
+    truncation=True
+)
+
+# predict
+test_predictions = []
+
+with torch.no_grad():
+    for i in range(len(test_sentences)):
+        inputs = {
+            "input_ids": torch.tensor([test_tokenized["input_ids"][i]]),
+            "attention_mask": torch.tensor([test_tokenized["attention_mask"][i]])
+        }
+
+        outputs = model(**inputs)
+        preds = torch.argmax(outputs.logits, dim=-1).squeeze().tolist()
+
+        test_predictions.append(preds)
+
+# clean predictions (remove -100)
+clean_test_preds = []
+
+for preds, input_ids in zip(test_predictions, test_tokenized["input_ids"]):
+    clean_sentence = []
+    for p in preds:
+        clean_sentence.append(id2label[p])
+    clean_test_preds.append(clean_sentence)
+
+# save
+save_predictions(test_sentences, clean_test_preds, "test_predictions.iob2")
+
+
+
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # RESULT ANALYSIS:
