@@ -3,6 +3,8 @@
 
 We investigate whether linguistic and contextual features can be used to predict text formality across datasets with varying writing styles.
 
+__Formality classification and domain variation in English NLP__
+
 Here the docs with info and stuff:
 
 _https://docs.google.com/document/d/1eFa8uVd11gDIJYd-29SsodJffLX6QiSLuEj7furr1jM/edit?usp=sharing_
