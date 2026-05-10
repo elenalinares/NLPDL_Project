@@ -12,11 +12,11 @@ print(tokenizer.tokenize("playing football"))
 from data_loader import read_iob2
 
 
-train_path = "data/en_ewt-ud-train.iob2"
+train_path = "data/baseline/en_ewt-ud-train.iob2"
 sentences, labels = read_iob2(train_path)
 
 
-dev_path = "data/en_ewt-ud-dev.iob2"
+dev_path = "data/baseline/en_ewt-ud-dev.iob2"
 dev_sentences, dev_labels = read_iob2(dev_path)
 
 print("Number of sentences:", len(sentences))
@@ -291,8 +291,11 @@ def save_predictions(sentences, predictions, output_file):
             f.write("\n")
 
             
-save_predictions(dev_sentences, clean_preds, "dev_predictions.iob2")
-
+save_predictions(
+    dev_sentences,
+    clean_preds,
+    "outputs/predictions/dev_predictions.iob2"
+)
 
 
 
@@ -306,7 +309,7 @@ save_predictions(dev_sentences, clean_preds, "dev_predictions.iob2")
 
 # TEST PREDICTIONS
 
-test_path = "data/en_ewt-ud-test-masked.iob2"
+test_path = "data/baseline/en_ewt-ud-test-masked.iob2"
 test_sentences, _ = read_iob2(test_path)
 
 # tokenize
@@ -346,7 +349,7 @@ for sentence, preds in zip(test_sentences, test_predictions):
     clean_test_preds.append(clean_sentence)
 
 # save
-save_predictions(test_sentences, clean_test_preds, "test_predictions.iob2")
+save_predictions(test_sentences, clean_test_preds, "outputs/predictions/test_predictions.iob2")
 
 
 
@@ -361,7 +364,7 @@ save_predictions(test_sentences, clean_test_preds, "test_predictions.iob2")
 # using the script "span_f1.py" provided in the data folder.
 
 # This is the command used:
-# python data/span_f1.py dev_predictions.iob2 data/en_ewt-ud-dev.iob2
+# python data/span_f1.py dev_predictions.iob2 data/baseline/en_ewt-ud-dev.iob2
 
 # The evaluation provides the following results:
 
