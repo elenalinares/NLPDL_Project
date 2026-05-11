@@ -5,34 +5,6 @@ import pandas as pd
 import random
 
 
-def fix_character_spacing(text): #for some reason i can't find the tweets were weridly spaced, here i'm trying to fix that
-
-    words = text.split()
-
-    fixed_words = []
-
-    current_word = ""
-
-    for word in words:
-
-        # if single character
-        if len(word) == 1 and word.isalpha():
-
-            current_word += word
-
-        else:
-
-            if current_word:
-                fixed_words.append(current_word)
-                current_word = ""
-
-            fixed_words.append(word)
-
-    if current_word:
-        fixed_words.append(current_word)
-
-    return " ".join(fixed_words)
-
 
 
 
@@ -87,7 +59,6 @@ informal_texts = []
 for text in tweebank["train"]["text"]:
 
     # remove weird spacing between characters
-    text = fix_character_spacing(text)
     text = text.strip()
 
     if len(text) == 0:

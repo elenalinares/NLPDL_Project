@@ -1,5 +1,14 @@
 # for this file to run u may need to run this in your terminal: pip install scikit-learn
 
+
+#Something really important that i feel like i should note is that the results are too good bc of the datasets we picked
+# WikiText is very formal and tewwets are very informal so this makes the task way easier for your model
+
+#The baseline performs really good on hihgli distinct domains but may struggle on more suble formality differences
+
+
+
+
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
@@ -156,6 +165,5 @@ print(classification_report(y_test, test_preds))
 #   macro avg       0.96      0.96      0.96       652
 #weighted avg       0.96      0.96      0.96       652
 
-#Also, we can see that the inromal dataset has character spacin issues, this prolly makes classification easier than it should be 
-# --> The model would learn that the spacing means inromal
+#Also, we can see that the inromal dataset has character spacin issues, this prolly makes classification easier than it should be --> The model would learn that the spacing means inromal
 
