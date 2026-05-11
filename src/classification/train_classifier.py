@@ -37,7 +37,7 @@ print(df.head())
 
 print(f'Dataset size: {len(df)}')
 
-FEATURE_SET = "tfidf"
+FEATURE_SET = "all"
 
 #possible feature set: "tfidf", "linguistic", "ner", "all"
 
