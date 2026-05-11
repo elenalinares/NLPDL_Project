@@ -1,0 +1,38 @@
+0  @ u s e r   ( 2 )     W a t c h   o u t   f o ...      0
+1  After the success of Wilde 's plays Lady Winde...      1
+2  F a s h i o n   w e e k   t h i s   y e a r   ...      0
+3  Detachment from riches is the goal of the tent...      1
+4  Due to the increase in population after protec...      1
+Dataset size: 6514
+Train size: 5211
+Dev size: 651
+Test size: 652
+Creating TF-IDF features...
+Training Logistic Regression...
+
+Evaluating on DEV set...
+
+DEV RESULTS
+Accuracy: 0.9585253456221198
+Precision: 1.0
+Recall: 0.9198813056379822
+F1: 0.9582689335394127
+
+Evaluating on TEST set...
+
+TEST RESULTS
+Accuracy: 0.9555214723926381
+Precision: 1.0
+Recall: 0.9104938271604939
+F1: 0.9531502423263328
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       0.92      1.00      0.96       328
+           1       1.00      0.91      0.95       324
+
+    accuracy                           0.96       652
+   macro avg       0.96      0.96      0.96       652
+weighted avg       0.96      0.96      0.96       652

@@ -133,3 +133,29 @@ print("F1:", test_f1)
 print("\nClassification Report:\n")
 
 print(classification_report(y_test, test_preds))
+
+#Ok, some obersvations here
+
+# In the baselien classifier we've vectorized text using TF-IDF, trained Logistic Regression and evaluatied on dev/test splits
+# This is a very standard NLP baseline setup 
+
+# TF-IDF is a way to convert text intoi numbers so our models can understand language. In our LR model we use it for this reason
+# The whole thing means: Term Frequency-Inverse Documen Frequency
+
+
+
+#These are the results we get:
+#Classification Report:
+
+#              precision    recall  f1-score   support
+
+#           0       0.92      1.00      0.96       328
+#           1       1.00      0.91      0.95       324
+
+#    accuracy                           0.96       652
+#   macro avg       0.96      0.96      0.96       652
+#weighted avg       0.96      0.96      0.96       652
+
+#Also, we can see that the inromal dataset has character spacin issues, this prolly makes classification easier than it should be 
+# --> The model would learn that the spacing means inromal
+
