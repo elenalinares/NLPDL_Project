@@ -12,6 +12,7 @@
 import pandas as pd
 import joblib
 
+from src.features.ner_features import extract_ner_features
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -35,6 +36,10 @@ df = pd.read_csv('data/processed/formality_dataset.csv')
 print(df.head())
 
 print(f'Dataset size: {len(df)}')
+
+FEATURE_SET = "tfidf"
+
+#possible feature set: "tfidf", "linguistic", "ner", "all"
 
 
 # inputs and labels -----------------------------------
@@ -89,24 +94,56 @@ X_dev_linguistic = extract_linguistic_features(X_dev)
 X_test_linguistic = extract_linguistic_features(X_test)
 
 
-# COMBINE FEATURES ----------------------------------
+# NER FEATURES ----------------------------------
 
-print("Combining TF-IDF + linguistic features...")
+print("Extracting NER/contextual features...")
 
-X_train_combined = hstack([
-    X_train_tfidf,
-    X_train_linguistic
-])
+X_train_ner = extract_ner_features(X_train)
 
-X_dev_combined = hstack([
-    X_dev_tfidf,
-    X_dev_linguistic
-])
+X_dev_ner = extract_ner_features(X_dev)
 
-X_test_combined = hstack([
-    X_test_tfidf,
-    X_test_linguistic
-])
+X_test_ner = extract_ner_features(X_test)
+
+
+# FEATURE SELECTION ----------------------------------
+
+if FEATURE_SET == "tfidf":
+
+    X_train_features = X_train_tfidf
+    X_dev_features = X_dev_tfidf
+    X_test_features = X_test_tfidf
+
+elif FEATURE_SET == "linguistic":
+
+    X_train_features = X_train_linguistic
+    X_dev_features = X_dev_linguistic
+    X_test_features = X_test_linguistic
+
+elif FEATURE_SET == "ner":
+
+    X_train_features = X_train_ner
+    X_dev_features = X_dev_ner
+    X_test_features = X_test_ner
+
+elif FEATURE_SET == "all":
+
+    X_train_features = hstack([
+        X_train_tfidf,
+        X_train_linguistic,
+        X_train_ner
+    ])
+
+    X_dev_features = hstack([
+        X_dev_tfidf,
+        X_dev_linguistic,
+        X_dev_ner
+    ])
+
+    X_test_features = hstack([
+        X_test_tfidf,
+        X_test_linguistic,
+        X_test_ner
+    ])
 
 # MODEL ----------------------------------
 
@@ -116,13 +153,13 @@ model = LogisticRegression(
     max_iter=1000
 )
 
-model.fit(X_train_combined, y_train)
+model.fit(X_train_features, y_train)
 
 # dev evaluation ------------------------------------
 
 print("\nEvaluating on DEV set...")
 
-dev_preds = model.predict(X_dev_combined)
+dev_preds = model.predict(X_dev_features)
 
 accuracy = accuracy_score(y_dev, dev_preds)
 
@@ -147,7 +184,7 @@ print("F1:", f1)
 
 print("\nEvaluating on TEST set...")
 
-test_preds = model.predict(X_test_combined)
+test_preds = model.predict(X_test_features)
 
 test_accuracy = accuracy_score(y_test, test_preds)
 
