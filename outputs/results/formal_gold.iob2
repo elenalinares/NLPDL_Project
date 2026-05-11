@@ -1,0 +1,5835 @@
+# sent_id = answers-20070404104007AAY1Chs_ans-0002
+# text = I searched all over the internet, but I could not find one place in Tampa Bay that sells morcillas, also known as blood pudding, black pudding and blood sausages.
+1	I	O	-	-
+2	searched	O	-	-
+3	all	O	-	-
+4	over	O	-	-
+5	the	O	-	-
+6	internet	O	-	-
+7	,	O	-	-
+8	but	O	-	-
+9	I	O	-	-
+10	could	O	-	-
+11	not	O	-	-
+12	find	O	-	-
+13	one	O	-	-
+14	place	O	-	-
+15	in	O	-	-
+16	Tampa	B-LOC	-	stephen
+17	Bay	I-LOC	-	stephen
+18	that	O	-	-
+19	sells	O	-	-
+20	morcillas	O	-	-
+21	,	O	-	-
+22	also	O	-	-
+23	known	O	-	-
+24	as	O	-	-
+25	blood	O	-	-
+26	pudding	O	-	-
+27	,	O	-	-
+28	black	O	-	-
+29	pudding	O	-	-
+30	and	O	-	-
+31	blood	O	-	-
+32	sausages	O	-	-
+33	.	O	-	-
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0004
+# text = MIRAMAR
+1	MIRAMAR	B-LOC	-	stephen
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0005
+# text = PIRAMAR
+1	PIRAMAR	O	-	-
+
+# sent_id = answers-20080426141111AAgPUwU_ans-0002
+# text = Food like the stuff they eat in Spanish countries like tacos, beans, rice, pork, steak, ect.
+1	Food	O	-	-
+2	like	O	-	-
+3	the	O	-	-
+4	stuff	O	-	-
+5	they	O	-	-
+6	eat	O	-	-
+7	in	O	-	-
+8	Spanish	O	-	-
+9	countries	O	-	-
+10	like	O	-	-
+11	tacos	O	-	-
+12	,	O	-	-
+13	beans	O	-	-
+14	,	O	-	-
+15	rice	O	-	-
+16	,	O	-	-
+17	pork	O	-	-
+18	,	O	-	-
+19	steak	O	-	-
+20	,	O	-	-
+21	ect	O	-	-
+22	.	O	-	-
+
+# sent_id = answers-20081229195853AAYQ8mR_ans-0003
+# text = Yes.
+1	Yes	O	-	-
+2	.	O	-	-
+
+# sent_id = answers-20081229195853AAYQ8mR_ans-0009
+# text = MIX IT ALL UP
+1	MIX	O	-	-
+2	IT	O	-	-
+3	ALL	O	-	-
+4	UP	O	-	-
+
+# sent_id = answers-20081229195853AAYQ8mR_ans-0010
+# text = THEN POOP IN IT
+1	THEN	O	-	-
+2	POOP	O	-	-
+3	IN	O	-	-
+4	IT	O	-	-
+
+# sent_id = answers-20081229195853AAYQ8mR_ans-0011
+# text = The End
+1	The	O	-	-
+2	End	O	-	-
+
+# sent_id = answers-20090205181308AAZghOH_ans-0002
+# text = ok well i have a crush on 2 guys but unforchunitly it is almost valentine s day afnd i just broke up with my and i have dated one of theguys i like and one guy lives in my naborhood guy i need your help i am a girl but i need a guy s help what shoul i do?
+1	ok	O	-	-
+2	well	O	-	-
+3	i	O	-	-
+4	have	O	-	-
+5	a	O	-	-
+6	crush	O	-	-
+7	on	O	-	-
+8	2	O	-	-
+9	guys	O	-	-
+10	but	O	-	-
+11	unforchunitly	O	-	-
+12	it	O	-	-
+13	is	O	-	-
+14	almost	O	-	-
+15	valentine	O	-	-
+16	s	O	-	-
+17	day	O	-	-
+18	afnd	O	-	-
+19	i	O	-	-
+20	just	O	-	-
+21	broke	O	-	-
+22	up	O	-	-
+23	with	O	-	-
+24	my	O	-	-
+25	and	O	-	-
+26	i	O	-	-
+27	have	O	-	-
+28	dated	O	-	-
+29	one	O	-	-
+30	of	O	-	-
+31	the	O	-	-
+32	guys	O	-	-
+33	i	O	-	-
+34	like	O	-	-
+35	and	O	-	-
+36	one	O	-	-
+37	guy	O	-	-
+38	lives	O	-	-
+39	in	O	-	-
+40	my	O	-	-
+41	naborhood	O	-	-
+42	guy	O	-	-
+43	i	O	-	-
+44	need	O	-	-
+45	your	O	-	-
+46	help	O	-	-
+47	i	O	-	-
+48	am	O	-	-
+49	a	O	-	-
+50	girl	O	-	-
+51	but	O	-	-
+52	i	O	-	-
+53	need	O	-	-
+54	a	O	-	-
+55	guy	O	-	-
+56	s	O	-	-
+57	help	O	-	-
+58	what	O	-	-
+59	shoul	O	-	-
+60	i	O	-	-
+61	do	O	-	-
+62	?	O	-	-
+
+# sent_id = answers-20090705172848AAU56mj_ans-0005
+# text = It was incorporated as a city on May 26, 1955.
+1	It	O	-	-
+2	was	O	-	-
+3	incorporated	O	-	-
+4	as	O	-	-
+5	a	O	-	-
+6	city	O	-	-
+7	on	O	-	-
+8	May	O	-	-
+9	26	O	-	-
+10	,	O	-	-
+11	1955	O	-	-
+12	.	O	-	-
+
+# sent_id = answers-20100308180028AAHCoBv_ans-0003
+# text = Yes.
+1	Yes	O	-	-
+2	.	O	-	-
+
+# sent_id = answers-20101109081414AAZ3hSI_ans-0006
+# text = Edible ones, I hope - beef, pork, chicken, fish...
+1	Edible	O	-	-
+2	ones	O	-	-
+3	,	O	-	-
+4	I	O	-	-
+5	hope	O	-	-
+6	-	O	-	-
+7	beef	O	-	-
+8	,	O	-	-
+9	pork	O	-	-
+10	,	O	-	-
+11	chicken	O	-	-
+12	,	O	-	-
+13	fish	O	-	-
+14	...	O	-	-
+
+# sent_id = answers-20111024210025AAVtDL7_ans-0005
+# text = 5765-NTKB
+1	5765	O	-	-
+2	-	O	-	-
+3	NTKB	O	-	-
+
+# sent_id = answers-20111024210339AAIqPa3_ans-0005
+# text = 5233-NT
+1	5233	O	-	-
+2	-	O	-	-
+3	NT	O	-	-
+
+# sent_id = answers-20111105140228AANN2ZV_ans-0004
+# text = i m 15 btw
+1	i	O	-	-
+2	m	O	-	-
+3	15	O	-	-
+4	btw	O	-	-
+
+# sent_id = answers-20111105145356AAtOJyP_ans-0003
+# text = preferably in San Jose, Palo Alto, San Francisco..
+1	preferably	O	-	-
+2	in	O	-	-
+3	San	B-LOC	-	stephen
+4	Jose	I-LOC	-	stephen
+5	,	O	-	-
+6	Palo	B-LOC	-	stephen
+7	Alto	I-LOC	-	stephen
+8	,	O	-	-
+9	San	B-LOC	-	stephen
+10	Francisco	I-LOC	-	stephen
+11	..	O	-	-
+
+# sent_id = answers-20111107080027AA9zCIG_ans-0003
+# text = I like Hayes Street Grill....another plus, it 's right by Civic Center, so you can take a romantic walk around the Opera House, City Hall, Symphony Auditorium...all very beautiful.
+1	I	O	-	-
+2	like	O	-	-
+3	Hayes	B-LOC	-	stephen
+4	Street	I-LOC	-	stephen
+5	Grill	I-LOC	-	stephen
+6	....	O	-	-
+7	another	O	-	-
+8	plus	O	-	-
+9	,	O	-	-
+10	it	O	-	-
+11	's	O	-	-
+12	right	O	-	-
+13	by	O	-	-
+14	Civic	B-LOC	-	stephen
+15	Center	I-LOC	-	stephen
+16	,	O	-	-
+17	so	O	-	-
+18	you	O	-	-
+19	can	O	-	-
+20	take	O	-	-
+21	a	O	-	-
+22	romantic	O	-	-
+23	walk	O	-	-
+24	around	O	-	-
+25	the	O	-	-
+26	Opera	B-LOC	-	stephen
+27	House	I-LOC	-	stephen
+28	,	O	-	-
+29	City	B-LOC	-	stephen
+30	Hall	I-LOC	-	stephen
+31	,	O	-	-
+32	Symphony	B-LOC	-	stephen
+33	Auditorium	I-LOC	-	stephen
+34	...	O	-	-
+35	all	O	-	-
+36	very	O	-	-
+37	beautiful	O	-	-
+38	.	O	-	-
+
+# sent_id = answers-20111107115952AAqfsHV_ans-0010
+# text = cost of the U.S. in money and men?
+1	cost	O	-	-
+2	of	O	-	-
+3	the	O	-	-
+4	U.S.	B-LOC	-	stephen
+5	in	O	-	-
+6	money	O	-	-
+7	and	O	-	-
+8	men	O	-	-
+9	?	O	-	-
+
+# sent_id = answers-20111107115952AAqfsHV_ans-0013
+# text = WILL SOMEONE PLZ HELP ME IT 'S DUE WENSDAY!?!?! :(
+1	WILL	O	-	-
+2	SOMEONE	O	-	-
+3	PLZ	O	-	-
+4	HELP	O	-	-
+5	ME	O	-	-
+6	IT	O	-	-
+7	'S	O	-	-
+8	DUE	O	-	-
+9	WENSDAY	O	-	-
+10	!?!?!	O	-	-
+11	:(	O	-	-
+
+# sent_id = answers-20111107154308AAKOZNX_ans-0006
+# text = Link?
+1	Link	O	-	-
+2	?	O	-	-
+
+# sent_id = answers-20111107155302AAXXuM1_ans-0006
+# text = Hop onto a Hop On/Hop Off bus.
+1	Hop	O	-	-
+2	onto	O	-	-
+3	a	O	-	-
+4	Hop	O	-	-
+5	On	O	-	-
+6	/	O	-	-
+7	Hop	O	-	-
+8	Off	O	-	-
+9	bus	O	-	-
+10	.	O	-	-
+
+# sent_id = answers-20111107203006AA9ojw8_ans-0006
+# text = 2) I would like to say on a island with an a) all inclusive resort (if possible), and a beach front room
+1	2	O	-	-
+2	)	O	-	-
+3	I	O	-	-
+4	would	O	-	-
+5	like	O	-	-
+6	to	O	-	-
+7	say	O	-	-
+8	on	O	-	-
+9	a	O	-	-
+10	island	O	-	-
+11	with	O	-	-
+12	an	O	-	-
+13	a	O	-	-
+14	)	O	-	-
+15	all	O	-	-
+16	inclusive	O	-	-
+17	resort	O	-	-
+18	(	O	-	-
+19	if	O	-	-
+20	possible	O	-	-
+21	)	O	-	-
+22	,	O	-	-
+23	and	O	-	-
+24	a	O	-	-
+25	beach	O	-	-
+26	front	O	-	-
+27	room	O	-	-
+
+# sent_id = answers-20111108024148AAO8oFI_ans-0007
+# text = Hi,
+1	Hi	O	-	-
+2	,	O	-	-
+
+# sent_id = answers-20111108024148AAO8oFI_ans-0010
+# text = Price:3,40 Euros, 5 Euros or 7,5 Euros (1) for a 72 heures lenght.
+1	Price	O	-	-
+2	:	O	-	-
+3	3,40	O	-	-
+4	Euros	O	-	-
+5	,	O	-	-
+6	5	O	-	-
+7	Euros	O	-	-
+8	or	O	-	-
+9	7,5	O	-	-
+10	Euros	O	-	-
+11	(	O	-	-
+12	1	O	-	-
+13	)	O	-	-
+14	for	O	-	-
+15	a	O	-	-
+16	72	O	-	-
+17	heures	O	-	-
+18	lenght	O	-	-
+19	.	O	-	-
+
+# sent_id = answers-20111108090559AAyAHCk_ans-0003
+# text = Out of the 650k est stolen works of art by the Nazis...70k still remain missing..and there are thousands in musems that have n't been returned to their right full owners and heirs..
+1	Out	O	-	-
+2	of	O	-	-
+3	the	O	-	-
+4	650	O	-	-
+5	k	O	-	-
+6	est	O	-	-
+7	stolen	O	-	-
+8	works	O	-	-
+9	of	O	-	-
+10	art	O	-	-
+11	by	O	-	-
+12	the	O	-	-
+13	Nazis	O	-	-
+14	...	O	-	-
+15	70	O	-	-
+16	k	O	-	-
+17	still	O	-	-
+18	remain	O	-	-
+19	missing	O	-	-
+20	..	O	-	-
+21	and	O	-	-
+22	there	O	-	-
+23	are	O	-	-
+24	thousands	O	-	-
+25	in	O	-	-
+26	musems	O	-	-
+27	that	O	-	-
+28	have	O	-	-
+29	n't	O	-	-
+30	been	O	-	-
+31	returned	O	-	-
+32	to	O	-	-
+33	their	O	-	-
+34	right	O	-	-
+35	full	O	-	-
+36	owners	O	-	-
+37	and	O	-	-
+38	heirs	O	-	-
+39	..	O	-	-
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0002
+# text = UP Roadways buses ply frequently between Sector-37 crossing in Noida and Kasna in Greater Noida, passing through Pari Chowk.
+1	UP	B-ORG	-	stephen
+2	Roadways	I-ORG	-	stephen
+3	buses	O	-	-
+4	ply	O	-	-
+5	frequently	O	-	-
+6	between	O	-	-
+7	Sector	O	-	-
+8	-	O	-	-
+9	37	O	-	-
+10	crossing	O	-	-
+11	in	O	-	-
+12	Noida	B-LOC	-	stephen
+13	and	O	-	-
+14	Kasna	B-LOC	-	stephen
+15	in	O	-	-
+16	Greater	B-LOC	-	stephen
+17	Noida	I-LOC	-	stephen
+18	,	O	-	-
+19	passing	O	-	-
+20	through	O	-	-
+21	Pari	B-LOC	-	stephen
+22	Chowk	I-LOC	-	stephen
+23	.	O	-	-
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0006
+# text = Hi,
+1	Hi	O	-	-
+2	,	O	-	-
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0009
+# text = Buses, DTC Buses, Call Center Cabs, Private white line buses most frequently running between Noida and Greater Noida.
+1	Buses	O	-	-
+2	,	O	-	-
+3	DTC	O	-	-
+4	Buses	O	-	-
+5	,	O	-	-
+6	Call	O	-	-
+7	Center	O	-	-
+8	Cabs	O	-	-
+9	,	O	-	-
+10	Private	O	-	-
+11	white	O	-	-
+12	line	O	-	-
+13	buses	O	-	-
+14	most	O	-	-
+15	frequently	O	-	-
+16	running	O	-	-
+17	between	O	-	-
+18	Noida	B-LOC	-	stephen
+19	and	O	-	-
+20	Greater	B-LOC	-	stephen
+21	Noida	I-LOC	-	stephen
+22	.	O	-	-
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0010
+# text = You can find them From Indian Oil Building, Sector -37, Taj Express Road( Bus Stops) etc.
+1	You	O	-	-
+2	can	O	-	-
+3	find	O	-	-
+4	them	O	-	-
+5	From	O	-	-
+6	Indian	B-LOC	-	stephen
+7	Oil	I-LOC	-	stephen
+8	Building	I-LOC	-	stephen
+9	,	O	-	-
+10	Sector	O	-	-
+11	-	O	-	-
+12	37	O	-	-
+13	,	O	-	-
+14	Taj	O	-	-
+15	Express	O	-	-
+16	Road	O	-	-
+17	(	O	-	-
+18	Bus	O	-	-
+19	Stops	O	-	-
+20	)	O	-	-
+21	etc.	O	-	-
+
+# newdoc id = answers-20111108102531AAqeDhx_ans
+# sent_id = answers-20111108102531AAqeDhx_ans-0001
+# text = I have a male and female cockatiel, and there are 2 eggs in the bottom of the cage, will they hatch?
+1	I	O	-	-
+2	have	O	-	-
+3	a	O	-	-
+4	male	O	-	-
+5	and	O	-	-
+6	female	O	-	-
+7	cockatiel	O	-	-
+8	,	O	-	-
+9	and	O	-	-
+10	there	O	-	-
+11	are	O	-	-
+12	2	O	-	-
+13	eggs	O	-	-
+14	in	O	-	-
+15	the	O	-	-
+16	bottom	O	-	-
+17	of	O	-	-
+18	the	O	-	-
+19	cage	O	-	-
+20	,	O	-	-
+21	will	O	-	-
+22	they	O	-	-
+23	hatch	O	-	-
+24	?	O	-	-
+
+# sent_id = answers-20111108104636AAw51HV_ans-0003
+# text = house boat is a perfect place also beach resorts in trivandrum and The RAVIZ in kollam @ da syd f Ashtamudi Lake in kollam
+1	house	O	-	-
+2	boat	O	-	-
+3	is	O	-	-
+4	a	O	-	-
+5	perfect	O	-	-
+6	place	O	-	-
+7	also	O	-	-
+8	beach	O	-	-
+9	resorts	O	-	-
+10	in	O	-	-
+11	trivandrum	B-LOC	-	stephen
+12	and	O	-	-
+13	The	B-LOC	-	stephen
+14	RAVIZ	I-LOC	-	stephen
+15	in	O	-	-
+16	kollam	B-LOC	-	stephen
+17	@	O	-	-
+18	da	O	-	-
+19	syd	O	-	-
+20	f	O	-	-
+21	Ashtamudi	B-LOC	-	stephen
+22	Lake	I-LOC	-	stephen
+23	in	O	-	-
+24	kollam	B-LOC	-	stephen
+
+# sent_id = email-enronsent00_02-0027
+# text = Amount of Benefit Payments reads "The value of the shares, and resulting payment amount will be based on the closing price of Enron Corp. common stock on the January 1 before the date of payment, and such payment shall be made in shares of Enron Corp. common stock."
+1	Amount	O	-	-
+2	of	O	-	-
+3	Benefit	O	-	-
+4	Payments	O	-	-
+5	reads	O	-	-
+6	"	O	-	-
+7	The	O	-	-
+8	value	O	-	-
+9	of	O	-	-
+10	the	O	-	-
+11	shares	O	-	-
+12	,	O	-	-
+13	and	O	-	-
+14	resulting	O	-	-
+15	payment	O	-	-
+16	amount	O	-	-
+17	will	O	-	-
+18	be	O	-	-
+19	based	O	-	-
+20	on	O	-	-
+21	the	O	-	-
+22	closing	O	-	-
+23	price	O	-	-
+24	of	O	-	-
+25	Enron	B-ORG	-	stephen
+26	Corp.	I-ORG	-	stephen
+27	common	O	-	-
+28	stock	O	-	-
+29	on	O	-	-
+30	the	O	-	-
+31	January	O	-	-
+32	1	O	-	-
+33	before	O	-	-
+34	the	O	-	-
+35	date	O	-	-
+36	of	O	-	-
+37	payment	O	-	-
+38	,	O	-	-
+39	and	O	-	-
+40	such	O	-	-
+41	payment	O	-	-
+42	shall	O	-	-
+43	be	O	-	-
+44	made	O	-	-
+45	in	O	-	-
+46	shares	O	-	-
+47	of	O	-	-
+48	Enron	B-ORG	-	stephen
+49	Corp.	I-ORG	-	stephen
+50	common	O	-	-
+51	stock	O	-	-
+52	.	O	-	-
+53	"	O	-	-
+
+# sent_id = email-enronsent00_02-0046
+# text = Greg,
+1	Greg	B-PER	-	stephen
+2	,	O	-	-
+
+# sent_id = email-enronsent00_02-0052
+# text = Jim,
+1	Jim	B-PER	-	stephen
+2	,	O	-	-
+
+# sent_id = email-enronsent00_02-0058
+# text = Mery,
+1	Mery	B-PER	-	stephen
+2	,	O	-	-
+
+# sent_id = email-enronsent01_01-0012
+# text = Kristen Quinn, Sarah Mulholland, Samuel Pak, Daniel Kang
+1	Kristen	B-PER	-	stephen
+2	Quinn	I-PER	-	stephen
+3	,	O	-	-
+4	Sarah	B-PER	-	stephen
+5	Mulholland	I-PER	-	stephen
+6	,	O	-	-
+7	Samuel	B-PER	-	stephen
+8	Pak	I-PER	-	stephen
+9	,	O	-	-
+10	Daniel	B-PER	-	stephen
+11	Kang	I-PER	-	stephen
+
+# sent_id = email-enronsent01_01-0017
+# text = Mary John, Russell Dyk, Webb Jennings, Martin Gonzales
+1	Mary	B-PER	-	stephen
+2	John	I-PER	-	stephen
+3	,	O	-	-
+4	Russell	B-PER	-	stephen
+5	Dyk	I-PER	-	stephen
+6	,	O	-	-
+7	Webb	B-PER	-	stephen
+8	Jennings	I-PER	-	stephen
+9	,	O	-	-
+10	Martin	B-PER	-	stephen
+11	Gonzales	I-PER	-	stephen
+
+# sent_id = email-enronsent01_01-0018
+# text = Mixed A/ATeam 2: Coach: Melanie King Brandon Luna - Analyst, Bryan Hull - Analyst, Eduardo Tellechea - Associate, Milson Mundim - Associate
+1	Mixed	O	-	-
+2	A	O	-	-
+3	/	O	-	-
+4	A	O	-	-
+5	Team	O	-	-
+6	2	O	-	-
+7	:	O	-	-
+8	Coach	O	-	-
+9	:	O	-	-
+10	Melanie	O	-	-
+11	King	O	-	-
+12	Brandon	B-PER	-	stephen
+13	Luna	I-PER	-	stephen
+14	-	O	-	-
+15	Analyst	O	-	-
+16	,	O	-	-
+17	Bryan	B-PER	-	stephen
+18	Hull	I-PER	-	stephen
+19	-	O	-	-
+20	Analyst	O	-	-
+21	,	O	-	-
+22	Eduardo	B-PER	-	stephen
+23	Tellechea	I-PER	-	stephen
+24	-	O	-	-
+25	Associate	O	-	-
+26	,	O	-	-
+27	Milson	B-PER	-	stephen
+28	Mundim	I-PER	-	stephen
+29	-	O	-	-
+30	Associate	O	-	-
+
+# sent_id = email-enronsent01_01-0019
+# text = Alternates: Heather Johnson, Usman Shaukat, Gerard Benitez, Matthew Almy, Travis Hanson
+1	Alternates	O	-	-
+2	:	O	-	-
+3	Heather	B-PER	-	stephen
+4	Johnson	I-PER	-	stephen
+5	,	O	-	-
+6	Usman	B-PER	-	stephen
+7	Shaukat	I-PER	-	stephen
+8	,	O	-	-
+9	Gerard	B-PER	-	stephen
+10	Benitez	I-PER	-	stephen
+11	,	O	-	-
+12	Matthew	B-PER	-	stephen
+13	Almy	I-PER	-	stephen
+14	,	O	-	-
+15	Travis	B-PER	-	stephen
+16	Hanson	I-PER	-	stephen
+
+# sent_id = email-enronsent01_01-0020
+# text = WHO WANTS TO HELP MILLIONS FOR UNITED WAY?
+1	WHO	O	-	-
+2	WANTS	O	-	-
+3	TO	O	-	-
+4	HELP	O	-	-
+5	MILLIONS	O	-	-
+6	FOR	O	-	-
+7	UNITED	B-ORG	-	stephen
+8	WAY	I-ORG	-	stephen
+9	?	O	-	-
+
+# sent_id = email-enronsent01_01-0024
+# text = Simply type in the following United Way link, http://unitedway.enron.com or go directly to Internet Explorer or Netscape and type in unitedway.enron.com in the address field.
+1	Simply	O	-	-
+2	type	O	-	-
+3	in	O	-	-
+4	the	O	-	-
+5	following	O	-	-
+6	United	B-ORG	-	stephen
+7	Way	I-ORG	-	stephen
+8	link	O	-	-
+9	,	O	-	-
+10	http://unitedway.enron.com	O	-	-
+11	or	O	-	-
+12	go	O	-	-
+13	directly	O	-	-
+14	to	O	-	-
+15	Internet	O	-	-
+16	Explorer	O	-	-
+17	or	O	-	-
+18	Netscape	O	-	-
+19	and	O	-	-
+20	type	O	-	-
+21	in	O	-	-
+22	unitedway.enron.com	O	-	-
+23	in	O	-	-
+24	the	O	-	-
+25	address	O	-	-
+26	field	O	-	-
+27	.	O	-	-
+
+# sent_id = email-enronsent01_01-0028
+# text = Questions: If you have any questions regarding the pledging process, please contact Joan Woodson (3-5213), Bert Frazier (3-5076) or Kathy Mayfield (3-3264).
+1	Questions	O	-	-
+2	:	O	-	-
+3	If	O	-	-
+4	you	O	-	-
+5	have	O	-	-
+6	any	O	-	-
+7	questions	O	-	-
+8	regarding	O	-	-
+9	the	O	-	-
+10	pledging	O	-	-
+11	process	O	-	-
+12	,	O	-	-
+13	please	O	-	-
+14	contact	O	-	-
+15	Joan	B-PER	-	stephen
+16	Woodson	I-PER	-	stephen
+17	(	O	-	-
+18	3-5213	O	-	-
+19	)	O	-	-
+20	,	O	-	-
+21	Bert	B-PER	-	stephen
+22	Frazier	I-PER	-	stephen
+23	(	O	-	-
+24	3-5076	O	-	-
+25	)	O	-	-
+26	or	O	-	-
+27	Kathy	B-PER	-	stephen
+28	Mayfield	I-PER	-	stephen
+29	(	O	-	-
+30	3-3264	O	-	-
+31	)	O	-	-
+32	.	O	-	-
+
+# sent_id = email-enronsent01_01-0043
+# text = LU
+1	LU	O	-	-
+
+# sent_id = email-enronsent01_01-0044
+# text = -M
+1	-	O	-	-
+2	M	B-PER	-	stephen
+
+# sent_id = email-enronsent05_01-0008
+# text = I.E. the Davis Administration wants to place all direct access advocates in the position of having to justify why each and every party should be the exception to the suspension rather than have a general rule concerning how direct access should work for all parties.
+1	I.E.	O	-	-
+2	the	O	-	-
+3	Davis	B-PER	-	stephen
+4	Administration	O	-	-
+5	wants	O	-	-
+6	to	O	-	-
+7	place	O	-	-
+8	all	O	-	-
+9	direct	O	-	-
+10	access	O	-	-
+11	advocates	O	-	-
+12	in	O	-	-
+13	the	O	-	-
+14	position	O	-	-
+15	of	O	-	-
+16	having	O	-	-
+17	to	O	-	-
+18	justify	O	-	-
+19	why	O	-	-
+20	each	O	-	-
+21	and	O	-	-
+22	every	O	-	-
+23	party	O	-	-
+24	should	O	-	-
+25	be	O	-	-
+26	the	O	-	-
+27	exception	O	-	-
+28	to	O	-	-
+29	the	O	-	-
+30	suspension	O	-	-
+31	rather	O	-	-
+32	than	O	-	-
+33	have	O	-	-
+34	a	O	-	-
+35	general	O	-	-
+36	rule	O	-	-
+37	concerning	O	-	-
+38	how	O	-	-
+39	direct	O	-	-
+40	access	O	-	-
+41	should	O	-	-
+42	work	O	-	-
+43	for	O	-	-
+44	all	O	-	-
+45	parties	O	-	-
+46	.	O	-	-
+
+# sent_id = email-enronsent08_01-0044
+# text = If you have received this transmittal and/or attachments in error, please notify us immediately by reply or by telephone (call us collect at +1 212-848-8400) and immediately delete this message and all its attachments.
+1	If	O	-	-
+2	you	O	-	-
+3	have	O	-	-
+4	received	O	-	-
+5	this	O	-	-
+6	transmittal	O	-	-
+7	and	O	-	-
+8	/	O	-	-
+9	or	O	-	-
+10	attachments	O	-	-
+11	in	O	-	-
+12	error	O	-	-
+13	,	O	-	-
+14	please	O	-	-
+15	notify	O	-	-
+16	us	O	-	-
+17	immediately	O	-	-
+18	by	O	-	-
+19	reply	O	-	-
+20	or	O	-	-
+21	by	O	-	-
+22	telephone	O	-	-
+23	(	O	-	-
+24	call	O	-	-
+25	us	O	-	-
+26	collect	O	-	-
+27	at	O	-	-
+28	+1	O	-	-
+29	212-848-8400	O	-	-
+30	)	O	-	-
+31	and	O	-	-
+32	immediately	O	-	-
+33	delete	O	-	-
+34	this	O	-	-
+35	message	O	-	-
+36	and	O	-	-
+37	all	O	-	-
+38	its	O	-	-
+39	attachments	O	-	-
+40	.	O	-	-
+
+# sent_id = email-enronsent08_01-0046
+# text = - TEXT.htm << File: TEXT.htm >>
+1	-	O	-	-
+2	TEXT.htm	O	-	-
+3	<<	O	-	-
+4	File	O	-	-
+5	:	O	-	-
+6	TEXT.htm	O	-	-
+7	>>	O	-	-
+
+# sent_id = email-enronsent19_02-0007
+# text = I used to e-mail Vince Kaminski about the advice on his article "The Challenge of Pricing and Risk Managing Electricity Derivatives" and he had mailed me the copy.
+1	I	O	-	-
+2	used	O	-	-
+3	to	O	-	-
+4	e-mail	O	-	-
+5	Vince	B-PER	-	stephen
+6	Kaminski	I-PER	-	stephen
+7	about	O	-	-
+8	the	O	-	-
+9	advice	O	-	-
+10	on	O	-	-
+11	his	O	-	-
+12	article	O	-	-
+13	"	O	-	-
+14	The	O	-	-
+15	Challenge	O	-	-
+16	of	O	-	-
+17	Pricing	O	-	-
+18	and	O	-	-
+19	Risk	O	-	-
+20	Managing	O	-	-
+21	Electricity	O	-	-
+22	Derivatives	O	-	-
+23	"	O	-	-
+24	and	O	-	-
+25	he	O	-	-
+26	had	O	-	-
+27	mailed	O	-	-
+28	me	O	-	-
+29	the	O	-	-
+30	copy	O	-	-
+31	.	O	-	-
+
+# sent_id = email-enronsent19_02-0008
+# text = I am now modelling the Queensland electricity spot price using Geometric Brownian Mean Reverting Jump Diffusion Model and have followed your paper "Making the most of mean reversion" to estimate the mean reversion speed.
+1	I	O	-	-
+2	am	O	-	-
+3	now	O	-	-
+4	modelling	O	-	-
+5	the	O	-	-
+6	Queensland	B-LOC	-	stephen
+7	electricity	O	-	-
+8	spot	O	-	-
+9	price	O	-	-
+10	using	O	-	-
+11	Geometric	O	-	-
+12	Brownian	O	-	-
+13	Mean	O	-	-
+14	Reverting	O	-	-
+15	Jump	O	-	-
+16	Diffusion	O	-	-
+17	Model	O	-	-
+18	and	O	-	-
+19	have	O	-	-
+20	followed	O	-	-
+21	your	O	-	-
+22	paper	O	-	-
+23	"	O	-	-
+24	Making	O	-	-
+25	the	O	-	-
+26	most	O	-	-
+27	of	O	-	-
+28	mean	O	-	-
+29	reversion	O	-	-
+30	"	O	-	-
+31	to	O	-	-
+32	estimate	O	-	-
+33	the	O	-	-
+34	mean	O	-	-
+35	reversion	O	-	-
+36	speed	O	-	-
+37	.	O	-	-
+
+# sent_id = email-enronsent19_02-0009
+# text = I use Queensland half-hourly price during 13 December, 1998-30 June 2001 giving about 44,000 price observations.
+1	I	O	-	-
+2	use	O	-	-
+3	Queensland	B-LOC	-	stephen
+4	half	O	-	-
+5	-	O	-	-
+6	hourly	O	-	-
+7	price	O	-	-
+8	during	O	-	-
+9	13	O	-	-
+10	December	O	-	-
+11	,	O	-	-
+12	1998	O	-	-
+13	-	O	-	-
+14	30	O	-	-
+15	June	O	-	-
+16	2001	O	-	-
+17	giving	O	-	-
+18	about	O	-	-
+19	44,000	O	-	-
+20	price	O	-	-
+21	observations	O	-	-
+22	.	O	-	-
+
+# sent_id = email-enronsent19_02-0022
+# text = Plz contact Shirley Crenshaw (X 3-5290) regarding a copy of an article.
+1	Plz	O	-	-
+2	contact	O	-	-
+3	Shirley	B-PER	-	stephen
+4	Crenshaw	I-PER	-	stephen
+5	(	O	-	-
+6	X	O	-	-
+7	3-5290	O	-	-
+8	)	O	-	-
+9	regarding	O	-	-
+10	a	O	-	-
+11	copy	O	-	-
+12	of	O	-	-
+13	an	O	-	-
+14	article	O	-	-
+15	.	O	-	-
+
+# sent_id = email-enronsent19_02-0045
+# text = Hi.
+1	Hi	O	-	-
+2	.	O	-	-
+
+# sent_id = email-enronsent19_02-0057
+# text = Sungjoo Lee Stochastic Processes and Simulation in Finance Georgia Institute of Technology School of Industrial and Systems Engineering E-mail address: goldconn@isye.gatech.edu gte114t@prism.gatech.edu Home : 404-449-1026 Office: Coming Soon!
+1	Sungjoo	B-PER	-	stephen
+2	Lee	I-PER	-	stephen
+3	Stochastic	O	-	-
+4	Processes	O	-	-
+5	and	O	-	-
+6	Simulation	O	-	-
+7	in	O	-	-
+8	Finance	O	-	-
+9	Georgia	O	-	-
+10	Institute	O	-	-
+11	of	O	-	-
+12	Technology	O	-	-
+13	School	B-ORG	-	stephen
+14	of	I-ORG	-	stephen
+15	Industrial	I-ORG	-	stephen
+16	and	I-ORG	-	stephen
+17	Systems	I-ORG	-	stephen
+18	Engineering	I-ORG	-	stephen
+19	E-mail	O	-	-
+20	address	O	-	-
+21	:	O	-	-
+22	goldconn@isye.gatech.edu	O	-	-
+23	gte114t@prism.gatech.edu	O	-	-
+24	Home	O	-	-
+25	:	O	-	-
+26	404-449-1026	O	-	-
+27	Office	O	-	-
+28	:	O	-	-
+29	Coming	O	-	-
+30	Soon	O	-	-
+31	!	O	-	-
+
+# sent_id = email-enronsent19_02-0061
+# text = FYI
+1	FYI	O	-	-
+
+# sent_id = email-enronsent20_02-0004
+# text = Today is my last day in the office here at Azurix, and in the coming months, I will start in a new position as SVP in the LNG development group at El Paso Energy.
+1	Today	O	-	-
+2	is	O	-	-
+3	my	O	-	-
+4	last	O	-	-
+5	day	O	-	-
+6	in	O	-	-
+7	the	O	-	-
+8	office	O	-	-
+9	here	O	-	-
+10	at	O	-	-
+11	Azurix	B-ORG	-	stephen
+12	,	O	-	-
+13	and	O	-	-
+14	in	O	-	-
+15	the	O	-	-
+16	coming	O	-	-
+17	months	O	-	-
+18	,	O	-	-
+19	I	O	-	-
+20	will	O	-	-
+21	start	O	-	-
+22	in	O	-	-
+23	a	O	-	-
+24	new	O	-	-
+25	position	O	-	-
+26	as	O	-	-
+27	SVP	O	-	-
+28	in	O	-	-
+29	the	O	-	-
+30	LNG	O	-	-
+31	development	O	-	-
+32	group	O	-	-
+33	at	O	-	-
+34	El	B-ORG	-	stephen
+35	Paso	I-ORG	-	stephen
+36	Energy	I-ORG	-	stephen
+37	.	O	-	-
+
+# sent_id = email-enronsent20_02-0013
+# text = Steve, Rod and Elyse -
+1	Steve	B-PER	-	stephen
+2	,	O	-	-
+3	Rod	B-PER	-	stephen
+4	and	O	-	-
+5	Elyse	B-PER	-	stephen
+6	-	O	-	-
+
+# sent_id = email-enronsent20_02-0019
+# text = Traci Warner Enron Broadband Services, Inc. Phone (713) 853-3242 Cell (713) 705-7201
+1	Traci	O	-	-
+2	Warner	O	-	-
+3	Enron	B-ORG	-	stephen
+4	Broadband	I-ORG	-	stephen
+5	Services	I-ORG	-	stephen
+6	,	I-ORG	-	stephen
+7	Inc.	I-ORG	-	stephen
+8	Phone	O	-	-
+9	(	O	-	-
+10	713	O	-	-
+11	)	O	-	-
+12	853-3242	O	-	-
+13	Cell	O	-	-
+14	(	O	-	-
+15	713	O	-	-
+16	)	O	-	-
+17	705-7201	O	-	-
+
+# sent_id = email-enronsent23_14-0004
+# text = Kevin A. Boone Accenture -- Houston Consultant -- Energy (Octel) 713.837.1638 (Client) 281.848.1619 (C) 713.306.7940 (H) 713.864.4149 Kevin.A.Boone@accenture.com
+1	Kevin	B-PER	-	stephen
+2	A.	I-PER	-	stephen
+3	Boone	I-PER	-	stephen
+4	Accenture	B-ORG	-	stephen
+5	--	O	-	-
+6	Houston	B-LOC	-	stephen
+7	Consultant	O	-	-
+8	--	O	-	-
+9	Energy	O	-	-
+10	(	O	-	-
+11	Octel	O	-	-
+12	)	O	-	-
+13	713.837.1638	O	-	-
+14	(	O	-	-
+15	Client	O	-	-
+16	)	O	-	-
+17	281.848.1619	O	-	-
+18	(	O	-	-
+19	C	O	-	-
+20	)	O	-	-
+21	713.306.7940	O	-	-
+22	(	O	-	-
+23	H	O	-	-
+24	)	O	-	-
+25	713.864.4149	O	-	-
+26	Kevin.A.Boone@accenture.com	O	-	-
+
+# sent_id = email-enronsent26_02-0007
+# text = Kay
+1	Kay	B-PER	-	stephen
+
+# sent_id = email-enronsent26_02-0016
+# text = Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited.
+1	Any	O	-	-
+2	review	O	-	-
+3	,	O	-	-
+4	retransmission	O	-	-
+5	,	O	-	-
+6	dissemination	O	-	-
+7	or	O	-	-
+8	other	O	-	-
+9	use	O	-	-
+10	of	O	-	-
+11	,	O	-	-
+12	or	O	-	-
+13	taking	O	-	-
+14	of	O	-	-
+15	any	O	-	-
+16	action	O	-	-
+17	in	O	-	-
+18	reliance	O	-	-
+19	upon	O	-	-
+20	,	O	-	-
+21	this	O	-	-
+22	information	O	-	-
+23	by	O	-	-
+24	persons	O	-	-
+25	or	O	-	-
+26	entities	O	-	-
+27	other	O	-	-
+28	than	O	-	-
+29	the	O	-	-
+30	intended	O	-	-
+31	recipient	O	-	-
+32	is	O	-	-
+33	prohibited	O	-	-
+34	.	O	-	-
+
+# sent_id = email-enronsent26_02-0020
+# text = Also, we have attached a pdf black-line of the Guarantee vs the form of guarantee in the Turbine Contract.
+1	Also	O	-	-
+2	,	O	-	-
+3	we	O	-	-
+4	have	O	-	-
+5	attached	O	-	-
+6	a	O	-	-
+7	pdf	O	-	-
+8	black	O	-	-
+9	-	O	-	-
+10	line	O	-	-
+11	of	O	-	-
+12	the	O	-	-
+13	Guarantee	O	-	-
+14	vs	O	-	-
+15	the	O	-	-
+16	form	O	-	-
+17	of	O	-	-
+18	guarantee	O	-	-
+19	in	O	-	-
+20	the	O	-	-
+21	Turbine	O	-	-
+22	Contract	O	-	-
+23	.	O	-	-
+
+# sent_id = email-enronsent26_02-0021
+# text = ?
+1	?	O	-	-
+
+# sent_id = email-enronsent26_02-0023
+# text = ?
+1	?	O	-	-
+
+# sent_id = email-enronsent26_02-0025
+# text = ?
+1	?	O	-	-
+
+# sent_id = email-enronsent26_02-0028
+# text = ?
+1	?	O	-	-
+
+# sent_id = email-enronsent28_02-0022
+# text = As such, they may differ in material respects from those of, or expressed or published by on behalf of Carr Futures or its officers, directors, employees or affiliates. ,
+1	As	O	-	-
+2	such	O	-	-
+3	,	O	-	-
+4	they	O	-	-
+5	may	O	-	-
+6	differ	O	-	-
+7	in	O	-	-
+8	material	O	-	-
+9	respects	O	-	-
+10	from	O	-	-
+11	those	O	-	-
+12	of	O	-	-
+13	,	O	-	-
+14	or	O	-	-
+15	expressed	O	-	-
+16	or	O	-	-
+17	published	O	-	-
+18	by	O	-	-
+19	on	O	-	-
+20	behalf	O	-	-
+21	of	O	-	-
+22	Carr	B-ORG	-	stephen
+23	Futures	I-ORG	-	stephen
+24	or	O	-	-
+25	its	O	-	-
+26	officers	O	-	-
+27	,	O	-	-
+28	directors	O	-	-
+29	,	O	-	-
+30	employees	O	-	-
+31	or	O	-	-
+32	affiliates	O	-	-
+33	.	O	-	-
+34	,	O	-	-
+
+# sent_id = email-enronsent28_02-0026
+# text = (See attached file: UnleadedStocks.pdf)(See attached file: CrudeStocks.pdf) (See attached file: HeatingOilStocks.pdf)(See attached file: PADDIIstocksCL.pdf)(See attached file: PADDIstocksHO.pdf)(See attached file: PADDIstocksHU.pdf)(See attached file: API.pdf)
+1	(	O	-	-
+2	See	O	-	-
+3	attached	O	-	-
+4	file	O	-	-
+5	:	O	-	-
+6	UnleadedStocks.pdf	O	-	-
+7	)	O	-	-
+8	(	O	-	-
+9	See	O	-	-
+10	attached	O	-	-
+11	file	O	-	-
+12	:	O	-	-
+13	CrudeStocks.pdf	O	-	-
+14	)	O	-	-
+15	(	O	-	-
+16	See	O	-	-
+17	attached	O	-	-
+18	file	O	-	-
+19	:	O	-	-
+20	HeatingOilStocks.pdf	O	-	-
+21	)	O	-	-
+22	(	O	-	-
+23	See	O	-	-
+24	attached	O	-	-
+25	file	O	-	-
+26	:	O	-	-
+27	PADDIIstocksCL.pdf	O	-	-
+28	)	O	-	-
+29	(	O	-	-
+30	See	O	-	-
+31	attached	O	-	-
+32	file	O	-	-
+33	:	O	-	-
+34	PADDIstocksHO.pdf	O	-	-
+35	)	O	-	-
+36	(	O	-	-
+37	See	O	-	-
+38	attached	O	-	-
+39	file	O	-	-
+40	:	O	-	-
+41	PADDIstocksHU.pdf	O	-	-
+42	)	O	-	-
+43	(	O	-	-
+44	See	O	-	-
+45	attached	O	-	-
+46	file	O	-	-
+47	:	O	-	-
+48	API.pdf	O	-	-
+49	)	O	-	-
+
+# sent_id = email-enronsent28_03-0006
+# text = On or about October 6, 1999, Kelly Cloud, Senior Vice President of CCNG, Inc. (713) 235-1972, called and informed me that the counterparty should be CCGM, L.P..
+1	On	O	-	-
+2	or	O	-	-
+3	about	O	-	-
+4	October	O	-	-
+5	6	O	-	-
+6	,	O	-	-
+7	1999	O	-	-
+8	,	O	-	-
+9	Kelly	B-PER	-	stephen
+10	Cloud	I-PER	-	stephen
+11	,	O	-	-
+12	Senior	O	-	-
+13	Vice	O	-	-
+14	President	O	-	-
+15	of	O	-	-
+16	CCNG	B-ORG	-	stephen
+17	,	I-ORG	-	stephen
+18	Inc.	I-ORG	-	stephen
+19	(	O	-	-
+20	713	O	-	-
+21	)	O	-	-
+22	235-1972	O	-	-
+23	,	O	-	-
+24	called	O	-	-
+25	and	O	-	-
+26	informed	O	-	-
+27	me	O	-	-
+28	that	O	-	-
+29	the	O	-	-
+30	counterparty	O	-	-
+31	should	O	-	-
+32	be	O	-	-
+33	CCGM	O	-	-
+34	,	O	-	-
+35	L.P.	O	-	-
+36	.	O	-	-
+
+# sent_id = email-enronsent28_03-0007
+# text = Further, she informed me that Section 7 of the agreement, which reads in part: Gas is free from liens and adverse claims of every kind, should be changed because the gas that the counterparty will be transporting on HPL may and/or is subject to liens.
+1	Further	O	-	-
+2	,	O	-	-
+3	she	O	-	-
+4	informed	O	-	-
+5	me	O	-	-
+6	that	O	-	-
+7	Section	O	-	-
+8	7	O	-	-
+9	of	O	-	-
+10	the	O	-	-
+11	agreement	O	-	-
+12	,	O	-	-
+13	which	O	-	-
+14	reads	O	-	-
+15	in	O	-	-
+16	part	O	-	-
+17	:	O	-	-
+18	Gas	O	-	-
+19	is	O	-	-
+20	free	O	-	-
+21	from	O	-	-
+22	liens	O	-	-
+23	and	O	-	-
+24	adverse	O	-	-
+25	claims	O	-	-
+26	of	O	-	-
+27	every	O	-	-
+28	kind	O	-	-
+29	,	O	-	-
+30	should	O	-	-
+31	be	O	-	-
+32	changed	O	-	-
+33	because	O	-	-
+34	the	O	-	-
+35	gas	O	-	-
+36	that	O	-	-
+37	the	O	-	-
+38	counterparty	O	-	-
+39	will	O	-	-
+40	be	O	-	-
+41	transporting	O	-	-
+42	on	O	-	-
+43	HPL	O	-	-
+44	may	O	-	-
+45	and	O	-	-
+46	/	O	-	-
+47	or	O	-	-
+48	is	O	-	-
+49	subject	O	-	-
+50	to	O	-	-
+51	liens	O	-	-
+52	.	O	-	-
+
+# sent_id = email-enronsent28_03-0022
+# text = Puto,
+1	Puto	O	-	-
+2	,	O	-	-
+
+# sent_id = email-enronsent28_03-0036
+# text = GT
+1	GT	B-PER	-	stephen
+
+# sent_id = email-enronsent29_01-0006
+# text = In addition, I received feedback from our Gas Desk that the access to the Gas segment of Enron On-Line was cut off to CPS --- do you know who would handle this at Enron that we can speak to?
+1	In	O	-	-
+2	addition	O	-	-
+3	,	O	-	-
+4	I	O	-	-
+5	received	O	-	-
+6	feedback	O	-	-
+7	from	O	-	-
+8	our	O	-	-
+9	Gas	O	-	-
+10	Desk	O	-	-
+11	that	O	-	-
+12	the	O	-	-
+13	access	O	-	-
+14	to	O	-	-
+15	the	O	-	-
+16	Gas	O	-	-
+17	segment	O	-	-
+18	of	O	-	-
+19	Enron	B-ORG	-	stephen
+20	On	O	-	-
+21	-	O	-	-
+22	Line	O	-	-
+23	was	O	-	-
+24	cut	O	-	-
+25	off	O	-	-
+26	to	O	-	-
+27	CPS	O	-	-
+28	---	O	-	-
+29	do	O	-	-
+30	you	O	-	-
+31	know	O	-	-
+32	who	O	-	-
+33	would	O	-	-
+34	handle	O	-	-
+35	this	O	-	-
+36	at	O	-	-
+37	Enron	B-ORG	-	stephen
+38	that	O	-	-
+39	we	O	-	-
+40	can	O	-	-
+41	speak	O	-	-
+42	to	O	-	-
+43	?	O	-	-
+
+# sent_id = email-enronsent29_01-0010
+# text = Vangie McGilloway Constellation Power Source, Inc. ("CPS") 111 Market Place Ste 500 Baltimore,MD 21202 Phone 410-468-3798 Fax 410-468-3499 Email vangie.mcgilloway@powersrc.com
+1	Vangie	B-PER	-	stephen
+2	McGilloway	I-PER	-	stephen
+3	Constellation	O	-	-
+4	Power	O	-	-
+5	Source	O	-	-
+6	,	O	-	-
+7	Inc.	O	-	-
+8	(	O	-	-
+9	"	O	-	-
+10	CPS	O	-	-
+11	"	O	-	-
+12	)	O	-	-
+13	111	O	-	-
+14	Market	O	-	-
+15	Place	O	-	-
+16	Ste	O	-	-
+17	500	O	-	-
+18	Baltimore	B-LOC	-	stephen
+19	,	O	-	-
+20	MD	B-LOC	-	stephen
+21	21202	O	-	-
+22	Phone	O	-	-
+23	410-468-3798	O	-	-
+24	Fax	O	-	-
+25	410-468-3499	O	-	-
+26	Email	O	-	-
+27	vangie.mcgilloway@powersrc.com	O	-	-
+
+# sent_id = email-enronsent29_01-0012
+# text = Myself and Credit were calling in and none of the calls rolled into voice mail (?).
+1	Myself	O	-	-
+2	and	O	-	-
+3	Credit	O	-	-
+4	were	O	-	-
+5	calling	O	-	-
+6	in	O	-	-
+7	and	O	-	-
+8	none	O	-	-
+9	of	O	-	-
+10	the	O	-	-
+11	calls	O	-	-
+12	rolled	O	-	-
+13	into	O	-	-
+14	voice	O	-	-
+15	mail	O	-	-
+16	(	O	-	-
+17	?	O	-	-
+18	)	O	-	-
+19	.	O	-	-
+
+# sent_id = email-enronsent29_01-0015
+# text = (See attached file: Constellation Power (GISB draft).doc)(See attached file: Sam3102.doc)
+1	(	O	-	-
+2	See	O	-	-
+3	attached	O	-	-
+4	file	O	-	-
+5	:	O	-	-
+6	Constellation	O	-	-
+7	Power	O	-	-
+8	(	O	-	-
+9	GISB	O	-	-
+10	draft	O	-	-
+11	)	O	-	-
+12	.doc	O	-	-
+13	)	O	-	-
+14	(	O	-	-
+15	See	O	-	-
+16	attached	O	-	-
+17	file	O	-	-
+18	:	O	-	-
+19	Sam3102.doc	O	-	-
+20	)	O	-	-
+
+# sent_id = email-enronsent29_01-0018
+# text = - ENRON-CPS (GISB rev1).doc
+1	-	O	-	-
+2	ENRON-CPS	O	-	-
+3	(	O	-	-
+4	GISB	O	-	-
+5	rev1	O	-	-
+6	)	O	-	-
+7	.doc	O	-	-
+
+# sent_id = email-enronsent29_01-0027
+# text = Thx
+1	Thx	O	-	-
+
+# sent_id = email-enronsent29_01-0050
+# text = Dp
+1	Dp	B-PER	-	stephen
+
+# sent_id = email-enronsent29_01-0065
+# text = Jill:
+1	Jill	B-PER	-	stephen
+2	:	O	-	-
+
+# sent_id = email-enronsent29_01-0068
+# text = I was able to secure a Duns# and Fed Tax ID however, I am lacking Fax and bank account numbers.
+1	I	O	-	-
+2	was	O	-	-
+3	able	O	-	-
+4	to	O	-	-
+5	secure	O	-	-
+6	a	O	-	-
+7	Duns	O	-	-
+8	#	O	-	-
+9	and	O	-	-
+10	Fed	O	-	-
+11	Tax	O	-	-
+12	ID	O	-	-
+13	however	O	-	-
+14	,	O	-	-
+15	I	O	-	-
+16	am	O	-	-
+17	lacking	O	-	-
+18	Fax	O	-	-
+19	and	O	-	-
+20	bank	O	-	-
+21	account	O	-	-
+22	numbers	O	-	-
+23	.	O	-	-
+
+# sent_id = email-enronsent29_01-0070
+# text = Dp
+1	Dp	B-PER	-	stephen
+
+# sent_id = email-enronsent29_01-0077
+# text = Jeff!
+1	Jeff	B-PER	-	stephen
+2	!	O	-	-
+
+# sent_id = email-enronsent30_02-0006
+# text = You wear your heart on your sleeve ... and since you are an emotional person you are apt to give your all ... heart and soul ... to all those that show you a little affection ... but take care... it would appear that you have been extremely hurt in the past...and you keep leaving yourself wide open for punishment..
+1	You	O	-	-
+2	wear	O	-	-
+3	your	O	-	-
+4	heart	O	-	-
+5	on	O	-	-
+6	your	O	-	-
+7	sleeve	O	-	-
+8	...	O	-	-
+9	and	O	-	-
+10	since	O	-	-
+11	you	O	-	-
+12	are	O	-	-
+13	an	O	-	-
+14	emotional	O	-	-
+15	person	O	-	-
+16	you	O	-	-
+17	are	O	-	-
+18	apt	O	-	-
+19	to	O	-	-
+20	give	O	-	-
+21	your	O	-	-
+22	all	O	-	-
+23	...	O	-	-
+24	heart	O	-	-
+25	and	O	-	-
+26	soul	O	-	-
+27	...	O	-	-
+28	to	O	-	-
+29	all	O	-	-
+30	those	O	-	-
+31	that	O	-	-
+32	show	O	-	-
+33	you	O	-	-
+34	a	O	-	-
+35	little	O	-	-
+36	affection	O	-	-
+37	...	O	-	-
+38	but	O	-	-
+39	take	O	-	-
+40	care	O	-	-
+41	...	O	-	-
+42	it	O	-	-
+43	would	O	-	-
+44	appear	O	-	-
+45	that	O	-	-
+46	you	O	-	-
+47	have	O	-	-
+48	been	O	-	-
+49	extremely	O	-	-
+50	hurt	O	-	-
+51	in	O	-	-
+52	the	O	-	-
+53	past	O	-	-
+54	...	O	-	-
+55	and	O	-	-
+56	you	O	-	-
+57	keep	O	-	-
+58	leaving	O	-	-
+59	yourself	O	-	-
+60	wide	O	-	-
+61	open	O	-	-
+62	for	O	-	-
+63	punishment	O	-	-
+64	..	O	-	-
+
+# sent_id = email-enronsent30_02-0009
+# text = You are a clear thinker and all you demand from life, in a relationship, is a partner whom you can trust and with whom you can, together, develop a foundation of trust based on understanding.
+1	You	O	-	-
+2	are	O	-	-
+3	a	O	-	-
+4	clear	O	-	-
+5	thinker	O	-	-
+6	and	O	-	-
+7	all	O	-	-
+8	you	O	-	-
+9	demand	O	-	-
+10	from	O	-	-
+11	life	O	-	-
+12	,	O	-	-
+13	in	O	-	-
+14	a	O	-	-
+15	relationship	O	-	-
+16	,	O	-	-
+17	is	O	-	-
+18	a	O	-	-
+19	partner	O	-	-
+20	whom	O	-	-
+21	you	O	-	-
+22	can	O	-	-
+23	trust	O	-	-
+24	and	O	-	-
+25	with	O	-	-
+26	whom	O	-	-
+27	you	O	-	-
+28	can	O	-	-
+29	,	O	-	-
+30	together	O	-	-
+31	,	O	-	-
+32	develop	O	-	-
+33	a	O	-	-
+34	foundation	O	-	-
+35	of	O	-	-
+36	trust	O	-	-
+37	based	O	-	-
+38	on	O	-	-
+39	understanding	O	-	-
+40	.	O	-	-
+
+# sent_id = email-enronsent30_02-0015
+# text = John,
+1	John	B-PER	-	stephen
+2	,	O	-	-
+
+# sent_id = email-enronsent30_02-0025
+# text = Attached is a new link for employees unable to attend the all-employee meeting today at 10 a.m. (CDT) at the Hyatt Regency Houston, Imperial Ballroom.
+1	Attached	O	-	-
+2	is	O	-	-
+3	a	O	-	-
+4	new	O	-	-
+5	link	O	-	-
+6	for	O	-	-
+7	employees	O	-	-
+8	unable	O	-	-
+9	to	O	-	-
+10	attend	O	-	-
+11	the	O	-	-
+12	all	O	-	-
+13	-	O	-	-
+14	employee	O	-	-
+15	meeting	O	-	-
+16	today	O	-	-
+17	at	O	-	-
+18	10	O	-	-
+19	a.m.	O	-	-
+20	(	O	-	-
+21	CDT	O	-	-
+22	)	O	-	-
+23	at	O	-	-
+24	the	O	-	-
+25	Hyatt	B-LOC	-	stephen
+26	Regency	I-LOC	-	stephen
+27	Houston	I-LOC	-	stephen
+28	,	O	-	-
+29	Imperial	O	-	-
+30	Ballroom	O	-	-
+31	.	O	-	-
+
+# sent_id = email-enronsent30_02-0026
+# text = If you are located in London, Calgary, Toronto, Omaha, New York, Portland (ENA) or Houston, you can access the live event at http://home.enron.com/employeemeeting.
+1	If	O	-	-
+2	you	O	-	-
+3	are	O	-	-
+4	located	O	-	-
+5	in	O	-	-
+6	London	B-LOC	-	stephen
+7	,	O	-	-
+8	Calgary	B-LOC	-	stephen
+9	,	O	-	-
+10	Toronto	B-LOC	-	stephen
+11	,	O	-	-
+12	Omaha	B-LOC	-	stephen
+13	,	O	-	-
+14	New	B-LOC	-	stephen
+15	York	I-LOC	-	stephen
+16	,	O	-	-
+17	Portland	B-LOC	-	stephen
+18	(	O	-	-
+19	ENA	O	-	-
+20	)	O	-	-
+21	or	O	-	-
+22	Houston	B-LOC	-	stephen
+23	,	O	-	-
+24	you	O	-	-
+25	can	O	-	-
+26	access	O	-	-
+27	the	O	-	-
+28	live	O	-	-
+29	event	O	-	-
+30	at	O	-	-
+31	http://home.enron.com/employeemeeting	O	-	-
+32	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_AlexandrianReligiousStudies_ebcd97e243c4440b_ENG_20051021_201800-0004
+# text = R.E. Glenn
+1	R.	B-PER	-	stephen
+2	E.	I-PER	-	stephen
+3	Glenn	I-PER	-	stephen
+
+# sent_id = newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0004
+# text = In Pakistan national chart besides the transit affliction to transit Venus in the fourth house by FMs Rahu and Mercury, natal Saturn and Venus are also under the close affliction of transit Rahu.
+1	In	O	-	-
+2	Pakistan	B-LOC	-	stephen
+3	national	O	-	-
+4	chart	O	-	-
+5	besides	O	-	-
+6	the	O	-	-
+7	transit	O	-	-
+8	affliction	O	-	-
+9	to	O	-	-
+10	transit	O	-	-
+11	Venus	O	-	-
+12	in	O	-	-
+13	the	O	-	-
+14	fourth	O	-	-
+15	house	O	-	-
+16	by	O	-	-
+17	FMs	O	-	-
+18	Rahu	O	-	-
+19	and	O	-	-
+20	Mercury	O	-	-
+21	,	O	-	-
+22	natal	O	-	-
+23	Saturn	O	-	-
+24	and	O	-	-
+25	Venus	O	-	-
+26	are	O	-	-
+27	also	O	-	-
+28	under	O	-	-
+29	the	O	-	-
+30	close	O	-	-
+31	affliction	O	-	-
+32	of	O	-	-
+33	transit	O	-	-
+34	Rahu	O	-	-
+35	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0006
+# text = In Indian national chart besides the transit affliction to transit Mercury by Rahu and Venus the natal Saturn and Venus are also under the transit affliction of Rahu which has resulted into floods in many parts of the country taking toll of human lives, properties, etc.
+1	In	O	-	-
+2	Indian	O	-	-
+3	national	O	-	-
+4	chart	O	-	-
+5	besides	O	-	-
+6	the	O	-	-
+7	transit	O	-	-
+8	affliction	O	-	-
+9	to	O	-	-
+10	transit	O	-	-
+11	Mercury	O	-	-
+12	by	O	-	-
+13	Rahu	O	-	-
+14	and	O	-	-
+15	Venus	O	-	-
+16	the	O	-	-
+17	natal	O	-	-
+18	Saturn	O	-	-
+19	and	O	-	-
+20	Venus	O	-	-
+21	are	O	-	-
+22	also	O	-	-
+23	under	O	-	-
+24	the	O	-	-
+25	transit	O	-	-
+26	affliction	O	-	-
+27	of	O	-	-
+28	Rahu	O	-	-
+29	which	O	-	-
+30	has	O	-	-
+31	resulted	O	-	-
+32	into	O	-	-
+33	floods	O	-	-
+34	in	O	-	-
+35	many	O	-	-
+36	parts	O	-	-
+37	of	O	-	-
+38	the	O	-	-
+39	country	O	-	-
+40	taking	O	-	-
+41	toll	O	-	-
+42	of	O	-	-
+43	human	O	-	-
+44	lives	O	-	-
+45	,	O	-	-
+46	properties	O	-	-
+47	,	O	-	-
+48	etc	O	-	-
+49	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0001
+# text = The Greater New Orleans Fair Housing Action Center (GNOFHAC) filed a housing discrimination complaint against the Housing Authority of New Orleans (HANO) last week.
+1	The	O	-	-
+2	Greater	B-ORG	-	stephen
+3	New	I-ORG	-	stephen
+4	Orleans	I-ORG	-	stephen
+5	Fair	I-ORG	-	stephen
+6	Housing	I-ORG	-	stephen
+7	Action	I-ORG	-	stephen
+8	Center	I-ORG	-	stephen
+9	(	O	-	-
+10	GNOFHAC	B-ORG	-	stephen
+11	)	O	-	-
+12	filed	O	-	-
+13	a	O	-	-
+14	housing	O	-	-
+15	discrimination	O	-	-
+16	complaint	O	-	-
+17	against	O	-	-
+18	the	O	-	-
+19	Housing	B-ORG	-	stephen
+20	Authority	I-ORG	-	stephen
+21	of	I-ORG	-	stephen
+22	New	I-ORG	-	stephen
+23	Orleans	I-ORG	-	stephen
+24	(	O	-	-
+25	HANO	B-ORG	-	stephen
+26	)	O	-	-
+27	last	O	-	-
+28	week	O	-	-
+29	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0002
+# text = The complaint, filed with the United States Department of Housing and Urban Development, accuses HANO of violating a 2003 enforcement agreement entered into between former St. Thomas Housing Development residents, the City of New Orleans, HANO, and the U.S. Department of Housing and Urban Development during the HOPE VI redevelopment of St. Thomas, now known as River Garden.
+1	The	O	-	-
+2	complaint	O	-	-
+3	,	O	-	-
+4	filed	O	-	-
+5	with	O	-	-
+6	the	O	-	-
+7	United	B-ORG	-	stephen
+8	States	I-ORG	-	stephen
+9	Department	I-ORG	-	stephen
+10	of	I-ORG	-	stephen
+11	Housing	I-ORG	-	stephen
+12	and	I-ORG	-	stephen
+13	Urban	I-ORG	-	stephen
+14	Development	I-ORG	-	stephen
+15	,	O	-	-
+16	accuses	O	-	-
+17	HANO	B-ORG	-	stephen
+18	of	O	-	-
+19	violating	O	-	-
+20	a	O	-	-
+21	2003	O	-	-
+22	enforcement	O	-	-
+23	agreement	O	-	-
+24	entered	O	-	-
+25	into	O	-	-
+26	between	O	-	-
+27	former	O	-	-
+28	St.	B-ORG	-	stephen
+29	Thomas	I-ORG	-	stephen
+30	Housing	I-ORG	-	stephen
+31	Development	I-ORG	-	stephen
+32	residents	O	-	-
+33	,	O	-	-
+34	the	O	-	-
+35	City	B-ORG	-	stephen
+36	of	I-ORG	-	stephen
+37	New	I-ORG	-	stephen
+38	Orleans	I-ORG	-	stephen
+39	,	O	-	-
+40	HANO	B-ORG	-	stephen
+41	,	O	-	-
+42	and	O	-	-
+43	the	O	-	-
+44	U.S.	B-ORG	-	stephen
+45	Department	I-ORG	-	stephen
+46	of	I-ORG	-	stephen
+47	Housing	I-ORG	-	stephen
+48	and	I-ORG	-	stephen
+49	Urban	I-ORG	-	stephen
+50	Development	I-ORG	-	stephen
+51	during	O	-	-
+52	the	O	-	-
+53	HOPE	O	-	-
+54	VI	O	-	-
+55	redevelopment	O	-	-
+56	of	O	-	-
+57	St.	B-LOC	-	stephen
+58	Thomas	I-LOC	-	stephen
+59	,	O	-	-
+60	now	O	-	-
+61	known	O	-	-
+62	as	O	-	-
+63	River	B-LOC	-	stephen
+64	Garden	I-LOC	-	stephen
+65	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0003
+# text = The current complaints allege that HANO has not provided qualified former St. Thomas residents a preference with respect to available public housing units at River Garden per the 2003 agreement.
+1	The	O	-	-
+2	current	O	-	-
+3	complaints	O	-	-
+4	allege	O	-	-
+5	that	O	-	-
+6	HANO	B-ORG	-	stephen
+7	has	O	-	-
+8	not	O	-	-
+9	provided	O	-	-
+10	qualified	O	-	-
+11	former	O	-	-
+12	St.	B-LOC	-	stephen
+13	Thomas	I-LOC	-	stephen
+14	residents	O	-	-
+15	a	O	-	-
+16	preference	O	-	-
+17	with	O	-	-
+18	respect	O	-	-
+19	to	O	-	-
+20	available	O	-	-
+21	public	O	-	-
+22	housing	O	-	-
+23	units	O	-	-
+24	at	O	-	-
+25	River	B-LOC	-	stephen
+26	Garden	I-LOC	-	stephen
+27	per	O	-	-
+28	the	O	-	-
+29	2003	O	-	-
+30	agreement	O	-	-
+31	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0004
+# text = Upon return to New Orleans after the Hurricane Katrina evacuation, former residents have been informed that there are no available public housing units at River Garden because those units have been reserved for HANO employees.
+1	Upon	O	-	-
+2	return	O	-	-
+3	to	O	-	-
+4	New	B-LOC	-	stephen
+5	Orleans	I-LOC	-	stephen
+6	after	O	-	-
+7	the	O	-	-
+8	Hurricane	O	-	-
+9	Katrina	O	-	-
+10	evacuation	O	-	-
+11	,	O	-	-
+12	former	O	-	-
+13	residents	O	-	-
+14	have	O	-	-
+15	been	O	-	-
+16	informed	O	-	-
+17	that	O	-	-
+18	there	O	-	-
+19	are	O	-	-
+20	no	O	-	-
+21	available	O	-	-
+22	public	O	-	-
+23	housing	O	-	-
+24	units	O	-	-
+25	at	O	-	-
+26	River	B-LOC	-	stephen
+27	Garden	I-LOC	-	stephen
+28	because	O	-	-
+29	those	O	-	-
+30	units	O	-	-
+31	have	O	-	-
+32	been	O	-	-
+33	reserved	O	-	-
+34	for	O	-	-
+35	HANO	B-ORG	-	stephen
+36	employees	O	-	-
+37	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0005
+# text = Therefore, public housing residents have been unable to secure the units for which they qualified prior to the storm and are left homeless, as a result.
+1	Therefore	O	-	-
+2	,	O	-	-
+3	public	O	-	-
+4	housing	O	-	-
+5	residents	O	-	-
+6	have	O	-	-
+7	been	O	-	-
+8	unable	O	-	-
+9	to	O	-	-
+10	secure	O	-	-
+11	the	O	-	-
+12	units	O	-	-
+13	for	O	-	-
+14	which	O	-	-
+15	they	O	-	-
+16	qualified	O	-	-
+17	prior	O	-	-
+18	to	O	-	-
+19	the	O	-	-
+20	storm	O	-	-
+21	and	O	-	-
+22	are	O	-	-
+23	left	O	-	-
+24	homeless	O	-	-
+25	,	O	-	-
+26	as	O	-	-
+27	a	O	-	-
+28	result	O	-	-
+29	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0007
+# text = As such, it is essential that HANO comply with 2003 enforcement agreement," said James Perry, GNOFHAC Executive Director
+1	As	O	-	-
+2	such	O	-	-
+3	,	O	-	-
+4	it	O	-	-
+5	is	O	-	-
+6	essential	O	-	-
+7	that	O	-	-
+8	HANO	B-ORG	-	stephen
+9	comply	O	-	-
+10	with	O	-	-
+11	2003	O	-	-
+12	enforcement	O	-	-
+13	agreement	O	-	-
+14	,	O	-	-
+15	"	O	-	-
+16	said	O	-	-
+17	James	B-PER	-	stephen
+18	Perry	I-PER	-	stephen
+19	,	O	-	-
+20	GNOFHAC	B-ORG	-	stephen
+21	Executive	O	-	-
+22	Director	O	-	-
+
+# sent_id = newsgroup-groups.google.com_MeninLingerie_78adf09ead5e7e87_ENG_20041219_035800-0012
+# text = Email: "TJO"<ded69...@hotmail.com>
+1	Email	O	-	-
+2	:	O	-	-
+3	"	O	-	-
+4	TJO	B-PER	-	stephen
+5	"	O	-	-
+6	<	O	-	-
+7	ded69...@hotmail.com	O	-	-
+8	>	O	-	-
+
+# sent_id = newsgroup-groups.google.com_RagnarokOnlineII_acbece2a311cfb3c_ENG_20051119_076100-0002
+# text = lol, last news message came out kinda weird, i was trying to browse the japanese website while i changed the text i was supposed to put up but i ran out of time so there are no real pictures yet... but i 'll add the links soon sry.
+1	lol	O	-	-
+2	,	O	-	-
+3	last	O	-	-
+4	news	O	-	-
+5	message	O	-	-
+6	came	O	-	-
+7	out	O	-	-
+8	kinda	O	-	-
+9	weird	O	-	-
+10	,	O	-	-
+11	i	O	-	-
+12	was	O	-	-
+13	trying	O	-	-
+14	to	O	-	-
+15	browse	O	-	-
+16	the	O	-	-
+17	japanese	O	-	-
+18	website	O	-	-
+19	while	O	-	-
+20	i	O	-	-
+21	changed	O	-	-
+22	the	O	-	-
+23	text	O	-	-
+24	i	O	-	-
+25	was	O	-	-
+26	supposed	O	-	-
+27	to	O	-	-
+28	put	O	-	-
+29	up	O	-	-
+30	but	O	-	-
+31	i	O	-	-
+32	ran	O	-	-
+33	out	O	-	-
+34	of	O	-	-
+35	time	O	-	-
+36	so	O	-	-
+37	there	O	-	-
+38	are	O	-	-
+39	no	O	-	-
+40	real	O	-	-
+41	pictures	O	-	-
+42	yet	O	-	-
+43	...	O	-	-
+44	but	O	-	-
+45	i	O	-	-
+46	'll	O	-	-
+47	add	O	-	-
+48	the	O	-	-
+49	links	O	-	-
+50	soon	O	-	-
+51	sry	O	-	-
+52	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0006
+# text = ----== Posted via Newsfeed.Com - Unlimited-Uncensored-Secure Usenet News==----
+1	----==	O	-	-
+2	Posted	O	-	-
+3	via	O	-	-
+4	Newsfeed.Com	O	-	-
+5	-	O	-	-
+6	Unlimited	O	-	-
+7	-	O	-	-
+8	Uncensored	O	-	-
+9	-	O	-	-
+10	Secure	O	-	-
+11	Usenet	O	-	-
+12	News	O	-	-
+13	==----	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0009
+# text = ---= 19 East/West-Coast Specialized Servers - Total Privacy via Encryption =---
+1	---=	O	-	-
+2	19	O	-	-
+3	East	O	-	-
+4	/	O	-	-
+5	West	O	-	-
+6	-	O	-	-
+7	Coast	O	-	-
+8	Specialized	O	-	-
+9	Servers	O	-	-
+10	-	O	-	-
+11	Total	O	-	-
+12	Privacy	O	-	-
+13	via	O	-	-
+14	Encryption	O	-	-
+15	=---	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0010
+# text = ----== Posted via Newsfeed.Com - Unlimited-Uncensored-Secure Usenet News==----
+1	----==	O	-	-
+2	Posted	O	-	-
+3	via	O	-	-
+4	Newsfeed.Com	O	-	-
+5	-	O	-	-
+6	Unlimited	O	-	-
+7	-	O	-	-
+8	Uncensored	O	-	-
+9	-	O	-	-
+10	Secure	O	-	-
+11	Usenet	O	-	-
+12	News	O	-	-
+13	==----	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0013
+# text = ---= 19 East/West-Coast Specialized Servers - Total Privacy via Encryption =---
+1	---=	O	-	-
+2	19	O	-	-
+3	East	O	-	-
+4	/	O	-	-
+5	West	O	-	-
+6	-	O	-	-
+7	Coast	O	-	-
+8	Specialized	O	-	-
+9	Servers	O	-	-
+10	-	O	-	-
+11	Total	O	-	-
+12	Privacy	O	-	-
+13	via	O	-	-
+14	Encryption	O	-	-
+15	=---	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bear_1b8e106a9a468d99_ENG_20040220_231100-0003
+# text = Come visit irc server: irc.yankeedot.net and join #audiobooks for sharing, discussion and a great trivia game! large selection of fiction, science fiction and best sellers.
+1	Come	O	-	-
+2	visit	O	-	-
+3	irc	O	-	-
+4	server	O	-	-
+5	:	O	-	-
+6	irc.yankeedot.net	O	-	-
+7	and	O	-	-
+8	join	O	-	-
+9	#	O	-	-
+10	audiobooks	O	-	-
+11	for	O	-	-
+12	sharing	O	-	-
+13	,	O	-	-
+14	discussion	O	-	-
+15	and	O	-	-
+16	a	O	-	-
+17	great	O	-	-
+18	trivia	O	-	-
+19	game	O	-	-
+20	!	O	-	-
+21	large	O	-	-
+22	selection	O	-	-
+23	of	O	-	-
+24	fiction	O	-	-
+25	,	O	-	-
+26	science	O	-	-
+27	fiction	O	-	-
+28	and	O	-	-
+29	best	O	-	-
+30	sellers	O	-	-
+31	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0001
+# text = Email: "The Cat Album"<thecatal...@hotmail.com>
+1	Email	O	-	-
+2	:	O	-	-
+3	"	O	-	-
+4	The	O	-	-
+5	Cat	O	-	-
+6	Album	O	-	-
+7	"	O	-	-
+8	<	O	-	-
+9	thecatal...@hotmail.com	O	-	-
+10	>	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0003
+# text = - U P D A T E D -
+1	-	O	-	-
+2	U	O	-	-
+3	P	O	-	-
+4	D	O	-	-
+5	A	O	-	-
+6	T	O	-	-
+7	E	O	-	-
+8	D	O	-	-
+9	-	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0004
+# text = -Page 71, 72 and 73 with 48 new pictures of cats and kittens are added to The Cat Album today.
+1	-	O	-	-
+2	Page	O	-	-
+3	71	O	-	-
+4	,	O	-	-
+5	72	O	-	-
+6	and	O	-	-
+7	73	O	-	-
+8	with	O	-	-
+9	48	O	-	-
+10	new	O	-	-
+11	pictures	O	-	-
+12	of	O	-	-
+13	cats	O	-	-
+14	and	O	-	-
+15	kittens	O	-	-
+16	are	O	-	-
+17	added	O	-	-
+18	to	O	-	-
+19	The	O	-	-
+20	Cat	O	-	-
+21	Album	O	-	-
+22	today	O	-	-
+23	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_alt.animals_1054ad831ec01b4c_ENG_20031204_144900
+# sent_id = newsgroup-groups.google.com_alt.animals_1054ad831ec01b4c_ENG_20031204_144900-0001
+# text = The end of the year is a time for compiling statistics - and according to the World Conservation Union (IUCN), the year 2003 has been bad news for plants and non-human animals, with many species now closer to extinction than ever before.
+1	The	O	-	-
+2	end	O	-	-
+3	of	O	-	-
+4	the	O	-	-
+5	year	O	-	-
+6	is	O	-	-
+7	a	O	-	-
+8	time	O	-	-
+9	for	O	-	-
+10	compiling	O	-	-
+11	statistics	O	-	-
+12	-	O	-	-
+13	and	O	-	-
+14	according	O	-	-
+15	to	O	-	-
+16	the	O	-	-
+17	World	B-ORG	-	stephen
+18	Conservation	I-ORG	-	stephen
+19	Union	I-ORG	-	stephen
+20	(	O	-	-
+21	IUCN	B-ORG	-	stephen
+22	)	O	-	-
+23	,	O	-	-
+24	the	O	-	-
+25	year	O	-	-
+26	2003	O	-	-
+27	has	O	-	-
+28	been	O	-	-
+29	bad	O	-	-
+30	news	O	-	-
+31	for	O	-	-
+32	plants	O	-	-
+33	and	O	-	-
+34	non-human	O	-	-
+35	animals	O	-	-
+36	,	O	-	-
+37	with	O	-	-
+38	many	O	-	-
+39	species	O	-	-
+40	now	O	-	-
+41	closer	O	-	-
+42	to	O	-	-
+43	extinction	O	-	-
+44	than	O	-	-
+45	ever	O	-	-
+46	before	O	-	-
+47	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_alt.animals_1054ad831ec01b4c_ENG_20031204_144900-0002
+# text = s
+1	s	O	-	-
+
+# sent_id = newsgroup-groups.google.com_eHolistic_b8e32f451114ecc2_ENG_20051118_192000-0004
+# text = I 'm the author of three books (including the 1.3 million seller ALTERNATIVE CURES) and hundreds of magazine articles, and worked for 20 years at Rodale Press, as a writer and as editor-in-chief of Prevention and Rodale Books.
+1	I	O	-	-
+2	'm	O	-	-
+3	the	O	-	-
+4	author	O	-	-
+5	of	O	-	-
+6	three	O	-	-
+7	books	O	-	-
+8	(	O	-	-
+9	including	O	-	-
+10	the	O	-	-
+11	1.3	O	-	-
+12	million	O	-	-
+13	seller	O	-	-
+14	ALTERNATIVE	O	-	-
+15	CURES	O	-	-
+16	)	O	-	-
+17	and	O	-	-
+18	hundreds	O	-	-
+19	of	O	-	-
+20	magazine	O	-	-
+21	articles	O	-	-
+22	,	O	-	-
+23	and	O	-	-
+24	worked	O	-	-
+25	for	O	-	-
+26	20	O	-	-
+27	years	O	-	-
+28	at	O	-	-
+29	Rodale	B-ORG	-	stephen
+30	Press	I-ORG	-	stephen
+31	,	O	-	-
+32	as	O	-	-
+33	a	O	-	-
+34	writer	O	-	-
+35	and	O	-	-
+36	as	O	-	-
+37	editor	O	-	-
+38	-	O	-	-
+39	in	O	-	-
+40	-	O	-	-
+41	chief	O	-	-
+42	of	O	-	-
+43	Prevention	O	-	-
+44	and	O	-	-
+45	Rodale	B-ORG	-	stephen
+46	Books	I-ORG	-	stephen
+47	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_eHolistic_b8e32f451114ecc2_ENG_20051118_192000-0005
+# text = Currently, I am writing a book on natural supplements to aid weight loss, with Harry Preuss, MD, a Professor of Medicine at Georgetown University; it is scheduled for publication by Broadway (Random House) in January 2007.
+1	Currently	O	-	-
+2	,	O	-	-
+3	I	O	-	-
+4	am	O	-	-
+5	writing	O	-	-
+6	a	O	-	-
+7	book	O	-	-
+8	on	O	-	-
+9	natural	O	-	-
+10	supplements	O	-	-
+11	to	O	-	-
+12	aid	O	-	-
+13	weight	O	-	-
+14	loss	O	-	-
+15	,	O	-	-
+16	with	O	-	-
+17	Harry	B-PER	-	stephen
+18	Preuss	I-PER	-	stephen
+19	,	O	-	-
+20	MD	O	-	-
+21	,	O	-	-
+22	a	O	-	-
+23	Professor	O	-	-
+24	of	O	-	-
+25	Medicine	O	-	-
+26	at	O	-	-
+27	Georgetown	B-ORG	-	stephen
+28	University	I-ORG	-	stephen
+29	;	O	-	-
+30	it	O	-	-
+31	is	O	-	-
+32	scheduled	O	-	-
+33	for	O	-	-
+34	publication	O	-	-
+35	by	O	-	-
+36	Broadway	B-ORG	-	stephen
+37	(	O	-	-
+38	Random	B-ORG	-	stephen
+39	House	I-ORG	-	stephen
+40	)	O	-	-
+41	in	O	-	-
+42	January	O	-	-
+43	2007	O	-	-
+44	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_eHolistic_b8e32f451114ecc2_ENG_20051118_192000-0006
+# text = I am seeking anecdotes (first name, last initial) from dieters who successfully used a natural supplement to assist their weight loss; the therapeutic agents under discussion include HCA, MCT, green or oolong tea extract, CLA, chromium, starch-blockers, chitosan, 5-HTP, hoodia and caralluma, HMB, and BCAA.
+1	I	O	-	-
+2	am	O	-	-
+3	seeking	O	-	-
+4	anecdotes	O	-	-
+5	(	O	-	-
+6	first	O	-	-
+7	name	O	-	-
+8	,	O	-	-
+9	last	O	-	-
+10	initial	O	-	-
+11	)	O	-	-
+12	from	O	-	-
+13	dieters	O	-	-
+14	who	O	-	-
+15	successfully	O	-	-
+16	used	O	-	-
+17	a	O	-	-
+18	natural	O	-	-
+19	supplement	O	-	-
+20	to	O	-	-
+21	assist	O	-	-
+22	their	O	-	-
+23	weight	O	-	-
+24	loss	O	-	-
+25	;	O	-	-
+26	the	O	-	-
+27	therapeutic	O	-	-
+28	agents	O	-	-
+29	under	O	-	-
+30	discussion	O	-	-
+31	include	O	-	-
+32	HCA	O	-	-
+33	,	O	-	-
+34	MCT	O	-	-
+35	,	O	-	-
+36	green	O	-	-
+37	or	O	-	-
+38	oolong	O	-	-
+39	tea	O	-	-
+40	extract	O	-	-
+41	,	O	-	-
+42	CLA	O	-	-
+43	,	O	-	-
+44	chromium	O	-	-
+45	,	O	-	-
+46	starch	O	-	-
+47	-	O	-	-
+48	blockers	O	-	-
+49	,	O	-	-
+50	chitosan	O	-	-
+51	,	O	-	-
+52	5	O	-	-
+53	-	O	-	-
+54	HTP	O	-	-
+55	,	O	-	-
+56	hoodia	O	-	-
+57	and	O	-	-
+58	caralluma	O	-	-
+59	,	O	-	-
+60	HMB	O	-	-
+61	,	O	-	-
+62	and	O	-	-
+63	BCAA	O	-	-
+64	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_eHolistic_e470976a8f836699_ENG_20050829_183800
+# sent_id = newsgroup-groups.google.com_eHolistic_e470976a8f836699_ENG_20050829_183800-0001
+# text = Once upon a time (in 2001, to be specific), the Coca-Cola corporation built a bottling plant in a small and remote Indian village in the state of Kerala.
+1	Once	O	-	-
+2	upon	O	-	-
+3	a	O	-	-
+4	time	O	-	-
+5	(	O	-	-
+6	in	O	-	-
+7	2001	O	-	-
+8	,	O	-	-
+9	to	O	-	-
+10	be	O	-	-
+11	specific	O	-	-
+12	)	O	-	-
+13	,	O	-	-
+14	the	O	-	-
+15	Coca	B-ORG	-	stephen
+16	-	I-ORG	-	stephen
+17	Cola	I-ORG	-	stephen
+18	corporation	O	-	-
+19	built	O	-	-
+20	a	O	-	-
+21	bottling	O	-	-
+22	plant	O	-	-
+23	in	O	-	-
+24	a	O	-	-
+25	small	O	-	-
+26	and	O	-	-
+27	remote	O	-	-
+28	Indian	O	-	-
+29	village	O	-	-
+30	in	O	-	-
+31	the	O	-	-
+32	state	O	-	-
+33	of	O	-	-
+34	Kerala	B-LOC	-	stephen
+35	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_eHolistic_e470976a8f836699_ENG_20050829_183800-0004
+# text = Coca-Cola calmed the concerns of the people and attempted to win back their favor by giving them vast amounts of free fertilizer, saying it would grow bountiful crops beyond their wildest dreams.
+1	Coca	B-ORG	-	stephen
+2	-	I-ORG	-	stephen
+3	Cola	I-ORG	-	stephen
+4	calmed	O	-	-
+5	the	O	-	-
+6	concerns	O	-	-
+7	of	O	-	-
+8	the	O	-	-
+9	people	O	-	-
+10	and	O	-	-
+11	attempted	O	-	-
+12	to	O	-	-
+13	win	O	-	-
+14	back	O	-	-
+15	their	O	-	-
+16	favor	O	-	-
+17	by	O	-	-
+18	giving	O	-	-
+19	them	O	-	-
+20	vast	O	-	-
+21	amounts	O	-	-
+22	of	O	-	-
+23	free	O	-	-
+24	fertilizer	O	-	-
+25	,	O	-	-
+26	saying	O	-	-
+27	it	O	-	-
+28	would	O	-	-
+29	grow	O	-	-
+30	bountiful	O	-	-
+31	crops	O	-	-
+32	beyond	O	-	-
+33	their	O	-	-
+34	wildest	O	-	-
+35	dreams	O	-	-
+36	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0002
+# text = Normally this author is semi-objective (what blogger is) but on the Seattlepi.com (see source link) Palestinian Leader Mahmoud Abbas has demanded that Israel leave all the land that it occupies before the 1967 border (which includes East Jerusalem by the way).
+1	Normally	O	-	-
+2	this	O	-	-
+3	author	O	-	-
+4	is	O	-	-
+5	semi-objective	O	-	-
+6	(	O	-	-
+7	what	O	-	-
+8	blogger	O	-	-
+9	is	O	-	-
+10	)	O	-	-
+11	but	O	-	-
+12	on	O	-	-
+13	the	O	-	-
+14	Seattlepi.com	O	-	-
+15	(	O	-	-
+16	see	O	-	-
+17	source	O	-	-
+18	link	O	-	-
+19	)	O	-	-
+20	Palestinian	O	-	-
+21	Leader	O	-	-
+22	Mahmoud	B-PER	-	stephen
+23	Abbas	I-PER	-	stephen
+24	has	O	-	-
+25	demanded	O	-	-
+26	that	O	-	-
+27	Israel	B-LOC	-	stephen
+28	leave	O	-	-
+29	all	O	-	-
+30	the	O	-	-
+31	land	O	-	-
+32	that	O	-	-
+33	it	O	-	-
+34	occupies	O	-	-
+35	before	O	-	-
+36	the	O	-	-
+37	1967	O	-	-
+38	border	O	-	-
+39	(	O	-	-
+40	which	O	-	-
+41	includes	O	-	-
+42	East	B-LOC	-	stephen
+43	Jerusalem	I-LOC	-	stephen
+44	by	O	-	-
+45	the	O	-	-
+46	way	O	-	-
+47	)	O	-	-
+48	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0004
+# text = If Abbas keeps up this "macho talk" he will kill potential peace talks and might as well allow Hamas (which has probably done a better job at providing for the Palestinians) rule the West Bank.
+1	If	O	-	-
+2	Abbas	B-PER	-	stephen
+3	keeps	O	-	-
+4	up	O	-	-
+5	this	O	-	-
+6	"	O	-	-
+7	macho	O	-	-
+8	talk	O	-	-
+9	"	O	-	-
+10	he	O	-	-
+11	will	O	-	-
+12	kill	O	-	-
+13	potential	O	-	-
+14	peace	O	-	-
+15	talks	O	-	-
+16	and	O	-	-
+17	might	O	-	-
+18	as	O	-	-
+19	well	O	-	-
+20	allow	O	-	-
+21	Hamas	B-ORG	-	stephen
+22	(	O	-	-
+23	which	O	-	-
+24	has	O	-	-
+25	probably	O	-	-
+26	done	O	-	-
+27	a	O	-	-
+28	better	O	-	-
+29	job	O	-	-
+30	at	O	-	-
+31	providing	O	-	-
+32	for	O	-	-
+33	the	O	-	-
+34	Palestinians	O	-	-
+35	)	O	-	-
+36	rule	O	-	-
+37	the	O	-	-
+38	West	B-LOC	-	stephen
+39	Bank	I-LOC	-	stephen
+40	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0006
+# text = Interim Palestinian leader and the front-runner in the upcoming Jan. 9, 2005 presidential election Mahmoud Abbas talks during his first official campaign speech in the West Bank town of Ramallah, Saturday Dec. 25, 2004.
+1	Interim	O	-	-
+2	Palestinian	O	-	-
+3	leader	O	-	-
+4	and	O	-	-
+5	the	O	-	-
+6	front	O	-	-
+7	-	O	-	-
+8	runner	O	-	-
+9	in	O	-	-
+10	the	O	-	-
+11	upcoming	O	-	-
+12	Jan.	O	-	-
+13	9	O	-	-
+14	,	O	-	-
+15	2005	O	-	-
+16	presidential	O	-	-
+17	election	O	-	-
+18	Mahmoud	B-PER	-	stephen
+19	Abbas	I-PER	-	stephen
+20	talks	O	-	-
+21	during	O	-	-
+22	his	O	-	-
+23	first	O	-	-
+24	official	O	-	-
+25	campaign	O	-	-
+26	speech	O	-	-
+27	in	O	-	-
+28	the	O	-	-
+29	West	B-LOC	-	stephen
+30	Bank	I-LOC	-	stephen
+31	town	O	-	-
+32	of	O	-	-
+33	Ramallah	B-LOC	-	stephen
+34	,	O	-	-
+35	Saturday	O	-	-
+36	Dec.	O	-	-
+37	25	O	-	-
+38	,	O	-	-
+39	2004	O	-	-
+40	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0012
+# text = Abbas, a refugee himself from what is today the northern Israeli city of Safed, called the refugee issue "very important and very dangerous."
+1	Abbas	B-PER	-	stephen
+2	,	O	-	-
+3	a	O	-	-
+4	refugee	O	-	-
+5	himself	O	-	-
+6	from	O	-	-
+7	what	O	-	-
+8	is	O	-	-
+9	today	O	-	-
+10	the	O	-	-
+11	northern	O	-	-
+12	Israeli	O	-	-
+13	city	O	-	-
+14	of	O	-	-
+15	Safed	O	-	-
+16	,	O	-	-
+17	called	O	-	-
+18	the	O	-	-
+19	refugee	O	-	-
+20	issue	O	-	-
+21	"	O	-	-
+22	very	O	-	-
+23	important	O	-	-
+24	and	O	-	-
+25	very	O	-	-
+26	dangerous	O	-	-
+27	.	O	-	-
+28	"	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0002
+# text = (Hat Tip: Captain s Quarters )
+1	(	O	-	-
+2	Hat	O	-	-
+3	Tip	O	-	-
+4	:	O	-	-
+5	Captain	O	-	-
+6	s	O	-	-
+7	Quarters	O	-	-
+8	)	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0003
+# text = (BBC)
+1	(	O	-	-
+2	BBC	B-ORG	-	stephen
+3	)	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0010
+# text = Hamas has become rather unpopular in Gaza, as many see the Israeli air strikes as a response towards the rocket attacks upon Israeli soil.
+1	Hamas	B-ORG	-	stephen
+2	has	O	-	-
+3	become	O	-	-
+4	rather	O	-	-
+5	unpopular	O	-	-
+6	in	O	-	-
+7	Gaza	B-LOC	-	stephen
+8	,	O	-	-
+9	as	O	-	-
+10	many	O	-	-
+11	see	O	-	-
+12	the	O	-	-
+13	Israeli	O	-	-
+14	air	O	-	-
+15	strikes	O	-	-
+16	as	O	-	-
+17	a	O	-	-
+18	response	O	-	-
+19	towards	O	-	-
+20	the	O	-	-
+21	rocket	O	-	-
+22	attacks	O	-	-
+23	upon	O	-	-
+24	Israeli	O	-	-
+25	soil	O	-	-
+26	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0015
+# text = [...]
+1	[	O	-	-
+2	...	O	-	-
+3	]	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0017
+# text = "Hamas remains targeted by Israel, as in the past, and the Israeli occupation does not need excuses to pursue its aggression.
+1	"	O	-	-
+2	Hamas	B-ORG	-	stephen
+3	remains	O	-	-
+4	targeted	O	-	-
+5	by	O	-	-
+6	Israel	B-LOC	-	stephen
+7	,	O	-	-
+8	as	O	-	-
+9	in	O	-	-
+10	the	O	-	-
+11	past	O	-	-
+12	,	O	-	-
+13	and	O	-	-
+14	the	O	-	-
+15	Israeli	O	-	-
+16	occupation	O	-	-
+17	does	O	-	-
+18	not	O	-	-
+19	need	O	-	-
+20	excuses	O	-	-
+21	to	O	-	-
+22	pursue	O	-	-
+23	its	O	-	-
+24	aggression	O	-	-
+25	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0019
+# text = Islamic Jihad has refused to recognized the cease fire, and hopes to turn the Gaza strip "into a vast battlefield."
+1	Islamic	O	-	-
+2	Jihad	O	-	-
+3	has	O	-	-
+4	refused	O	-	-
+5	to	O	-	-
+6	recognized	O	-	-
+7	the	O	-	-
+8	cease	O	-	-
+9	fire	O	-	-
+10	,	O	-	-
+11	and	O	-	-
+12	hopes	O	-	-
+13	to	O	-	-
+14	turn	O	-	-
+15	the	O	-	-
+16	Gaza	B-LOC	-	stephen
+17	strip	I-LOC	-	stephen
+18	"	O	-	-
+19	into	O	-	-
+20	a	O	-	-
+21	vast	O	-	-
+22	battlefield	O	-	-
+23	.	O	-	-
+24	"	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0020
+# text = Unless President Mahmoud Abbas steps in, Gaza will probably look like a battle field by the time Israel is done reminding Hamas of their critical error, although currently the only thing Abbas is doing is lashing out and refusing to take responsibility for his inability to act.
+1	Unless	O	-	-
+2	President	O	-	-
+3	Mahmoud	B-PER	-	stephen
+4	Abbas	I-PER	-	stephen
+5	steps	O	-	-
+6	in	O	-	-
+7	,	O	-	-
+8	Gaza	B-LOC	-	stephen
+9	will	O	-	-
+10	probably	O	-	-
+11	look	O	-	-
+12	like	O	-	-
+13	a	O	-	-
+14	battle	O	-	-
+15	field	O	-	-
+16	by	O	-	-
+17	the	O	-	-
+18	time	O	-	-
+19	Israel	B-LOC	-	stephen
+20	is	O	-	-
+21	done	O	-	-
+22	reminding	O	-	-
+23	Hamas	B-ORG	-	stephen
+24	of	O	-	-
+25	their	O	-	-
+26	critical	O	-	-
+27	error	O	-	-
+28	,	O	-	-
+29	although	O	-	-
+30	currently	O	-	-
+31	the	O	-	-
+32	only	O	-	-
+33	thing	O	-	-
+34	Abbas	B-PER	-	stephen
+35	is	O	-	-
+36	doing	O	-	-
+37	is	O	-	-
+38	lashing	O	-	-
+39	out	O	-	-
+40	and	O	-	-
+41	refusing	O	-	-
+42	to	O	-	-
+43	take	O	-	-
+44	responsibility	O	-	-
+45	for	O	-	-
+46	his	O	-	-
+47	inability	O	-	-
+48	to	O	-	-
+49	act	O	-	-
+50	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0004
+# text = [...]
+1	[	O	-	-
+2	...	O	-	-
+3	]	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0005
+# text = "It 's not cost-effective doing station flights while at the same time focusing on getting back to the Moon," says Brett Alexander, vice-president of Transformational Space, one of the companies hoping to launch astronauts to the ISS.
+1	"	O	-	-
+2	It	O	-	-
+3	's	O	-	-
+4	not	O	-	-
+5	cost	O	-	-
+6	-	O	-	-
+7	effective	O	-	-
+8	doing	O	-	-
+9	station	O	-	-
+10	flights	O	-	-
+11	while	O	-	-
+12	at	O	-	-
+13	the	O	-	-
+14	same	O	-	-
+15	time	O	-	-
+16	focusing	O	-	-
+17	on	O	-	-
+18	getting	O	-	-
+19	back	O	-	-
+20	to	O	-	-
+21	the	O	-	-
+22	Moon	O	-	-
+23	,	O	-	-
+24	"	O	-	-
+25	says	O	-	-
+26	Brett	B-PER	-	stephen
+27	Alexander	I-PER	-	stephen
+28	,	O	-	-
+29	vice-president	O	-	-
+30	of	O	-	-
+31	Transformational	B-ORG	-	stephen
+32	Space	I-ORG	-	stephen
+33	,	O	-	-
+34	one	O	-	-
+35	of	O	-	-
+36	the	O	-	-
+37	companies	O	-	-
+38	hoping	O	-	-
+39	to	O	-	-
+40	launch	O	-	-
+41	astronauts	O	-	-
+42	to	O	-	-
+43	the	O	-	-
+44	ISS	B-LOC	-	stephen
+45	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0006
+# text = NASA intends upon retiring the space shuttles in 2010, which only leaves it with 18 flights towards the ISS.
+1	NASA	B-ORG	-	stephen
+2	intends	O	-	-
+3	upon	O	-	-
+4	retiring	O	-	-
+5	the	O	-	-
+6	space	O	-	-
+7	shuttles	O	-	-
+8	in	O	-	-
+9	2010	O	-	-
+10	,	O	-	-
+11	which	O	-	-
+12	only	O	-	-
+13	leaves	O	-	-
+14	it	O	-	-
+15	with	O	-	-
+16	18	O	-	-
+17	flights	O	-	-
+18	towards	O	-	-
+19	the	O	-	-
+20	ISS	B-LOC	-	stephen
+21	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0010
+# text = On 3 November, NASA administrator Michael Griffin told the US house science committee that the agency expects to invest about $500 million in the commercial cargo and crew project over five years.
+1	On	O	-	-
+2	3	O	-	-
+3	November	O	-	-
+4	,	O	-	-
+5	NASA	B-ORG	-	stephen
+6	administrator	O	-	-
+7	Michael	B-PER	-	stephen
+8	Griffin	I-PER	-	stephen
+9	told	O	-	-
+10	the	O	-	-
+11	US	B-ORG	-	stephen
+12	house	I-ORG	-	stephen
+13	science	I-ORG	-	stephen
+14	committee	I-ORG	-	stephen
+15	that	O	-	-
+16	the	O	-	-
+17	agency	O	-	-
+18	expects	O	-	-
+19	to	O	-	-
+20	invest	O	-	-
+21	about	O	-	-
+22	$	O	-	-
+23	500	O	-	-
+24	million	O	-	-
+25	in	O	-	-
+26	the	O	-	-
+27	commercial	O	-	-
+28	cargo	O	-	-
+29	and	O	-	-
+30	crew	O	-	-
+31	project	O	-	-
+32	over	O	-	-
+33	five	O	-	-
+34	years	O	-	-
+35	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0011
+# text = "That kind of a financial incentive [...] will be sufficient to allow substantial providers to emerge," Griffin said.
+1	"	O	-	-
+2	That	O	-	-
+3	kind	O	-	-
+4	of	O	-	-
+5	a	O	-	-
+6	financial	O	-	-
+7	incentive	O	-	-
+8	[	O	-	-
+9	...	O	-	-
+10	]	O	-	-
+11	will	O	-	-
+12	be	O	-	-
+13	sufficient	O	-	-
+14	to	O	-	-
+15	allow	O	-	-
+16	substantial	O	-	-
+17	providers	O	-	-
+18	to	O	-	-
+19	emerge	O	-	-
+20	,	O	-	-
+21	"	O	-	-
+22	Griffin	B-PER	-	stephen
+23	said	O	-	-
+24	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0012
+# text = "I hope that industry, if put to the test, can do better [than the government], but I do not expect it," Griffin added.
+1	"	O	-	-
+2	I	O	-	-
+3	hope	O	-	-
+4	that	O	-	-
+5	industry	O	-	-
+6	,	O	-	-
+7	if	O	-	-
+8	put	O	-	-
+9	to	O	-	-
+10	the	O	-	-
+11	test	O	-	-
+12	,	O	-	-
+13	can	O	-	-
+14	do	O	-	-
+15	better	O	-	-
+16	[	O	-	-
+17	than	O	-	-
+18	the	O	-	-
+19	government	O	-	-
+20	]	O	-	-
+21	,	O	-	-
+22	but	O	-	-
+23	I	O	-	-
+24	do	O	-	-
+25	not	O	-	-
+26	expect	O	-	-
+27	it	O	-	-
+28	,	O	-	-
+29	"	O	-	-
+30	Griffin	B-PER	-	stephen
+31	added	O	-	-
+32	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0014
+# text = But seeing how the private sector has been able to successfully transport civilians to the ISS (at about a fifth of the cost), it would come to no surprise if corporate America was able to out perform their bureaucratic friends in government.
+1	But	O	-	-
+2	seeing	O	-	-
+3	how	O	-	-
+4	the	O	-	-
+5	private	O	-	-
+6	sector	O	-	-
+7	has	O	-	-
+8	been	O	-	-
+9	able	O	-	-
+10	to	O	-	-
+11	successfully	O	-	-
+12	transport	O	-	-
+13	civilians	O	-	-
+14	to	O	-	-
+15	the	O	-	-
+16	ISS	B-LOC	-	stephen
+17	(	O	-	-
+18	at	O	-	-
+19	about	O	-	-
+20	a	O	-	-
+21	fifth	O	-	-
+22	of	O	-	-
+23	the	O	-	-
+24	cost	O	-	-
+25	)	O	-	-
+26	,	O	-	-
+27	it	O	-	-
+28	would	O	-	-
+29	come	O	-	-
+30	to	O	-	-
+31	no	O	-	-
+32	surprise	O	-	-
+33	if	O	-	-
+34	corporate	O	-	-
+35	America	B-LOC	-	stephen
+36	was	O	-	-
+37	able	O	-	-
+38	to	O	-	-
+39	out	O	-	-
+40	perform	O	-	-
+41	their	O	-	-
+42	bureaucratic	O	-	-
+43	friends	O	-	-
+44	in	O	-	-
+45	government	O	-	-
+46	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800
+# sent_id = newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800-0001
+# text = Several years ago I developed a short paper and pencil screening test which, in a small pilot study, discriminated between ADHD, LD, and control subjects.
+1	Several	O	-	-
+2	years	O	-	-
+3	ago	O	-	-
+4	I	O	-	-
+5	developed	O	-	-
+6	a	O	-	-
+7	short	O	-	-
+8	paper	O	-	-
+9	and	O	-	-
+10	pencil	O	-	-
+11	screening	O	-	-
+12	test	O	-	-
+13	which	O	-	-
+14	,	O	-	-
+15	in	O	-	-
+16	a	O	-	-
+17	small	O	-	-
+18	pilot	O	-	-
+19	study	O	-	-
+20	,	O	-	-
+21	discriminated	O	-	-
+22	between	O	-	-
+23	ADHD	O	-	-
+24	,	O	-	-
+25	LD	O	-	-
+26	,	O	-	-
+27	and	O	-	-
+28	control	O	-	-
+29	subjects	O	-	-
+30	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800-0002
+# text = I recently converted this test to an online test in order to norm it to a larger population and, subsequently, to make it available to any one who has access to a computer and the Internet.
+1	I	O	-	-
+2	recently	O	-	-
+3	converted	O	-	-
+4	this	O	-	-
+5	test	O	-	-
+6	to	O	-	-
+7	an	O	-	-
+8	online	O	-	-
+9	test	O	-	-
+10	in	O	-	-
+11	order	O	-	-
+12	to	O	-	-
+13	norm	O	-	-
+14	it	O	-	-
+15	to	O	-	-
+16	a	O	-	-
+17	larger	O	-	-
+18	population	O	-	-
+19	and	O	-	-
+20	,	O	-	-
+21	subsequently	O	-	-
+22	,	O	-	-
+23	to	O	-	-
+24	make	O	-	-
+25	it	O	-	-
+26	available	O	-	-
+27	to	O	-	-
+28	any	O	-	-
+29	one	O	-	-
+30	who	O	-	-
+31	has	O	-	-
+32	access	O	-	-
+33	to	O	-	-
+34	a	O	-	-
+35	computer	O	-	-
+36	and	O	-	-
+37	the	O	-	-
+38	Internet	O	-	-
+39	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800-0004
+# text = It has two parts, both of which are timed for 90 seconds each and the differential between the resulting two scores determines the likelihood of having a learning disability or attention deficit disorder.
+1	It	O	-	-
+2	has	O	-	-
+3	two	O	-	-
+4	parts	O	-	-
+5	,	O	-	-
+6	both	O	-	-
+7	of	O	-	-
+8	which	O	-	-
+9	are	O	-	-
+10	timed	O	-	-
+11	for	O	-	-
+12	90	O	-	-
+13	seconds	O	-	-
+14	each	O	-	-
+15	and	O	-	-
+16	the	O	-	-
+17	differential	O	-	-
+18	between	O	-	-
+19	the	O	-	-
+20	resulting	O	-	-
+21	two	O	-	-
+22	scores	O	-	-
+23	determines	O	-	-
+24	the	O	-	-
+25	likelihood	O	-	-
+26	of	O	-	-
+27	having	O	-	-
+28	a	O	-	-
+29	learning	O	-	-
+30	disability	O	-	-
+31	or	O	-	-
+32	attention	O	-	-
+33	deficit	O	-	-
+34	disorder	O	-	-
+35	.	O	-	-
+
+# newdoc id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300
+# sent_id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300-0001
+# text = Crude-oil prices rose Wednesday as strengthening Hurricane Rita, now a Category 5 storm, threatened to disrupt oil production in the Gulf of Mexico.
+1	Crude	O	-	-
+2	-	O	-	-
+3	oil	O	-	-
+4	prices	O	-	-
+5	rose	O	-	-
+6	Wednesday	O	-	-
+7	as	O	-	-
+8	strengthening	O	-	-
+9	Hurricane	O	-	-
+10	Rita	O	-	-
+11	,	O	-	-
+12	now	O	-	-
+13	a	O	-	-
+14	Category	O	-	-
+15	5	O	-	-
+16	storm	O	-	-
+17	,	O	-	-
+18	threatened	O	-	-
+19	to	O	-	-
+20	disrupt	O	-	-
+21	oil	O	-	-
+22	production	O	-	-
+23	in	O	-	-
+24	the	O	-	-
+25	Gulf	B-LOC	-	stephen
+26	of	I-LOC	-	stephen
+27	Mexico	I-LOC	-	stephen
+28	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300-0003
+# text = In London, the price of Brent North Sea crude for November delivery advanced 53 cents to 64.73 dollars.
+1	In	O	-	-
+2	London	B-LOC	-	stephen
+3	,	O	-	-
+4	the	O	-	-
+5	price	O	-	-
+6	of	O	-	-
+7	Brent	O	-	-
+8	North	O	-	-
+9	Sea	O	-	-
+10	crude	O	-	-
+11	for	O	-	-
+12	November	O	-	-
+13	delivery	O	-	-
+14	advanced	O	-	-
+15	53	O	-	-
+16	cents	O	-	-
+17	to	O	-	-
+18	64.73	O	-	-
+19	dollars	O	-	-
+20	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300-0004
+# text = After brushing the Florida Keys islands on Tuesday, Rita packed winds of about 240 kilometers an hour as it headed across the Gulf of Mexico.
+1	After	O	-	-
+2	brushing	O	-	-
+3	the	O	-	-
+4	Florida	B-LOC	-	stephen
+5	Keys	I-LOC	-	stephen
+6	islands	O	-	-
+7	on	O	-	-
+8	Tuesday	O	-	-
+9	,	O	-	-
+10	Rita	O	-	-
+11	packed	O	-	-
+12	winds	O	-	-
+13	of	O	-	-
+14	about	O	-	-
+15	240	O	-	-
+16	kilometers	O	-	-
+17	an	O	-	-
+18	hour	O	-	-
+19	as	O	-	-
+20	it	O	-	-
+21	headed	O	-	-
+22	across	O	-	-
+23	the	O	-	-
+24	Gulf	B-LOC	-	stephen
+25	of	I-LOC	-	stephen
+26	Mexico	I-LOC	-	stephen
+27	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300-0005
+# text = The US National Hurricane Center said Rita was "extremely dangerous" and could become a top-level category five storm on the Saffir-Simpson scale.
+1	The	O	-	-
+2	US	B-ORG	-	stephen
+3	National	I-ORG	-	stephen
+4	Hurricane	I-ORG	-	stephen
+5	Center	I-ORG	-	stephen
+6	said	O	-	-
+7	Rita	O	-	-
+8	was	O	-	-
+9	"	O	-	-
+10	extremely	O	-	-
+11	dangerous	O	-	-
+12	"	O	-	-
+13	and	O	-	-
+14	could	O	-	-
+15	become	O	-	-
+16	a	O	-	-
+17	top	O	-	-
+18	-	O	-	-
+19	level	O	-	-
+20	category	O	-	-
+21	five	O	-	-
+22	storm	O	-	-
+23	on	O	-	-
+24	the	O	-	-
+25	Saffir	O	-	-
+26	-	O	-	-
+27	Simpson	O	-	-
+28	scale	O	-	-
+29	.	O	-	-
+
+# sent_id = newsgroup-groups.google.com_marketplace_e019a6deff0a1c7f_ENG_20050922_024300-0008
+# text = In Texas, BP shut its 460,000 barrels per day refinery and Marathon shut its 72,000 bpd plant.
+1	In	O	-	-
+2	Texas	B-LOC	-	stephen
+3	,	O	-	-
+4	BP	B-ORG	-	stephen
+5	shut	O	-	-
+6	its	O	-	-
+7	460,000	O	-	-
+8	barrels	O	-	-
+9	per	O	-	-
+10	day	O	-	-
+11	refinery	O	-	-
+12	and	O	-	-
+13	Marathon	B-ORG	-	stephen
+14	shut	O	-	-
+15	its	O	-	-
+16	72,000	O	-	-
+17	bpd	O	-	-
+18	plant	O	-	-
+19	.	O	-	-
+
+# sent_id = reviews-057644-0007
+# text = Removing 90% of 'sit-abouts' in main room would look cleaner.
+1	Removing	O	-	-
+2	90	O	-	-
+3	%	O	-	-
+4	of	O	-	-
+5	'	O	-	-
+6	sit	O	-	-
+7	-	O	-	-
+8	abouts	O	-	-
+9	'	O	-	-
+10	in	O	-	-
+11	main	O	-	-
+12	room	O	-	-
+13	would	O	-	-
+14	look	O	-	-
+15	cleaner	O	-	-
+16	.	O	-	-
+
+# newdoc id = reviews-059386
+# sent_id = reviews-059386-0001
+# text = Best YET!
+1	Best	O	-	-
+2	YET	O	-	-
+3	!	O	-	-
+
+# newdoc id = reviews-064100
+# sent_id = reviews-064100-0001
+# text = Great spot to kick back for a cup of joe and a snack.
+1	Great	O	-	-
+2	spot	O	-	-
+3	to	O	-	-
+4	kick	O	-	-
+5	back	O	-	-
+6	for	O	-	-
+7	a	O	-	-
+8	cup	O	-	-
+9	of	O	-	-
+10	joe	O	-	-
+11	and	O	-	-
+12	a	O	-	-
+13	snack	O	-	-
+14	.	O	-	-
+
+# sent_id = reviews-072067-0002
+# text = Teachers good Diverse student body(African-American, Asian, ect.) equals kids staying here!
+1	Teachers	O	-	-
+2	good	O	-	-
+3	Diverse	O	-	-
+4	student	O	-	-
+5	body	O	-	-
+6	(	O	-	-
+7	African	O	-	-
+8	-	O	-	-
+9	American	O	-	-
+10	,	O	-	-
+11	Asian	O	-	-
+12	,	O	-	-
+13	ect.	O	-	-
+14	)	O	-	-
+15	equals	O	-	-
+16	kids	O	-	-
+17	staying	O	-	-
+18	here	O	-	-
+19	!	O	-	-
+
+# newdoc id = reviews-087176
+# sent_id = reviews-087176-0001
+# text = A++
+1	A	O	-	-
+2	++	O	-	-
+
+# newdoc id = reviews-096340
+# sent_id = reviews-096340-0001
+# text = ONe of a few.
+1	ONe	O	-	-
+2	of	O	-	-
+3	a	O	-	-
+4	few	O	-	-
+5	.	O	-	-
+
+# sent_id = reviews-097507-0005
+# text = The owner/baker, "Pie Guy" is a hoot to deal with as well.
+1	The	O	-	-
+2	owner	O	-	-
+3	/	O	-	-
+4	baker	O	-	-
+5	,	O	-	-
+6	"	O	-	-
+7	Pie	O	-	-
+8	Guy	O	-	-
+9	"	O	-	-
+10	is	O	-	-
+11	a	O	-	-
+12	hoot	O	-	-
+13	to	O	-	-
+14	deal	O	-	-
+15	with	O	-	-
+16	as	O	-	-
+17	well	O	-	-
+18	.	O	-	-
+
+# sent_id = reviews-097507-0006
+# text = Mo
+1	Mo	B-PER	-	stephen
+
+# newdoc id = reviews-125629
+# sent_id = reviews-125629-0001
+# text = Anyone else find it a little suspicious that there are not only 20 reviews for this dentist (a HUGE number compared to the others in the area), but that they all have the same unique grammar structure?
+1	Anyone	O	-	-
+2	else	O	-	-
+3	find	O	-	-
+4	it	O	-	-
+5	a	O	-	-
+6	little	O	-	-
+7	suspicious	O	-	-
+8	that	O	-	-
+9	there	O	-	-
+10	are	O	-	-
+11	not	O	-	-
+12	only	O	-	-
+13	20	O	-	-
+14	reviews	O	-	-
+15	for	O	-	-
+16	this	O	-	-
+17	dentist	O	-	-
+18	(	O	-	-
+19	a	O	-	-
+20	HUGE	O	-	-
+21	number	O	-	-
+22	compared	O	-	-
+23	to	O	-	-
+24	the	O	-	-
+25	others	O	-	-
+26	in	O	-	-
+27	the	O	-	-
+28	area	O	-	-
+29	)	O	-	-
+30	,	O	-	-
+31	but	O	-	-
+32	that	O	-	-
+33	they	O	-	-
+34	all	O	-	-
+35	have	O	-	-
+36	the	O	-	-
+37	same	O	-	-
+38	unique	O	-	-
+39	grammar	O	-	-
+40	structure	O	-	-
+41	?	O	-	-
+
+# newdoc id = reviews-148566
+# sent_id = reviews-148566-0001
+# text = Good fun for wing night, food eh, beer list eh...
+1	Good	O	-	-
+2	fun	O	-	-
+3	for	O	-	-
+4	wing	O	-	-
+5	night	O	-	-
+6	,	O	-	-
+7	food	O	-	-
+8	eh	O	-	-
+9	,	O	-	-
+10	beer	O	-	-
+11	list	O	-	-
+12	eh	O	-	-
+13	...	O	-	-
+
+# sent_id = reviews-173944-0005
+# text = Good Job DR.
+1	Good	O	-	-
+2	Job	O	-	-
+3	DR	O	-	-
+4	.	O	-	-
+
+# sent_id = reviews-188461-0002
+# text = The statement about "best hamburguers in town" can be even amplifiaed to "best hamburguers in world" Totally worth, juicy, big, fresh, and excellent customer service!
+1	The	O	-	-
+2	statement	O	-	-
+3	about	O	-	-
+4	"	O	-	-
+5	best	O	-	-
+6	hamburguers	O	-	-
+7	in	O	-	-
+8	town	O	-	-
+9	"	O	-	-
+10	can	O	-	-
+11	be	O	-	-
+12	even	O	-	-
+13	amplifiaed	O	-	-
+14	to	O	-	-
+15	"	O	-	-
+16	best	O	-	-
+17	hamburguers	O	-	-
+18	in	O	-	-
+19	world	O	-	-
+20	"	O	-	-
+21	Totally	O	-	-
+22	worth	O	-	-
+23	,	O	-	-
+24	juicy	O	-	-
+25	,	O	-	-
+26	big	O	-	-
+27	,	O	-	-
+28	fresh	O	-	-
+29	,	O	-	-
+30	and	O	-	-
+31	excellent	O	-	-
+32	customer	O	-	-
+33	service	O	-	-
+34	!	O	-	-
+
+# newdoc id = reviews-194153
+# sent_id = reviews-194153-0001
+# text = Barb does an AMAZING JOB, she is always learning new things on how to use her hands and body, to give every person an AWESOME MASSAGE, CALL TODAY AND SCHEDULE YOU MUST SEE HER, YOU WILL FALL IN LOVE SHE IS THE BEST OF THE BEST !
+1	Barb	B-PER	-	stephen
+2	does	O	-	-
+3	an	O	-	-
+4	AMAZING	O	-	-
+5	JOB	O	-	-
+6	,	O	-	-
+7	she	O	-	-
+8	is	O	-	-
+9	always	O	-	-
+10	learning	O	-	-
+11	new	O	-	-
+12	things	O	-	-
+13	on	O	-	-
+14	how	O	-	-
+15	to	O	-	-
+16	use	O	-	-
+17	her	O	-	-
+18	hands	O	-	-
+19	and	O	-	-
+20	body	O	-	-
+21	,	O	-	-
+22	to	O	-	-
+23	give	O	-	-
+24	every	O	-	-
+25	person	O	-	-
+26	an	O	-	-
+27	AWESOME	O	-	-
+28	MASSAGE	O	-	-
+29	,	O	-	-
+30	CALL	O	-	-
+31	TODAY	O	-	-
+32	AND	O	-	-
+33	SCHEDULE	O	-	-
+34	YOU	O	-	-
+35	MUST	O	-	-
+36	SEE	O	-	-
+37	HER	O	-	-
+38	,	O	-	-
+39	YOU	O	-	-
+40	WILL	O	-	-
+41	FALL	O	-	-
+42	IN	O	-	-
+43	LOVE	O	-	-
+44	SHE	O	-	-
+45	IS	O	-	-
+46	THE	O	-	-
+47	BEST	O	-	-
+48	OF	O	-	-
+49	THE	O	-	-
+50	BEST	O	-	-
+51	!	O	-	-
+
+# sent_id = reviews-194313-0003
+# text = Yum.
+1	Yum	O	-	-
+2	.	O	-	-
+
+# newdoc id = reviews-202402
+# sent_id = reviews-202402-0001
+# text = SERVERS
+1	SERVERS	O	-	-
+
+# newdoc id = reviews-203196
+# sent_id = reviews-203196-0001
+# text = VINGAS
+1	VINGAS	O	-	-
+
+# sent_id = reviews-203196-0002
+# text = VISAKHA INDUSTRIAL GASES PVT. LTD., location at google maps.
+1	VISAKHA	B-ORG	-	stephen
+2	INDUSTRIAL	I-ORG	-	stephen
+3	GASES	I-ORG	-	stephen
+4	PVT.	I-ORG	-	stephen
+5	LTD.	I-ORG	-	stephen
+6	,	O	-	-
+7	location	O	-	-
+8	at	O	-	-
+9	google	O	-	-
+10	maps	O	-	-
+11	.	O	-	-
+
+# newdoc id = reviews-205014
+# sent_id = reviews-205014-0001
+# text = A Great Help!
+1	A	O	-	-
+2	Great	O	-	-
+3	Help	O	-	-
+4	!	O	-	-
+
+# sent_id = reviews-236648-0002
+# text = Walked in and was out ta there in 10 mins with a really good deal i thought i was going to be paying alot because i had a DUI but with my DUI and Sr-22 they were able to get me the best deal out there.
+1	Walked	O	-	-
+2	in	O	-	-
+3	and	O	-	-
+4	was	O	-	-
+5	out	O	-	-
+6	ta	O	-	-
+7	there	O	-	-
+8	in	O	-	-
+9	10	O	-	-
+10	mins	O	-	-
+11	with	O	-	-
+12	a	O	-	-
+13	really	O	-	-
+14	good	O	-	-
+15	deal	O	-	-
+16	i	O	-	-
+17	thought	O	-	-
+18	i	O	-	-
+19	was	O	-	-
+20	going	O	-	-
+21	to	O	-	-
+22	be	O	-	-
+23	paying	O	-	-
+24	a	O	-	-
+25	lot	O	-	-
+26	because	O	-	-
+27	i	O	-	-
+28	had	O	-	-
+29	a	O	-	-
+30	DUI	O	-	-
+31	but	O	-	-
+32	with	O	-	-
+33	my	O	-	-
+34	DUI	O	-	-
+35	and	O	-	-
+36	Sr	O	-	-
+37	-	O	-	-
+38	22	O	-	-
+39	they	O	-	-
+40	were	O	-	-
+41	able	O	-	-
+42	to	O	-	-
+43	get	O	-	-
+44	me	O	-	-
+45	the	O	-	-
+46	best	O	-	-
+47	deal	O	-	-
+48	out	O	-	-
+49	there	O	-	-
+50	.	O	-	-
+
+# sent_id = reviews-266676-0002
+# text = Thanks For The Prompt Service And Great Job You And Your Boys Have Done On Our New Solar System, The Panels On The Roof Look Great And The Power We Are Putting Back In To The Grid Is Great, Great Job Thanks
+1	Thanks	O	-	-
+2	For	O	-	-
+3	The	O	-	-
+4	Prompt	O	-	-
+5	Service	O	-	-
+6	And	O	-	-
+7	Great	O	-	-
+8	Job	O	-	-
+9	You	O	-	-
+10	And	O	-	-
+11	Your	O	-	-
+12	Boys	O	-	-
+13	Have	O	-	-
+14	Done	O	-	-
+15	On	O	-	-
+16	Our	O	-	-
+17	New	O	-	-
+18	Solar	O	-	-
+19	System	O	-	-
+20	,	O	-	-
+21	The	O	-	-
+22	Panels	O	-	-
+23	On	O	-	-
+24	The	O	-	-
+25	Roof	O	-	-
+26	Look	O	-	-
+27	Great	O	-	-
+28	And	O	-	-
+29	The	O	-	-
+30	Power	O	-	-
+31	We	O	-	-
+32	Are	O	-	-
+33	Putting	O	-	-
+34	Back	O	-	-
+35	In	O	-	-
+36	To	O	-	-
+37	The	O	-	-
+38	Grid	O	-	-
+39	Is	O	-	-
+40	Great	O	-	-
+41	,	O	-	-
+42	Great	O	-	-
+43	Job	O	-	-
+44	Thanks	O	-	-
+
+# sent_id = reviews-280170-0003
+# text = WOW!
+1	WOW	O	-	-
+2	!	O	-	-
+
+# newdoc id = reviews-307209
+# sent_id = reviews-307209-0001
+# text = LOCATION HAS CLOSED.
+1	LOCATION	O	-	-
+2	HAS	O	-	-
+3	CLOSED	O	-	-
+4	.	O	-	-
+
+# sent_id = reviews-307209-0002
+# text = HAS MOVED TO 4783 Bay Rd Saginaw, Michigan 48604 (989)755-1109
+1	HAS	O	-	-
+2	MOVED	O	-	-
+3	TO	O	-	-
+4	4783	O	-	-
+5	Bay	O	-	-
+6	Rd	O	-	-
+7	Saginaw	B-LOC	-	stephen
+8	,	O	-	-
+9	Michigan	B-LOC	-	stephen
+10	48604	O	-	-
+11	(	O	-	-
+12	989	O	-	-
+13	)	O	-	-
+14	755-1109	O	-	-
+
+# sent_id = reviews-335815-0002
+# text = There are a couple decent people working there, but the rest are VERY dishonest, as well as rude, I have yet to hear the truth come out of their mouths.
+1	There	O	-	-
+2	are	O	-	-
+3	a	O	-	-
+4	couple	O	-	-
+5	decent	O	-	-
+6	people	O	-	-
+7	working	O	-	-
+8	there	O	-	-
+9	,	O	-	-
+10	but	O	-	-
+11	the	O	-	-
+12	rest	O	-	-
+13	are	O	-	-
+14	VERY	O	-	-
+15	dishonest	O	-	-
+16	,	O	-	-
+17	as	O	-	-
+18	well	O	-	-
+19	as	O	-	-
+20	rude	O	-	-
+21	,	O	-	-
+22	I	O	-	-
+23	have	O	-	-
+24	yet	O	-	-
+25	to	O	-	-
+26	hear	O	-	-
+27	the	O	-	-
+28	truth	O	-	-
+29	come	O	-	-
+30	out	O	-	-
+31	of	O	-	-
+32	their	O	-	-
+33	mouths	O	-	-
+34	.	O	-	-
+
+# sent_id = reviews-353684-0002
+# text = The Atmosphere is the best.. Italian music, candles, helpful and friendly staff... And the food is beautiful too !
+1	The	O	-	-
+2	Atmosphere	O	-	-
+3	is	O	-	-
+4	the	O	-	-
+5	best	O	-	-
+6	..	O	-	-
+7	Italian	O	-	-
+8	music	O	-	-
+9	,	O	-	-
+10	candles	O	-	-
+11	,	O	-	-
+12	helpful	O	-	-
+13	and	O	-	-
+14	friendly	O	-	-
+15	staff	O	-	-
+16	...	O	-	-
+17	And	O	-	-
+18	the	O	-	-
+19	food	O	-	-
+20	is	O	-	-
+21	beautiful	O	-	-
+22	too	O	-	-
+23	!	O	-	-
+
+# sent_id = reviews-354860-0004
+# text = Great with SEO as well.
+1	Great	O	-	-
+2	with	O	-	-
+3	SEO	O	-	-
+4	as	O	-	-
+5	well	O	-	-
+6	.	O	-	-
+
+# newdoc id = reviews-374000
+# sent_id = reviews-374000-0001
+# text = GREAT Store GREAT Service!
+1	GREAT	O	-	-
+2	Store	O	-	-
+3	GREAT	O	-	-
+4	Service	O	-	-
+5	!	O	-	-
+
+# newdoc id = reviews-379701
+# sent_id = reviews-379701-0001
+# text = VERYYYY!!!! VERYYY!! Good auto repair men.
+1	VERYYYY	O	-	-
+2	!!!!	O	-	-
+3	VERYYY	O	-	-
+4	!!	O	-	-
+5	Good	O	-	-
+6	auto	O	-	-
+7	repair	O	-	-
+8	men	O	-	-
+9	.	O	-	-
+
+# sent_id = reviews-389136-0003
+# text = It s fab!
+1	It	O	-	-
+2	s	O	-	-
+3	fab	O	-	-
+4	!	O	-	-
+
+# sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0004
+# text = TEHRAN (AFP) -
+1	TEHRAN	B-LOC	-	stephen
+2	(	O	-	-
+3	AFP	B-ORG	-	stephen
+4	)	O	-	-
+5	-	O	-	-
+
+# sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0005
+# text = An international contest of cartoons on the Holocaust opened in Tehran in response to the publication in Western papers last September of caricatures of the Prophet Mohammed.
+1	An	O	-	-
+2	international	O	-	-
+3	contest	O	-	-
+4	of	O	-	-
+5	cartoons	O	-	-
+6	on	O	-	-
+7	the	O	-	-
+8	Holocaust	O	-	-
+9	opened	O	-	-
+10	in	O	-	-
+11	Tehran	B-LOC	-	stephen
+12	in	O	-	-
+13	response	O	-	-
+14	to	O	-	-
+15	the	O	-	-
+16	publication	O	-	-
+17	in	O	-	-
+18	Western	O	-	-
+19	papers	O	-	-
+20	last	O	-	-
+21	September	O	-	-
+22	of	O	-	-
+23	caricatures	O	-	-
+24	of	O	-	-
+25	the	O	-	-
+26	Prophet	B-PER	-	stephen
+27	Mohammed	I-PER	-	stephen
+28	.	O	-	-
+
+# sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0006
+# text = "We staged this fair to explore the limits of freedom Westerners believe in," Masoud Shojai, head of the country 's "Iran Cartoon" association and the fair organizer, said.
+1	"	O	-	-
+2	We	O	-	-
+3	staged	O	-	-
+4	this	O	-	-
+5	fair	O	-	-
+6	to	O	-	-
+7	explore	O	-	-
+8	the	O	-	-
+9	limits	O	-	-
+10	of	O	-	-
+11	freedom	O	-	-
+12	Westerners	O	-	-
+13	believe	O	-	-
+14	in	O	-	-
+15	,	O	-	-
+16	"	O	-	-
+17	Masoud	B-PER	-	stephen
+18	Shojai	I-PER	-	stephen
+19	,	O	-	-
+20	head	O	-	-
+21	of	O	-	-
+22	the	O	-	-
+23	country	O	-	-
+24	's	O	-	-
+25	"	O	-	-
+26	Iran	B-LOC	-	stephen
+27	Cartoon	O	-	-
+28	"	O	-	-
+29	association	O	-	-
+30	and	O	-	-
+31	the	O	-	-
+32	fair	O	-	-
+33	organizer	O	-	-
+34	,	O	-	-
+35	said	O	-	-
+36	.	O	-	-
+
+# sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0011
+# text = He said the top three cartoons will be announced on September 2, with the winners being awarded prizes of 12,000, 8,000 and 5,000 dollars respectively.
+1	He	O	-	-
+2	said	O	-	-
+3	the	O	-	-
+4	top	O	-	-
+5	three	O	-	-
+6	cartoons	O	-	-
+7	will	O	-	-
+8	be	O	-	-
+9	announced	O	-	-
+10	on	O	-	-
+11	September	O	-	-
+12	2	O	-	-
+13	,	O	-	-
+14	with	O	-	-
+15	the	O	-	-
+16	winners	O	-	-
+17	being	O	-	-
+18	awarded	O	-	-
+19	prizes	O	-	-
+20	of	O	-	-
+21	12,000	O	-	-
+22	,	O	-	-
+23	8,000	O	-	-
+24	and	O	-	-
+25	5,000	O	-	-
+26	dollars	O	-	-
+27	respectively	O	-	-
+28	.	O	-	-
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0003
+# text = The United States goes into a war zone and evacuates a bunch of U.S. citizens (most of whom were "dual-citizens").
+1	The	O	-	-
+2	United	B-LOC	-	stephen
+3	States	I-LOC	-	stephen
+4	goes	O	-	-
+5	into	O	-	-
+6	a	O	-	-
+7	war	O	-	-
+8	zone	O	-	-
+9	and	O	-	-
+10	evacuates	O	-	-
+11	a	O	-	-
+12	bunch	O	-	-
+13	of	O	-	-
+14	U.S.	B-LOC	-	stephen
+15	citizens	O	-	-
+16	(	O	-	-
+17	most	O	-	-
+18	of	O	-	-
+19	whom	O	-	-
+20	were	O	-	-
+21	"	O	-	-
+22	dual	O	-	-
+23	-	O	-	-
+24	citizens	O	-	-
+25	"	O	-	-
+26	)	O	-	-
+27	.	O	-	-
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0006
+# text = To pander to the mythical "Arab street", of course.
+1	To	O	-	-
+2	pander	O	-	-
+3	to	O	-	-
+4	the	O	-	-
+5	mythical	O	-	-
+6	"	O	-	-
+7	Arab	O	-	-
+8	street	O	-	-
+9	"	O	-	-
+10	,	O	-	-
+11	of	O	-	-
+12	course	O	-	-
+13	.	O	-	-
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0007
+# text = Now, I would argue that one could have reasonably predicted that some form of military violence was likely to occur in Lebanon (considering that the country has been experiencing some form of conflict for approximately the last 32 years).
+1	Now	O	-	-
+2	,	O	-	-
+3	I	O	-	-
+4	would	O	-	-
+5	argue	O	-	-
+6	that	O	-	-
+7	one	O	-	-
+8	could	O	-	-
+9	have	O	-	-
+10	reasonably	O	-	-
+11	predicted	O	-	-
+12	that	O	-	-
+13	some	O	-	-
+14	form	O	-	-
+15	of	O	-	-
+16	military	O	-	-
+17	violence	O	-	-
+18	was	O	-	-
+19	likely	O	-	-
+20	to	O	-	-
+21	occur	O	-	-
+22	in	O	-	-
+23	Lebanon	B-LOC	-	stephen
+24	(	O	-	-
+25	considering	O	-	-
+26	that	O	-	-
+27	the	O	-	-
+28	country	O	-	-
+29	has	O	-	-
+30	been	O	-	-
+31	experiencing	O	-	-
+32	some	O	-	-
+33	form	O	-	-
+34	of	O	-	-
+35	conflict	O	-	-
+36	for	O	-	-
+37	approximately	O	-	-
+38	the	O	-	-
+39	last	O	-	-
+40	32	O	-	-
+41	years	O	-	-
+42	)	O	-	-
+43	.	O	-	-
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0016
+# text = Nina Chahine, 19, who with her family was among the named plaintiffs in the lawsuit, said her wedding in the southern city of Tyre was set for July 13.
+1	Nina	B-PER	-	stephen
+2	Chahine	I-PER	-	stephen
+3	,	O	-	-
+4	19	O	-	-
+5	,	O	-	-
+6	who	O	-	-
+7	with	O	-	-
+8	her	O	-	-
+9	family	O	-	-
+10	was	O	-	-
+11	among	O	-	-
+12	the	O	-	-
+13	named	O	-	-
+14	plaintiffs	O	-	-
+15	in	O	-	-
+16	the	O	-	-
+17	lawsuit	O	-	-
+18	,	O	-	-
+19	said	O	-	-
+20	her	O	-	-
+21	wedding	O	-	-
+22	in	O	-	-
+23	the	O	-	-
+24	southern	O	-	-
+25	city	O	-	-
+26	of	O	-	-
+27	Tyre	B-LOC	-	stephen
+28	was	O	-	-
+29	set	O	-	-
+30	for	O	-	-
+31	July	O	-	-
+32	13	O	-	-
+33	.	O	-	-
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0018
+# text = "We were on the road and the first bridge was bombed and we drove home and all the other bridges were bombed and there was absolutely no way for us to get home," Chahine told reporters outside federal court in Detroit.
+1	"	O	-	-
+2	We	O	-	-
+3	were	O	-	-
+4	on	O	-	-
+5	the	O	-	-
+6	road	O	-	-
+7	and	O	-	-
+8	the	O	-	-
+9	first	O	-	-
+10	bridge	O	-	-
+11	was	O	-	-
+12	bombed	O	-	-
+13	and	O	-	-
+14	we	O	-	-
+15	drove	O	-	-
+16	home	O	-	-
+17	and	O	-	-
+18	all	O	-	-
+19	the	O	-	-
+20	other	O	-	-
+21	bridges	O	-	-
+22	were	O	-	-
+23	bombed	O	-	-
+24	and	O	-	-
+25	there	O	-	-
+26	was	O	-	-
+27	absolutely	O	-	-
+28	no	O	-	-
+29	way	O	-	-
+30	for	O	-	-
+31	us	O	-	-
+32	to	O	-	-
+33	get	O	-	-
+34	home	O	-	-
+35	,	O	-	-
+36	"	O	-	-
+37	Chahine	B-PER	-	stephen
+38	told	O	-	-
+39	reporters	O	-	-
+40	outside	O	-	-
+41	federal	O	-	-
+42	court	O	-	-
+43	in	O	-	-
+44	Detroit	B-LOC	-	stephen
+45	.	O	-	-
+
+# newdoc id = weblog-blogspot.com_gettingpolitical_20030906235000_ENG_20030906_235000
+# sent_id = weblog-blogspot.com_gettingpolitical_20030906235000_ENG_20030906_235000-0001
+# text = The sheikh in wheel-chair has been attacked with a F-16-launched bomb.
+1	The	O	-	-
+2	sheikh	O	-	-
+3	in	O	-	-
+4	wheel	O	-	-
+5	-	O	-	-
+6	chair	O	-	-
+7	has	O	-	-
+8	been	O	-	-
+9	attacked	O	-	-
+10	with	O	-	-
+11	a	O	-	-
+12	F	O	-	-
+13	-	O	-	-
+14	16	O	-	-
+15	-	O	-	-
+16	launched	O	-	-
+17	bomb	O	-	-
+18	.	O	-	-
+
+# sent_id = weblog-blogspot.com_gettingpolitical_20030906235000_ENG_20030906_235000-0005
+# text = A la guerre c'est comme a la guerre!
+1	A	O	-	-
+2	la	O	-	-
+3	guerre	O	-	-
+4	c'est	O	-	-
+5	comme	O	-	-
+6	a	O	-	-
+7	la	O	-	-
+8	guerre	O	-	-
+9	!	O	-	-
+
+# newdoc id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900
+# sent_id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900-0001
+# text = Ever since the first whispers about Google 's IPO, most investors have feared that the stock would come public at such a ridiculously high price that, even with a spectacularly profitable business model and some nearly flawless execution, the price would be too high for investors to make a real profit.
+1	Ever	O	-	-
+2	since	O	-	-
+3	the	O	-	-
+4	first	O	-	-
+5	whispers	O	-	-
+6	about	O	-	-
+7	Google	B-ORG	-	stephen
+8	's	O	-	-
+9	IPO	O	-	-
+10	,	O	-	-
+11	most	O	-	-
+12	investors	O	-	-
+13	have	O	-	-
+14	feared	O	-	-
+15	that	O	-	-
+16	the	O	-	-
+17	stock	O	-	-
+18	would	O	-	-
+19	come	O	-	-
+20	public	O	-	-
+21	at	O	-	-
+22	such	O	-	-
+23	a	O	-	-
+24	ridiculously	O	-	-
+25	high	O	-	-
+26	price	O	-	-
+27	that	O	-	-
+28	,	O	-	-
+29	even	O	-	-
+30	with	O	-	-
+31	a	O	-	-
+32	spectacularly	O	-	-
+33	profitable	O	-	-
+34	business	O	-	-
+35	model	O	-	-
+36	and	O	-	-
+37	some	O	-	-
+38	nearly	O	-	-
+39	flawless	O	-	-
+40	execution	O	-	-
+41	,	O	-	-
+42	the	O	-	-
+43	price	O	-	-
+44	would	O	-	-
+45	be	O	-	-
+46	too	O	-	-
+47	high	O	-	-
+48	for	O	-	-
+49	investors	O	-	-
+50	to	O	-	-
+51	make	O	-	-
+52	a	O	-	-
+53	real	O	-	-
+54	profit	O	-	-
+55	.	O	-	-
+
+# sent_id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900-0007
+# text = Simplicity gave it that blessed, laudatory lack of clutter, the efficient and effective text-based ads, and the support of anyone with a dial-up connection.
+1	Simplicity	O	-	-
+2	gave	O	-	-
+3	it	O	-	-
+4	that	O	-	-
+5	blessed	O	-	-
+6	,	O	-	-
+7	laudatory	O	-	-
+8	lack	O	-	-
+9	of	O	-	-
+10	clutter	O	-	-
+11	,	O	-	-
+12	the	O	-	-
+13	efficient	O	-	-
+14	and	O	-	-
+15	effective	O	-	-
+16	text	O	-	-
+17	-	O	-	-
+18	based	O	-	-
+19	ads	O	-	-
+20	,	O	-	-
+21	and	O	-	-
+22	the	O	-	-
+23	support	O	-	-
+24	of	O	-	-
+25	anyone	O	-	-
+26	with	O	-	-
+27	a	O	-	-
+28	dial	O	-	-
+29	-	O	-	-
+30	up	O	-	-
+31	connection	O	-	-
+32	.	O	-	-
+
+# sent_id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900-0008
+# text = The problem is that customers attracted by a simple interface are among the least loyal you can find -- witness the fight-for-fewest-features between low-end camera companies.
+1	The	O	-	-
+2	problem	O	-	-
+3	is	O	-	-
+4	that	O	-	-
+5	customers	O	-	-
+6	attracted	O	-	-
+7	by	O	-	-
+8	a	O	-	-
+9	simple	O	-	-
+10	interface	O	-	-
+11	are	O	-	-
+12	among	O	-	-
+13	the	O	-	-
+14	least	O	-	-
+15	loyal	O	-	-
+16	you	O	-	-
+17	can	O	-	-
+18	find	O	-	-
+19	--	O	-	-
+20	witness	O	-	-
+21	the	O	-	-
+22	fight	O	-	-
+23	-	O	-	-
+24	for	O	-	-
+25	-	O	-	-
+26	fewest	O	-	-
+27	-	O	-	-
+28	features	O	-	-
+29	between	O	-	-
+30	low	O	-	-
+31	-	O	-	-
+32	end	O	-	-
+33	camera	O	-	-
+34	companies	O	-	-
+35	.	O	-	-
+
+# sent_id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900-0011
+# text = As the survey cited in the above-linked article shows, most Google users do n't intend to use Gmail, and Google is n't even as popular as Yahoo! and AOL.
+1	As	O	-	-
+2	the	O	-	-
+3	survey	O	-	-
+4	cited	O	-	-
+5	in	O	-	-
+6	the	O	-	-
+7	above	O	-	-
+8	-	O	-	-
+9	linked	O	-	-
+10	article	O	-	-
+11	shows	O	-	-
+12	,	O	-	-
+13	most	O	-	-
+14	Google	B-ORG	-	stephen
+15	users	O	-	-
+16	do	O	-	-
+17	n't	O	-	-
+18	intend	O	-	-
+19	to	O	-	-
+20	use	O	-	-
+21	Gmail	O	-	-
+22	,	O	-	-
+23	and	O	-	-
+24	Google	B-ORG	-	stephen
+25	is	O	-	-
+26	n't	O	-	-
+27	even	O	-	-
+28	as	O	-	-
+29	popular	O	-	-
+30	as	O	-	-
+31	Yahoo!	B-ORG	-	stephen
+32	and	O	-	-
+33	AOL	B-ORG	-	stephen
+34	.	O	-	-
+
+# sent_id = weblog-blogspot.com_marketview_20040611132900_ENG_20040611_132900-0012
+# text = If they continue to add features so they can justify their likely sky-high valuation, Google risks losing a huge chunk of their customer base to the next keep-it-simple search engine.
+1	If	O	-	-
+2	they	O	-	-
+3	continue	O	-	-
+4	to	O	-	-
+5	add	O	-	-
+6	features	O	-	-
+7	so	O	-	-
+8	they	O	-	-
+9	can	O	-	-
+10	justify	O	-	-
+11	their	O	-	-
+12	likely	O	-	-
+13	sky	O	-	-
+14	-	O	-	-
+15	high	O	-	-
+16	valuation	O	-	-
+17	,	O	-	-
+18	Google	B-ORG	-	stephen
+19	risks	O	-	-
+20	losing	O	-	-
+21	a	O	-	-
+22	huge	O	-	-
+23	chunk	O	-	-
+24	of	O	-	-
+25	their	O	-	-
+26	customer	O	-	-
+27	base	O	-	-
+28	to	O	-	-
+29	the	O	-	-
+30	next	O	-	-
+31	keep	O	-	-
+32	-	O	-	-
+33	it	O	-	-
+34	-	O	-	-
+35	simple	O	-	-
+36	search	O	-	-
+37	engine	O	-	-
+38	.	O	-	-
+
+# sent_id = weblog-blogspot.com_nominations_20041117172713_ENG_20041117_172713-0003
+# text = Bush nominated Jennifer M. Anderson for a 15-year term as associate judge of the Superior Court of the District of Columbia, replacing Steffen W. Graae.
+1	Bush	B-PER	-	stephen
+2	nominated	O	-	-
+3	Jennifer	B-PER	-	stephen
+4	M.	I-PER	-	stephen
+5	Anderson	I-PER	-	stephen
+6	for	O	-	-
+7	a	O	-	-
+8	15	O	-	-
+9	-	O	-	-
+10	year	O	-	-
+11	term	O	-	-
+12	as	O	-	-
+13	associate	O	-	-
+14	judge	O	-	-
+15	of	O	-	-
+16	the	B-ORG	-	stephen
+17	Superior	I-ORG	-	stephen
+18	Court	I-ORG	-	stephen
+19	of	I-ORG	-	stephen
+20	the	I-ORG	-	stephen
+21	District	I-ORG	-	stephen
+22	of	I-ORG	-	stephen
+23	Columbia	I-ORG	-	stephen
+24	,	O	-	-
+25	replacing	O	-	-
+26	Steffen	B-PER	-	stephen
+27	W.	I-PER	-	stephen
+28	Graae	I-PER	-	stephen
+29	.	O	-	-
+
+# sent_id = weblog-blogspot.com_nominations_20041117172713_ENG_20041117_172713-0005
+# text = Bush also nominated A. Noel Anketell Kramer for a 15-year term as associate judge of the District of Columbia Court of Appeals, replacing John Montague Steadman.
+1	Bush	B-PER	-	stephen
+2	also	O	-	-
+3	nominated	O	-	-
+4	A.	B-PER	-	stephen
+5	Noel	I-PER	-	stephen
+6	Anketell	I-PER	-	stephen
+7	Kramer	I-PER	-	stephen
+8	for	O	-	-
+9	a	O	-	-
+10	15	O	-	-
+11	-	O	-	-
+12	year	O	-	-
+13	term	O	-	-
+14	as	O	-	-
+15	associate	O	-	-
+16	judge	O	-	-
+17	of	O	-	-
+18	the	B-ORG	-	stephen
+19	District	I-ORG	-	stephen
+20	of	I-ORG	-	stephen
+21	Columbia	I-ORG	-	stephen
+22	Court	I-ORG	-	stephen
+23	of	I-ORG	-	stephen
+24	Appeals	I-ORG	-	stephen
+25	,	O	-	-
+26	replacing	O	-	-
+27	John	B-PER	-	stephen
+28	Montague	I-PER	-	stephen
+29	Steadman	I-PER	-	stephen
+30	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0006
+# text = "THE PRESIDENT: I appreciate that.
+1	"	O	-	-
+2	THE	O	-	-
+3	PRESIDENT	O	-	-
+4	:	O	-	-
+5	I	O	-	-
+6	appreciate	O	-	-
+7	that	O	-	-
+8	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0015
+# text = It 's on loan, by the way, from a guy named Joe O'Neill in Midland, Texas.
+1	It	O	-	-
+2	's	O	-	-
+3	on	O	-	-
+4	loan	O	-	-
+5	,	O	-	-
+6	by	O	-	-
+7	the	O	-	-
+8	way	O	-	-
+9	,	O	-	-
+10	from	O	-	-
+11	a	O	-	-
+12	guy	O	-	-
+13	named	O	-	-
+14	Joe	B-PER	-	stephen
+15	O'Neill	I-PER	-	stephen
+16	in	O	-	-
+17	Midland	B-LOC	-	stephen
+18	,	O	-	-
+19	Texas	B-LOC	-	stephen
+20	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0016
+# text = He was the person, he and his wife Jan, introduced -- reintroduced me and Laura in his backyard in July of 1977.
+1	He	O	-	-
+2	was	O	-	-
+3	the	O	-	-
+4	person	O	-	-
+5	,	O	-	-
+6	he	O	-	-
+7	and	O	-	-
+8	his	O	-	-
+9	wife	O	-	-
+10	Jan	B-LOC	-	stephen
+11	,	O	-	-
+12	introduced	O	-	-
+13	--	O	-	-
+14	reintroduced	O	-	-
+15	me	O	-	-
+16	and	O	-	-
+17	Laura	B-LOC	-	stephen
+18	in	O	-	-
+19	his	O	-	-
+20	backyard	O	-	-
+21	in	O	-	-
+22	July	O	-	-
+23	of	O	-	-
+24	1977	O	-	-
+25	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0032
+# text = I -- which I try to do, as best as I possibly can.
+1	I	O	-	-
+2	--	O	-	-
+3	which	O	-	-
+4	I	O	-	-
+5	try	O	-	-
+6	to	O	-	-
+7	do	O	-	-
+8	,	O	-	-
+9	as	O	-	-
+10	best	O	-	-
+11	as	O	-	-
+12	I	O	-	-
+13	possibly	O	-	-
+14	can	O	-	-
+15	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0034
+# text = "The book -- I guess one way, one thing to think about it is -- one of the themes would be, I was given a charge to keep.
+1	"	O	-	-
+2	The	O	-	-
+3	book	O	-	-
+4	--	O	-	-
+5	I	O	-	-
+6	guess	O	-	-
+7	one	O	-	-
+8	way	O	-	-
+9	,	O	-	-
+10	one	O	-	-
+11	thing	O	-	-
+12	to	O	-	-
+13	think	O	-	-
+14	about	O	-	-
+15	it	O	-	-
+16	is	O	-	-
+17	--	O	-	-
+18	one	O	-	-
+19	of	O	-	-
+20	the	O	-	-
+21	themes	O	-	-
+22	would	O	-	-
+23	be	O	-	-
+24	,	O	-	-
+25	I	O	-	-
+26	was	O	-	-
+27	given	O	-	-
+28	a	O	-	-
+29	charge	O	-	-
+30	to	O	-	-
+31	keep	O	-	-
+32	.	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0036
+# text = (Applause.)"
+1	(	O	-	-
+2	Applause	O	-	-
+3	.	O	-	-
+4	)	O	-	-
+5	"	O	-	-
+
+# sent_id = weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0039
+# text = That was the name of his "autobiography" -- ghost-written by adviser Karen Hughes in 1999.
+1	That	O	-	-
+2	was	O	-	-
+3	the	O	-	-
+4	name	O	-	-
+5	of	O	-	-
+6	his	O	-	-
+7	"	O	-	-
+8	autobiography	O	-	-
+9	"	O	-	-
+10	--	O	-	-
+11	ghost	O	-	-
+12	-	O	-	-
+13	written	O	-	-
+14	by	O	-	-
+15	adviser	O	-	-
+16	Karen	B-PER	-	stephen
+17	Hughes	I-PER	-	stephen
+18	in	O	-	-
+19	1999	O	-	-
+20	.	O	-	-
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0002
+# text = Al-Qaeda wants them, Iran wants them, Russia wants the better ones, and all the US wants is to give them all a piece of coal.
+1	Al	B-ORG	-	stephen
+2	-	I-ORG	-	stephen
+3	Qaeda	I-ORG	-	stephen
+4	wants	O	-	-
+5	them	O	-	-
+6	,	O	-	-
+7	Iran	B-LOC	-	stephen
+8	wants	O	-	-
+9	them	O	-	-
+10	,	O	-	-
+11	Russia	B-LOC	-	stephen
+12	wants	O	-	-
+13	the	O	-	-
+14	better	O	-	-
+15	ones	O	-	-
+16	,	O	-	-
+17	and	O	-	-
+18	all	O	-	-
+19	the	O	-	-
+20	US	B-LOC	-	stephen
+21	wants	O	-	-
+22	is	O	-	-
+23	to	O	-	-
+24	give	O	-	-
+25	them	O	-	-
+26	all	O	-	-
+27	a	O	-	-
+28	piece	O	-	-
+29	of	O	-	-
+30	coal	O	-	-
+31	.	O	-	-
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0003
+# text = For the last few years there have been tensions with Iran ’s nuclear program with word coming this week that a deal was reached through the European Union that meets with the approval of the International Atomic Energy Agency.
+1	For	O	-	-
+2	the	O	-	-
+3	last	O	-	-
+4	few	O	-	-
+5	years	O	-	-
+6	there	O	-	-
+7	have	O	-	-
+8	been	O	-	-
+9	tensions	O	-	-
+10	with	O	-	-
+11	Iran	B-LOC	-	stephen
+12	’s	O	-	-
+13	nuclear	O	-	-
+14	program	O	-	-
+15	with	O	-	-
+16	word	O	-	-
+17	coming	O	-	-
+18	this	O	-	-
+19	week	O	-	-
+20	that	O	-	-
+21	a	O	-	-
+22	deal	O	-	-
+23	was	O	-	-
+24	reached	O	-	-
+25	through	O	-	-
+26	the	O	-	-
+27	European	O	-	-
+28	Union	O	-	-
+29	that	O	-	-
+30	meets	O	-	-
+31	with	O	-	-
+32	the	O	-	-
+33	approval	O	-	-
+34	of	O	-	-
+35	the	O	-	-
+36	International	B-ORG	-	stephen
+37	Atomic	I-ORG	-	stephen
+38	Energy	I-ORG	-	stephen
+39	Agency	I-ORG	-	stephen
+40	.	O	-	-
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0011
+# text = The US has strongly opposed a nuclear weapons program of Iran, yet Israel, which to this day has never officially said that they posses nuclear weapons, ranks around fifth in nuclear strength.
+1	The	O	-	-
+2	US	B-LOC	-	stephen
+3	has	O	-	-
+4	strongly	O	-	-
+5	opposed	O	-	-
+6	a	O	-	-
+7	nuclear	O	-	-
+8	weapons	O	-	-
+9	program	O	-	-
+10	of	O	-	-
+11	Iran	B-LOC	-	stephen
+12	,	O	-	-
+13	yet	O	-	-
+14	Israel	O	-	-
+15	,	O	-	-
+16	which	O	-	-
+17	to	O	-	-
+18	this	O	-	-
+19	day	O	-	-
+20	has	O	-	-
+21	never	O	-	-
+22	officially	O	-	-
+23	said	O	-	-
+24	that	O	-	-
+25	they	O	-	-
+26	posses	O	-	-
+27	nuclear	O	-	-
+28	weapons	O	-	-
+29	,	O	-	-
+30	ranks	O	-	-
+31	around	O	-	-
+32	fifth	O	-	-
+33	in	O	-	-
+34	nuclear	O	-	-
+35	strength	O	-	-
+36	.	O	-	-
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0013
+# text = North Korea ’s Kim Jong Ill also has the bomb at the top of his list and Santa seems to have already come a few years ago.
+1	North	B-LOC	-	stephen
+2	Korea	I-LOC	-	stephen
+3	’s	O	-	-
+4	Kim	B-PER	-	stephen
+5	Jong	I-PER	-	stephen
+6	Ill	I-PER	-	stephen
+7	also	O	-	-
+8	has	O	-	-
+9	the	O	-	-
+10	bomb	O	-	-
+11	at	O	-	-
+12	the	O	-	-
+13	top	O	-	-
+14	of	O	-	-
+15	his	O	-	-
+16	list	O	-	-
+17	and	O	-	-
+18	Santa	O	-	-
+19	seems	O	-	-
+20	to	O	-	-
+21	have	O	-	-
+22	already	O	-	-
+23	come	O	-	-
+24	a	O	-	-
+25	few	O	-	-
+26	years	O	-	-
+27	ago	O	-	-
+28	.	O	-	-
+
+# newdoc id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0001
+# text = Xinhua reports that a wide range of Iraqi political forces on Tuesday condemned Sharon 's murder of Sheikh Ahmed Yassin, a religious leader of Hamas, the day before.
+1	Xinhua	B-ORG	-	stephen
+2	reports	O	-	-
+3	that	O	-	-
+4	a	O	-	-
+5	wide	O	-	-
+6	range	O	-	-
+7	of	O	-	-
+8	Iraqi	O	-	-
+9	political	O	-	-
+10	forces	O	-	-
+11	on	O	-	-
+12	Tuesday	O	-	-
+13	condemned	O	-	-
+14	Sharon	B-PER	-	stephen
+15	's	O	-	-
+16	murder	O	-	-
+17	of	O	-	-
+18	Sheikh	O	-	-
+19	Ahmed	B-PER	-	stephen
+20	Yassin	I-PER	-	stephen
+21	,	O	-	-
+22	a	O	-	-
+23	religious	O	-	-
+24	leader	O	-	-
+25	of	O	-	-
+26	Hamas	B-ORG	-	stephen
+27	,	O	-	-
+28	the	O	-	-
+29	day	O	-	-
+30	before	O	-	-
+31	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0002
+# text = The Board of Muslim clerics in Fallujah, 50 km west of Baghdad, "condemned the assassination and promised immediate revenge against the coalition soldiers in Iraq."
+1	The	O	-	-
+2	Board	B-ORG	-	stephen
+3	of	I-ORG	-	stephen
+4	Muslim	I-ORG	-	stephen
+5	clerics	I-ORG	-	stephen
+6	in	O	-	-
+7	Fallujah	B-LOC	-	stephen
+8	,	O	-	-
+9	50	O	-	-
+10	km	O	-	-
+11	west	O	-	-
+12	of	O	-	-
+13	Baghdad	B-LOC	-	stephen
+14	,	O	-	-
+15	"	O	-	-
+16	condemned	O	-	-
+17	the	O	-	-
+18	assassination	O	-	-
+19	and	O	-	-
+20	promised	O	-	-
+21	immediate	O	-	-
+22	revenge	O	-	-
+23	against	O	-	-
+24	the	O	-	-
+25	coalition	O	-	-
+26	soldiers	O	-	-
+27	in	O	-	-
+28	Iraq	B-LOC	-	stephen
+29	.	O	-	-
+30	"	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0006
+# text = Radical Shiite cleric Muqtada al-Sadr said the attack was "criminal" and that "the Zionists have left only one choice for the Arabs, that of fighting and jihad".
+1	Radical	O	-	-
+2	Shiite	O	-	-
+3	cleric	O	-	-
+4	Muqtada	B-PER	-	stephen
+5	al	I-PER	-	stephen
+6	-	I-PER	-	stephen
+7	Sadr	I-PER	-	stephen
+8	said	O	-	-
+9	the	O	-	-
+10	attack	O	-	-
+11	was	O	-	-
+12	"	O	-	-
+13	criminal	O	-	-
+14	"	O	-	-
+15	and	O	-	-
+16	that	O	-	-
+17	"	O	-	-
+18	the	O	-	-
+19	Zionists	O	-	-
+20	have	O	-	-
+21	left	O	-	-
+22	only	O	-	-
+23	one	O	-	-
+24	choice	O	-	-
+25	for	O	-	-
+26	the	O	-	-
+27	Arabs	O	-	-
+28	,	O	-	-
+29	that	O	-	-
+30	of	O	-	-
+31	fighting	O	-	-
+32	and	O	-	-
+33	jihad	O	-	-
+34	"	O	-	-
+35	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0007
+# text = The interim Governing Council issued a communique saying, "It is a proof of the emptiness of the Israeli authority and a destruction of the peace endeavors in the region . . .
+1	The	O	-	-
+2	interim	O	-	-
+3	Governing	B-ORG	-	stephen
+4	Council	I-ORG	-	stephen
+5	issued	O	-	-
+6	a	O	-	-
+7	communique	O	-	-
+8	saying	O	-	-
+9	,	O	-	-
+10	"	O	-	-
+11	It	O	-	-
+12	is	O	-	-
+13	a	O	-	-
+14	proof	O	-	-
+15	of	O	-	-
+16	the	O	-	-
+17	emptiness	O	-	-
+18	of	O	-	-
+19	the	O	-	-
+20	Israeli	O	-	-
+21	authority	O	-	-
+22	and	O	-	-
+23	a	O	-	-
+24	destruction	O	-	-
+25	of	O	-	-
+26	the	O	-	-
+27	peace	O	-	-
+28	endeavors	O	-	-
+29	in	O	-	-
+30	the	O	-	-
+31	region	O	-	-
+32	.	O	-	-
+33	.	O	-	-
+34	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0009
+# text = Xinhua alleged that "Many of the Iraqis, who suffer the American occupation of Iraq, relate their case with that of the Palestinian people, under the Israeli occupation."
+1	Xinhua	B-ORG	-	stephen
+2	alleged	O	-	-
+3	that	O	-	-
+4	"	O	-	-
+5	Many	O	-	-
+6	of	O	-	-
+7	the	O	-	-
+8	Iraqis	O	-	-
+9	,	O	-	-
+10	who	O	-	-
+11	suffer	O	-	-
+12	the	O	-	-
+13	American	O	-	-
+14	occupation	O	-	-
+15	of	O	-	-
+16	Iraq	B-LOC	-	stephen
+17	,	O	-	-
+18	relate	O	-	-
+19	their	O	-	-
+20	case	O	-	-
+21	with	O	-	-
+22	that	O	-	-
+23	of	O	-	-
+24	the	O	-	-
+25	Palestinian	O	-	-
+26	people	O	-	-
+27	,	O	-	-
+28	under	O	-	-
+29	the	O	-	-
+30	Israeli	O	-	-
+31	occupation	O	-	-
+32	.	O	-	-
+33	"	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0010
+# text = In an apparently unrelated incidents, some eleven Iraqis were killed by snipers on Tuesday, including a group of police trainees in a bus near Hilla and two police in Kirkuk.
+1	In	O	-	-
+2	an	O	-	-
+3	apparently	O	-	-
+4	unrelated	O	-	-
+5	incidents	O	-	-
+6	,	O	-	-
+7	some	O	-	-
+8	eleven	O	-	-
+9	Iraqis	O	-	-
+10	were	O	-	-
+11	killed	O	-	-
+12	by	O	-	-
+13	snipers	O	-	-
+14	on	O	-	-
+15	Tuesday	O	-	-
+16	,	O	-	-
+17	including	O	-	-
+18	a	O	-	-
+19	group	O	-	-
+20	of	O	-	-
+21	police	O	-	-
+22	trainees	O	-	-
+23	in	O	-	-
+24	a	O	-	-
+25	bus	O	-	-
+26	near	O	-	-
+27	Hilla	B-LOC	-	stephen
+28	and	O	-	-
+29	two	O	-	-
+30	police	O	-	-
+31	in	O	-	-
+32	Kirkuk	B-LOC	-	stephen
+33	.	O	-	-
+
+# newdoc id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0001
+# text = The Coalition decision to provoke a fight with Muqtada al-Sadr 's movement only three months before the Coalition Provisional Authority goes out of business has to be seen as a form of gross incompetence in governance.
+1	The	O	-	-
+2	Coalition	B-ORG	-	stephen
+3	decision	O	-	-
+4	to	O	-	-
+5	provoke	O	-	-
+6	a	O	-	-
+7	fight	O	-	-
+8	with	O	-	-
+9	Muqtada	B-PER	-	stephen
+10	al	I-PER	-	stephen
+11	-	I-PER	-	stephen
+12	Sadr	I-PER	-	stephen
+13	's	O	-	-
+14	movement	O	-	-
+15	only	O	-	-
+16	three	O	-	-
+17	months	O	-	-
+18	before	O	-	-
+19	the	O	-	-
+20	Coalition	B-ORG	-	stephen
+21	Provisional	I-ORG	-	stephen
+22	Authority	I-ORG	-	stephen
+23	goes	O	-	-
+24	out	O	-	-
+25	of	O	-	-
+26	business	O	-	-
+27	has	O	-	-
+28	to	O	-	-
+29	be	O	-	-
+30	seen	O	-	-
+31	as	O	-	-
+32	a	O	-	-
+33	form	O	-	-
+34	of	O	-	-
+35	gross	O	-	-
+36	incompetence	O	-	-
+37	in	O	-	-
+38	governance	O	-	-
+39	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0008
+# text = Rumsfeld, Wolfowitz and Feith staffed the CPA with Neoconservatives, most of whom had no administrative experience, no Arabic, and no respect for Muslim culture (or knowledge about it).
+1	Rumsfeld	B-PER	-	stephen
+2	,	O	-	-
+3	Wolfowitz	B-PER	-	stephen
+4	and	O	-	-
+5	Feith	B-PER	-	stephen
+6	staffed	O	-	-
+7	the	O	-	-
+8	CPA	B-ORG	-	stephen
+9	with	O	-	-
+10	Neoconservatives	O	-	-
+11	,	O	-	-
+12	most	O	-	-
+13	of	O	-	-
+14	whom	O	-	-
+15	had	O	-	-
+16	no	O	-	-
+17	administrative	O	-	-
+18	experience	O	-	-
+19	,	O	-	-
+20	no	O	-	-
+21	Arabic	O	-	-
+22	,	O	-	-
+23	and	O	-	-
+24	no	O	-	-
+25	respect	O	-	-
+26	for	O	-	-
+27	Muslim	O	-	-
+28	culture	O	-	-
+29	(	O	-	-
+30	or	O	-	-
+31	knowledge	O	-	-
+32	about	O	-	-
+33	it	O	-	-
+34	)	O	-	-
+35	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0011
+# text = The Neocons in the CPA have all sorts of ulterior motives and social experiments they want to impose on the Iraqi people, including Polish-style economic shock therapy, some sort of sweetheart deal for Israel, and maybe even breaking the country up into three parts.
+1	The	O	-	-
+2	Neocons	O	-	-
+3	in	O	-	-
+4	the	O	-	-
+5	CPA	B-ORG	-	stephen
+6	have	O	-	-
+7	all	O	-	-
+8	sorts	O	-	-
+9	of	O	-	-
+10	ulterior	O	-	-
+11	motives	O	-	-
+12	and	O	-	-
+13	social	O	-	-
+14	experiments	O	-	-
+15	they	O	-	-
+16	want	O	-	-
+17	to	O	-	-
+18	impose	O	-	-
+19	on	O	-	-
+20	the	O	-	-
+21	Iraqi	O	-	-
+22	people	O	-	-
+23	,	O	-	-
+24	including	O	-	-
+25	Polish	O	-	-
+26	-	O	-	-
+27	style	O	-	-
+28	economic	O	-	-
+29	shock	O	-	-
+30	therapy	O	-	-
+31	,	O	-	-
+32	some	O	-	-
+33	sort	O	-	-
+34	of	O	-	-
+35	sweetheart	O	-	-
+36	deal	O	-	-
+37	for	O	-	-
+38	Israel	B-LOC	-	stephen
+39	,	O	-	-
+40	and	O	-	-
+41	maybe	O	-	-
+42	even	O	-	-
+43	breaking	O	-	-
+44	the	O	-	-
+45	country	O	-	-
+46	up	O	-	-
+47	into	O	-	-
+48	three	O	-	-
+49	parts	O	-	-
+50	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0013
+# text = Sept. 11 Commission member Philip Zelikow, who is close to the Bush administration, admitted on Sept. 10, 2002, that the ulterior motive of the Bush administration for the Iraq War was to "protect Israel," according to the Asian Times .
+1	Sept.	O	-	-
+2	11	O	-	-
+3	Commission	O	-	-
+4	member	O	-	-
+5	Philip	B-PER	-	stephen
+6	Zelikow	I-PER	-	stephen
+7	,	O	-	-
+8	who	O	-	-
+9	is	O	-	-
+10	close	O	-	-
+11	to	O	-	-
+12	the	O	-	-
+13	Bush	B-PER	-	stephen
+14	administration	O	-	-
+15	,	O	-	-
+16	admitted	O	-	-
+17	on	O	-	-
+18	Sept.	O	-	-
+19	10	O	-	-
+20	,	O	-	-
+21	2002	O	-	-
+22	,	O	-	-
+23	that	O	-	-
+24	the	O	-	-
+25	ulterior	O	-	-
+26	motive	O	-	-
+27	of	O	-	-
+28	the	O	-	-
+29	Bush	B-PER	-	stephen
+30	administration	O	-	-
+31	for	O	-	-
+32	the	O	-	-
+33	Iraq	B-LOC	-	stephen
+34	War	O	-	-
+35	was	O	-	-
+36	to	O	-	-
+37	"	O	-	-
+38	protect	O	-	-
+39	Israel	B-LOC	-	stephen
+40	,	O	-	-
+41	"	O	-	-
+42	according	O	-	-
+43	to	O	-	-
+44	the	O	-	-
+45	Asian	B-ORG	-	stephen
+46	Times	I-ORG	-	stephen
+47	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0020
+# text = So I may as well just come out with it: It is pretty suspicious, given the Neocon predominance in the CPA and in the upper reaches of the Defense Department that on April 2 AP reported of Muqtada:
+1	So	O	-	-
+2	I	O	-	-
+3	may	O	-	-
+4	as	O	-	-
+5	well	O	-	-
+6	just	O	-	-
+7	come	O	-	-
+8	out	O	-	-
+9	with	O	-	-
+10	it	O	-	-
+11	:	O	-	-
+12	It	O	-	-
+13	is	O	-	-
+14	pretty	O	-	-
+15	suspicious	O	-	-
+16	,	O	-	-
+17	given	O	-	-
+18	the	O	-	-
+19	Neocon	O	-	-
+20	predominance	O	-	-
+21	in	O	-	-
+22	the	O	-	-
+23	CPA	B-ORG	-	stephen
+24	and	O	-	-
+25	in	O	-	-
+26	the	O	-	-
+27	upper	O	-	-
+28	reaches	O	-	-
+29	of	O	-	-
+30	the	O	-	-
+31	Defense	B-ORG	-	stephen
+32	Department	I-ORG	-	stephen
+33	that	O	-	-
+34	on	O	-	-
+35	April	O	-	-
+36	2	O	-	-
+37	AP	O	-	-
+38	reported	O	-	-
+39	of	O	-	-
+40	Muqtada	B-PER	-	stephen
+41	:	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0022
+# text = "I have said and I repeat my expression of solidarity which Hassan Nasrallah called for to stand with Hamas," Shiite cleric Muqtada al-Sadr said Friday in a reference to Nasrallah, the leader of the militant Lebanese Shiite group Hezbollah.
+1	"	O	-	-
+2	I	O	-	-
+3	have	O	-	-
+4	said	O	-	-
+5	and	O	-	-
+6	I	O	-	-
+7	repeat	O	-	-
+8	my	O	-	-
+9	expression	O	-	-
+10	of	O	-	-
+11	solidarity	O	-	-
+12	which	O	-	-
+13	Hassan	B-PER	-	stephen
+14	Nasrallah	I-PER	-	stephen
+15	called	O	-	-
+16	for	O	-	-
+17	to	O	-	-
+18	stand	O	-	-
+19	with	O	-	-
+20	Hamas	B-ORG	-	stephen
+21	,	O	-	-
+22	"	O	-	-
+23	Shiite	O	-	-
+24	cleric	O	-	-
+25	Muqtada	B-PER	-	stephen
+26	al	I-PER	-	stephen
+27	-	I-PER	-	stephen
+28	Sadr	I-PER	-	stephen
+29	said	O	-	-
+30	Friday	O	-	-
+31	in	O	-	-
+32	a	O	-	-
+33	reference	O	-	-
+34	to	O	-	-
+35	Nasrallah	B-PER	-	stephen
+36	,	O	-	-
+37	the	O	-	-
+38	leader	O	-	-
+39	of	O	-	-
+40	the	O	-	-
+41	militant	O	-	-
+42	Lebanese	O	-	-
+43	Shiite	O	-	-
+44	group	O	-	-
+45	Hezbollah	O	-	-
+46	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0024
+# text = "Let (Hamas) consider me their striking arm in Iraq because the fate of Iraq and Palestine is the same," al-Sadr said during a Friday prayer sermon in Kufa, his home base south of Baghdad.
+1	"	O	-	-
+2	Let	O	-	-
+3	(	O	-	-
+4	Hamas	B-ORG	-	stephen
+5	)	O	-	-
+6	consider	O	-	-
+7	me	O	-	-
+8	their	O	-	-
+9	striking	O	-	-
+10	arm	O	-	-
+11	in	O	-	-
+12	Iraq	B-LOC	-	stephen
+13	because	O	-	-
+14	the	O	-	-
+15	fate	O	-	-
+16	of	O	-	-
+17	Iraq	B-LOC	-	stephen
+18	and	O	-	-
+19	Palestine	O	-	-
+20	is	O	-	-
+21	the	O	-	-
+22	same	O	-	-
+23	,	O	-	-
+24	"	O	-	-
+25	al	B-PER	-	stephen
+26	-	I-PER	-	stephen
+27	Sadr	I-PER	-	stephen
+28	said	O	-	-
+29	during	O	-	-
+30	a	O	-	-
+31	Friday	O	-	-
+32	prayer	O	-	-
+33	sermon	O	-	-
+34	in	O	-	-
+35	Kufa	B-LOC	-	stephen
+36	,	O	-	-
+37	his	O	-	-
+38	home	O	-	-
+39	base	O	-	-
+40	south	O	-	-
+41	of	O	-	-
+42	Baghdad	B-LOC	-	stephen
+43	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0026
+# text = And on April 3 his chief aide in Najaf was suddenly arrested along with 13 other members of his organization, and the Coalition forces are put into violent conflict with his organization, which leaves 7 US soldiers dead.
+1	And	O	-	-
+2	on	O	-	-
+3	April	O	-	-
+4	3	O	-	-
+5	his	O	-	-
+6	chief	O	-	-
+7	aide	O	-	-
+8	in	O	-	-
+9	Najaf	B-LOC	-	stephen
+10	was	O	-	-
+11	suddenly	O	-	-
+12	arrested	O	-	-
+13	along	O	-	-
+14	with	O	-	-
+15	13	O	-	-
+16	other	O	-	-
+17	members	O	-	-
+18	of	O	-	-
+19	his	O	-	-
+20	organization	O	-	-
+21	,	O	-	-
+22	and	O	-	-
+23	the	O	-	-
+24	Coalition	B-ORG	-	stephen
+25	forces	O	-	-
+26	are	O	-	-
+27	put	O	-	-
+28	into	O	-	-
+29	violent	O	-	-
+30	conflict	O	-	-
+31	with	O	-	-
+32	his	O	-	-
+33	organization	O	-	-
+34	,	O	-	-
+35	which	O	-	-
+36	leaves	O	-	-
+37	7	O	-	-
+38	US	B-LOC	-	stephen
+39	soldiers	O	-	-
+40	dead	O	-	-
+41	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0002
+# text = The Fallujah fighting has killed fair numbers of Iraqi noncombatants, including Shaikh Abdul Wahhab al-Janabi of the respected Association of Muslim Scholars.
+1	The	O	-	-
+2	Fallujah	B-LOC	-	stephen
+3	fighting	O	-	-
+4	has	O	-	-
+5	killed	O	-	-
+6	fair	O	-	-
+7	numbers	O	-	-
+8	of	O	-	-
+9	Iraqi	O	-	-
+10	noncombatants	O	-	-
+11	,	O	-	-
+12	including	O	-	-
+13	Shaikh	B-PER	-	stephen
+14	Abdul	I-PER	-	stephen
+15	Wahhab	I-PER	-	stephen
+16	al	I-PER	-	stephen
+17	-	I-PER	-	stephen
+18	Janabi	I-PER	-	stephen
+19	of	O	-	-
+20	the	O	-	-
+21	respected	O	-	-
+22	Association	B-ORG	-	stephen
+23	of	I-ORG	-	stephen
+24	Muslim	I-ORG	-	stephen
+25	Scholars	I-ORG	-	stephen
+26	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0003
+# text = Armed clashes broke out in several northern Iraqi cities on Wednesday, leaving some 22 persons dead in Mosul, Baiji, and Tuz.
+1	Armed	O	-	-
+2	clashes	O	-	-
+3	broke	O	-	-
+4	out	O	-	-
+5	in	O	-	-
+6	several	O	-	-
+7	northern	O	-	-
+8	Iraqi	O	-	-
+9	cities	O	-	-
+10	on	O	-	-
+11	Wednesday	O	-	-
+12	,	O	-	-
+13	leaving	O	-	-
+14	some	O	-	-
+15	22	O	-	-
+16	persons	O	-	-
+17	dead	O	-	-
+18	in	O	-	-
+19	Mosul	B-LOC	-	stephen
+20	,	O	-	-
+21	Baiji	B-LOC	-	stephen
+22	,	O	-	-
+23	and	O	-	-
+24	Tuz	B-LOC	-	stephen
+25	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0004
+# text = Hundreds of persons mounted demonstrations against the Fallujah campaign in Tikrit and Huwaijah, as well, according to az-Zaman .
+1	Hundreds	O	-	-
+2	of	O	-	-
+3	persons	O	-	-
+4	mounted	O	-	-
+5	demonstrations	O	-	-
+6	against	O	-	-
+7	the	O	-	-
+8	Fallujah	B-LOC	-	stephen
+9	campaign	O	-	-
+10	in	O	-	-
+11	Tikrit	B-LOC	-	stephen
+12	and	O	-	-
+13	Huwaijah	B-LOC	-	stephen
+14	,	O	-	-
+15	as	O	-	-
+16	well	O	-	-
+17	,	O	-	-
+18	according	O	-	-
+19	to	O	-	-
+20	az	B-ORG	-	stephen
+21	-	I-ORG	-	stephen
+22	Zaman	I-ORG	-	stephen
+23	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0011
+# text = The intrepid Ed Wong of the NYT has more on the Sunni boycott of the elections.
+1	The	O	-	-
+2	intrepid	O	-	-
+3	Ed	B-PER	-	stephen
+4	Wong	I-PER	-	stephen
+5	of	O	-	-
+6	the	O	-	-
+7	NYT	B-ORG	-	stephen
+8	has	O	-	-
+9	more	O	-	-
+10	on	O	-	-
+11	the	O	-	-
+12	Sunni	O	-	-
+13	boycott	O	-	-
+14	of	O	-	-
+15	the	O	-	-
+16	elections	O	-	-
+17	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041120060600_ENG_20041120_060600-0004
+# text = The continued Israeli colonization of the occupied Palestinian territories during the 1990s helped, along with terrorist attacks by radical groups such as Hamas, to derail the peace process, which Sharon had always opposed.
+1	The	O	-	-
+2	continued	O	-	-
+3	Israeli	O	-	-
+4	colonization	O	-	-
+5	of	O	-	-
+6	the	O	-	-
+7	occupied	O	-	-
+8	Palestinian	O	-	-
+9	territories	O	-	-
+10	during	O	-	-
+11	the	O	-	-
+12	1990s	O	-	-
+13	helped	O	-	-
+14	,	O	-	-
+15	along	O	-	-
+16	with	O	-	-
+17	terrorist	O	-	-
+18	attacks	O	-	-
+19	by	O	-	-
+20	radical	O	-	-
+21	groups	O	-	-
+22	such	O	-	-
+23	as	O	-	-
+24	Hamas	B-ORG	-	stephen
+25	,	O	-	-
+26	to	O	-	-
+27	derail	O	-	-
+28	the	O	-	-
+29	peace	O	-	-
+30	process	O	-	-
+31	,	O	-	-
+32	which	O	-	-
+33	Sharon	B-PER	-	stephen
+34	had	O	-	-
+35	always	O	-	-
+36	opposed	O	-	-
+37	.	O	-	-
+
+# sent_id = weblog-juancole.com_juancole_20041120060600_ENG_20041120_060600-0008
+# text = Even if local Palestinian leaders remain strong enough to keep al-Qaida out, the festering Israeli-Palestinian struggle remains among the best recruiting posters for al-Qaida with young Muslim men.
+1	Even	O	-	-
+2	if	O	-	-
+3	local	O	-	-
+4	Palestinian	O	-	-
+5	leaders	O	-	-
+6	remain	O	-	-
+7	strong	O	-	-
+8	enough	O	-	-
+9	to	O	-	-
+10	keep	O	-	-
+11	al	B-ORG	-	stephen
+12	-	I-ORG	-	stephen
+13	Qaida	I-ORG	-	stephen
+14	out	O	-	-
+15	,	O	-	-
+16	the	O	-	-
+17	festering	O	-	-
+18	Israeli	O	-	-
+19	-	O	-	-
+20	Palestinian	O	-	-
+21	struggle	O	-	-
+22	remains	O	-	-
+23	among	O	-	-
+24	the	O	-	-
+25	best	O	-	-
+26	recruiting	O	-	-
+27	posters	O	-	-
+28	for	O	-	-
+29	al	B-ORG	-	stephen
+30	-	I-ORG	-	stephen
+31	Qaida	I-ORG	-	stephen
+32	with	O	-	-
+33	young	O	-	-
+34	Muslim	O	-	-
+35	men	O	-	-
+36	.	O	-	-
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0007
+# text = As of January 10, 2005, my source of income changed from The Mozilla Foundation to Google, Inc. of Mountain View, California.
+1	As	O	-	-
+2	of	O	-	-
+3	January	O	-	-
+4	10	O	-	-
+5	,	O	-	-
+6	2005	O	-	-
+7	,	O	-	-
+8	my	O	-	-
+9	source	O	-	-
+10	of	O	-	-
+11	income	O	-	-
+12	changed	O	-	-
+13	from	O	-	-
+14	The	B-ORG	-	stephen
+15	Mozilla	I-ORG	-	stephen
+16	Foundation	I-ORG	-	stephen
+17	to	O	-	-
+18	Google	B-ORG	-	stephen
+19	,	I-ORG	-	stephen
+20	Inc.	I-ORG	-	stephen
+21	of	O	-	-
+22	Mountain	B-LOC	-	stephen
+23	View	I-LOC	-	stephen
+24	,	O	-	-
+25	California	B-LOC	-	stephen
+26	.	O	-	-
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0008
+# text = My role with Firefox and the Mozilla project will remain largely unchanged, I will continue doing much the same work as I have described above - with the new goal of successful 1.1, 1.5 and 2.0 releases.
+1	My	O	-	-
+2	role	O	-	-
+3	with	O	-	-
+4	Firefox	B-ORG	-	stephen
+5	and	O	-	-
+6	the	O	-	-
+7	Mozilla	B-ORG	-	stephen
+8	project	O	-	-
+9	will	O	-	-
+10	remain	O	-	-
+11	largely	O	-	-
+12	unchanged	O	-	-
+13	,	O	-	-
+14	I	O	-	-
+15	will	O	-	-
+16	continue	O	-	-
+17	doing	O	-	-
+18	much	O	-	-
+19	the	O	-	-
+20	same	O	-	-
+21	work	O	-	-
+22	as	O	-	-
+23	I	O	-	-
+24	have	O	-	-
+25	described	O	-	-
+26	above	O	-	-
+27	-	O	-	-
+28	with	O	-	-
+29	the	O	-	-
+30	new	O	-	-
+31	goal	O	-	-
+32	of	O	-	-
+33	successful	O	-	-
+34	1.1	O	-	-
+35	,	O	-	-
+36	1.5	O	-	-
+37	and	O	-	-
+38	2.0	O	-	-
+39	releases	O	-	-
+40	.	O	-	-
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0025
+# text = If you have not already seen the Flash movie Epic , you should take a few minutes and view the future history of media as conceived by Robin Sloan and Matt Thompson, with music by Aaron McLeran.
+1	If	O	-	-
+2	you	O	-	-
+3	have	O	-	-
+4	not	O	-	-
+5	already	O	-	-
+6	seen	O	-	-
+7	the	O	-	-
+8	Flash	O	-	-
+9	movie	O	-	-
+10	Epic	O	-	-
+11	,	O	-	-
+12	you	O	-	-
+13	should	O	-	-
+14	take	O	-	-
+15	a	O	-	-
+16	few	O	-	-
+17	minutes	O	-	-
+18	and	O	-	-
+19	view	O	-	-
+20	the	O	-	-
+21	future	O	-	-
+22	history	O	-	-
+23	of	O	-	-
+24	media	O	-	-
+25	as	O	-	-
+26	conceived	O	-	-
+27	by	O	-	-
+28	Robin	B-PER	-	stephen
+29	Sloan	I-PER	-	stephen
+30	and	O	-	-
+31	Matt	B-PER	-	stephen
+32	Thompson	I-PER	-	stephen
+33	,	O	-	-
+34	with	O	-	-
+35	music	O	-	-
+36	by	O	-	-
+37	Aaron	B-PER	-	stephen
+38	McLeran	I-PER	-	stephen
+39	.	O	-	-
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0026
+# text = In this movie Google and Amazon (GOOGLEZON ) create a brave new world of media in 2008.
+1	In	O	-	-
+2	this	O	-	-
+3	movie	O	-	-
+4	Google	B-ORG	-	stephen
+5	and	O	-	-
+6	Amazon	B-ORG	-	stephen
+7	(	O	-	-
+8	GOOGLEZON	O	-	-
+9	)	O	-	-
+10	create	O	-	-
+11	a	O	-	-
+12	brave	O	-	-
+13	new	O	-	-
+14	world	O	-	-
+15	of	O	-	-
+16	media	O	-	-
+17	in	O	-	-
+18	2008	O	-	-
+19	.	O	-	-
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0031
+# text = I 'm inclined to say that google is doing what they can to both shape and support the growth of the most popular non-Microsoft browser out there - by taking on the leading lights in Firefox development, they 're ensuring the continued life of the project, and ensuring (not that I think they need to) that their voice will be heard admidst the higher echelons of the firefox development team.
+1	I	O	-	-
+2	'm	O	-	-
+3	inclined	O	-	-
+4	to	O	-	-
+5	say	O	-	-
+6	that	O	-	-
+7	google	B-ORG	-	stephen
+8	is	O	-	-
+9	doing	O	-	-
+10	what	O	-	-
+11	they	O	-	-
+12	can	O	-	-
+13	to	O	-	-
+14	both	O	-	-
+15	shape	O	-	-
+16	and	O	-	-
+17	support	O	-	-
+18	the	O	-	-
+19	growth	O	-	-
+20	of	O	-	-
+21	the	O	-	-
+22	most	O	-	-
+23	popular	O	-	-
+24	non-Microsoft	O	-	-
+25	browser	O	-	-
+26	out	O	-	-
+27	there	O	-	-
+28	-	O	-	-
+29	by	O	-	-
+30	taking	O	-	-
+31	on	O	-	-
+32	the	O	-	-
+33	leading	O	-	-
+34	lights	O	-	-
+35	in	O	-	-
+36	Firefox	B-ORG	-	stephen
+37	development	O	-	-
+38	,	O	-	-
+39	they	O	-	-
+40	're	O	-	-
+41	ensuring	O	-	-
+42	the	O	-	-
+43	continued	O	-	-
+44	life	O	-	-
+45	of	O	-	-
+46	the	O	-	-
+47	project	O	-	-
+48	,	O	-	-
+49	and	O	-	-
+50	ensuring	O	-	-
+51	(	O	-	-
+52	not	O	-	-
+53	that	O	-	-
+54	I	O	-	-
+55	think	O	-	-
+56	they	O	-	-
+57	need	O	-	-
+58	to	O	-	-
+59	)	O	-	-
+60	that	O	-	-
+61	their	O	-	-
+62	voice	O	-	-
+63	will	O	-	-
+64	be	O	-	-
+65	heard	O	-	-
+66	admidst	O	-	-
+67	the	O	-	-
+68	higher	O	-	-
+69	echelons	O	-	-
+70	of	O	-	-
+71	the	O	-	-
+72	firefox	B-ORG	-	stephen
+73	development	O	-	-
+74	team	O	-	-
+75	.	O	-	-
+

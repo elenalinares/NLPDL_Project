@@ -31,8 +31,7 @@ vectorizer = joblib.load(
 
 print("Loading NER sentences...")
 
-test_path = "data/processed/en_ewt-ud-test-masked.iob2"
-
+test_path = "data/processed/en_ewt-ud-dev.iob2"
 sentences, _ = read_iob2(test_path)
 
 texts = [
@@ -81,4 +80,26 @@ results_df.to_csv(
 
 print(results_df.head())
 
+print("\nFormality distribution:")
+
+print(
+    results_df["predicted_formality"].value_counts()
+)
+
 print("Done.")
+
+#The output when u run this
+
+#                                            sentence  predicted_formality
+#0                             What is this Miramar ?                    0
+#1                     It is a place in Argentina lol                    0
+#2  what is a good slogan for an Argentinian resta...                    0
+#3  " In Argentina , beef is revered , respected ,...                    0
+#4        Come see how we continue this tradition . "                    0
+
+#Formality distribution:
+#predicted_formality
+#0    1814
+#1     263
+#Name: count, dtype: int64
+#Done.
