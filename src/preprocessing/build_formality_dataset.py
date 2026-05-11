@@ -3,9 +3,7 @@
 from datasets import load_dataset
 import pandas as pd
 import random
-
-
-
+import re
 
 
 
@@ -49,6 +47,25 @@ print("Number of formal examples:", len(formal_texts))
 
 # LOAD TWEEBANK (INFORMAL) ---------------------------------------------
 
+def clean_tweet(text):
+
+    # remove urls
+    text = re.sub(r"http\S+", "", text)
+
+    # remove hashtags
+    text = re.sub(r"#\w+", "", text)
+
+    # remove mentions
+    text = re.sub(r"@\w+", "", text)
+
+    # remove emojis/non-ascii
+    text = text.encode("ascii", "ignore").decode()
+
+    # normalize spaces
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+
 
 print("Loading Tweebank...")
 
@@ -59,7 +76,7 @@ informal_texts = []
 for text in tweebank["train"]["text"]:
 
     # remove weird spacing between characters
-    text = text.strip()
+    text = clean_tweet(text)
 
     if len(text) == 0:
         continue

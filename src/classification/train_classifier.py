@@ -10,10 +10,15 @@
 
 
 import pandas as pd
+import joblib
+
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+
+from scipy.sparse import hstack
+from src.features.linguistic_features import extract_linguistic_features
 
 from sklearn.metrics import (
     accuracy_score,
@@ -73,6 +78,35 @@ X_dev_tfidf = vectorizer.transform(X_dev)
 
 X_test_tfidf = vectorizer.transform(X_test)
 
+# LINGUISTIC FEATURES ----------------------------------
+
+print("Extracting linguistic features...")
+
+X_train_linguistic = extract_linguistic_features(X_train)
+
+X_dev_linguistic = extract_linguistic_features(X_dev)
+
+X_test_linguistic = extract_linguistic_features(X_test)
+
+
+# COMBINE FEATURES ----------------------------------
+
+print("Combining TF-IDF + linguistic features...")
+
+X_train_combined = hstack([
+    X_train_tfidf,
+    X_train_linguistic
+])
+
+X_dev_combined = hstack([
+    X_dev_tfidf,
+    X_dev_linguistic
+])
+
+X_test_combined = hstack([
+    X_test_tfidf,
+    X_test_linguistic
+])
 
 # MODEL ----------------------------------
 
@@ -82,13 +116,13 @@ model = LogisticRegression(
     max_iter=1000
 )
 
-model.fit(X_train_tfidf, y_train)
+model.fit(X_train_combined, y_train)
 
 # dev evaluation ------------------------------------
 
 print("\nEvaluating on DEV set...")
 
-dev_preds = model.predict(X_dev_tfidf)
+dev_preds = model.predict(X_dev_combined)
 
 accuracy = accuracy_score(y_dev, dev_preds)
 
@@ -113,7 +147,7 @@ print("F1:", f1)
 
 print("\nEvaluating on TEST set...")
 
-test_preds = model.predict(X_test_tfidf)
+test_preds = model.predict(X_test_combined)
 
 test_accuracy = accuracy_score(y_test, test_preds)
 
@@ -142,6 +176,38 @@ print("F1:", test_f1)
 print("\nClassification Report:\n")
 
 print(classification_report(y_test, test_preds))
+
+
+# SAVE PREDICTIONS ----------------------------------
+
+results_df = pd.DataFrame({
+    "text": X_test.values,
+    "true_label": y_test.values,
+    "predicted_label": test_preds
+})
+
+results_df.to_csv(
+    "outputs/results/formality_predictions.csv",
+    index=False
+)
+
+print("Predictions saved.")
+
+# SAVE MODEL ----------------------------------
+
+joblib.dump(
+    model,
+    "outputs/models/formality_classifier.pkl"
+)
+
+joblib.dump(
+    vectorizer,
+    "outputs/models/tfidf_vectorizer.pkl"
+)
+
+print("Classifier saved.")
+
+
 
 #Ok, some obersvations here
 

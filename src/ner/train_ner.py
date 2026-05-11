@@ -12,11 +12,11 @@ print(tokenizer.tokenize("playing football"))
 from data_loader import read_iob2
 
 
-train_path = "data/baseline/en_ewt-ud-train.iob2"
+train_path = "data/processed/en_ewt-ud-train.iob2"
 sentences, labels = read_iob2(train_path)
 
 
-dev_path = "data/baseline/en_ewt-ud-dev.iob2"
+dev_path = "data/processed/en_ewt-ud-dev.iob2"
 dev_sentences, dev_labels = read_iob2(dev_path)
 
 print("Number of sentences:", len(sentences))
@@ -309,7 +309,7 @@ save_predictions(
 
 # TEST PREDICTIONS
 
-test_path = "data/baseline/en_ewt-ud-test-masked.iob2"
+test_path = "data/processed/en_ewt-ud-test-masked.iob2"
 test_sentences, _ = read_iob2(test_path)
 
 # tokenize
@@ -351,7 +351,8 @@ for sentence, preds in zip(test_sentences, test_predictions):
 # save
 save_predictions(test_sentences, clean_test_preds, "outputs/predictions/test_predictions.iob2")
 
-
+model.save_pretrained("outputs/models/ner_model")
+tokenizer.save_pretrained("outputs/models/ner_model")
 
 
 
