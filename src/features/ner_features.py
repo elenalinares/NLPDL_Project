@@ -1,10 +1,16 @@
 import numpy as np
 import torch
+from tqdm import tqdm
 
 from transformers import (
     BertTokenizerFast,
     BertForTokenClassification
 )
+
+
+# DEVICE CONFIG ----------------------------
+device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+print(f"NER extraction using device: {device}")
 
 
 # LOAD TRAINED NER MODEL ----------------------------
@@ -19,90 +25,108 @@ model = BertForTokenClassification.from_pretrained(
     "outputs/models/ner_model"
 )
 
+# Optimization: Quantize model for CPU if no GPU available
+if device.type == "cpu":
+    print("Applying dynamic quantization for CPU speedup...")
+    model = torch.quantization.quantize_dynamic(
+        model, {torch.nn.Linear}, dtype=torch.qint8
+    )
+
+model.to(device)
 model.eval()
 
 
 # EXTRACT NER FEATURES ----------------------------
 
-def extract_ner_features(texts):
+@torch.inference_mode()
+def extract_ner_features(texts, batch_size=64):
 
-    features = []
+    all_features = []
+    
+    # Convert to list once to avoid repeated calls
+    text_list = texts.tolist() if hasattr(texts, 'tolist') else list(texts)
 
-    for text in texts:
-
-        words = text.split()
-
-        # tokenize
+    # Process in batches for efficiency
+    for i in tqdm(range(0, len(text_list), batch_size), desc="Extracting NER features"):
+        batch_texts = text_list[i : i + batch_size]
+        
+        # Tokenize batch
+        # max_length=128 is enough for tweets and most sentences, speeds up attention
         inputs = tokenizer(
-            words,
-            is_split_into_words=True,
-            return_tensors="pt",
-            truncation=True
-        )
+            batch_texts,
+            padding=True,
+            truncation=True,
+            max_length=128,
+            return_tensors="pt"
+        ).to(device)
 
-        # predict
-        with torch.no_grad():
+        # Predict
+        outputs = model(**inputs)
+        predictions = torch.argmax(outputs.logits, dim=-1)
+        
+        # Process each sentence in the batch
+        for j, text in enumerate(batch_texts):
+            words = text.split()
+            
+            # Align labels with words
+            word_ids = inputs.word_ids(batch_index=j)
+            pred_ids = predictions[j].tolist()
+            
+            labels = []
+            previous_word_idx = None
+            for idx, word_idx in enumerate(word_ids):
+                if word_idx is None:
+                    continue
+                if word_idx != previous_word_idx:
+                    # New word starts
+                    # We need to map prediction back to original model labels
+                    # Note: id2label mapping remains same after quantization
+                    labels.append(model.config.id2label[pred_ids[idx]])
+                previous_word_idx = word_idx
 
-            outputs = model(**inputs)
+            # entity count
+            entity_count = sum(
+                1 for label in labels
+                if label != "O"
+            )
 
-        predictions = torch.argmax(
-            outputs.logits,
-            dim=-1
-        )
+            # PERSON entities
+            person_count = sum(
+                1 for label in labels
+                if "PER" in label
+            )
 
-        pred_ids = predictions[0].tolist()
+            # ORG entities
+            org_count = sum(
+                1 for label in labels
+                if "ORG" in label
+            )
 
-        labels = [
-            model.config.id2label[p]
-            for p in pred_ids
-        ]
+            # LOC entities
+            loc_count = sum(
+                1 for label in labels
+                if "LOC" in label
+            )
 
-        # remove special tokens
-        labels = labels[1:len(words)+1]
+            # entity density
+            entity_density = entity_count / max(len(words), 1)
 
-        # entity count
-        entity_count = sum(
-            1 for label in labels
-            if label != "O"
-        )
+            # unique entity labels
+            unique_entities = len(set([
+                label for label in labels
+                if label != "O"
+            ]))
 
-        # PERSON entities
-        person_count = sum(
-            1 for label in labels
-            if "PER" in label
-        )
+            all_features.append([
+                entity_count,
+                person_count,
+                org_count,
+                loc_count,
+                entity_density,
+                unique_entities
+            ])
 
-        # ORG entities
-        org_count = sum(
-            1 for label in labels
-            if "ORG" in label
-        )
-
-        # LOC entities
-        loc_count = sum(
-            1 for label in labels
-            if "LOC" in label
-        )
-
-        # entity density
-        entity_density = entity_count / max(len(words), 1)
-
-        # unique entity labels
-        unique_entities = len(set([
-            label for label in labels
-            if label != "O"
-        ]))
-
-        features.append([
-            entity_count,
-            person_count,
-            org_count,
-            loc_count,
-            entity_density,
-            unique_entities
-        ])
-
-    return np.array(features)
+    return np.array(all_features)
 
 #BEWARE: This file takes forever to run so run it at your own risk
 

@@ -1,4 +1,3 @@
-####  pip install datasets pandas You maybe have to install this, so if thats the case just run this in your terminal
 
 from datasets import load_dataset
 import pandas as pd
@@ -67,13 +66,15 @@ def clean_tweet(text):
     return text.strip()
 
 
-print("Loading Tweebank...")
+print("Loading Informal Tweets (tweet_eval)...")
 
-tweebank = load_dataset("tweet_eval", "emotion")
+# Using tweet_eval sentiment as a proxy for informal text
+# This is a widely used dataset for twitter-related tasks
+tweets_ds = load_dataset("tweet_eval", "sentiment")
 
 informal_texts = []
 
-for text in tweebank["train"]["text"]:
+for text in tweets_ds["train"]["text"]:
 
     # remove weird spacing between characters
     text = clean_tweet(text)

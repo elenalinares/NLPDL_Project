@@ -10,6 +10,7 @@ import joblib
 
 from scipy.sparse import hstack
 from src.features.linguistic_features import extract_linguistic_features
+from src.features.ner_features import extract_ner_features
 
 from src.ner.data_loader import read_iob2
 
@@ -47,15 +48,23 @@ print("Number of sentences:", len(texts))
 print("Creating features...")
 
 # TF-IDF
+print("- Extracting TF-IDF...")
 X_tfidf = vectorizer.transform(texts)
 
 # linguistic features
+print("- Extracting linguistic features...")
 X_linguistic = extract_linguistic_features(texts)
 
+# NER features
+print("- Extracting NER features...")
+X_ner = extract_ner_features(texts)
+
 # combine
+print("Combining features...")
 X_features = hstack([
     X_tfidf,
-    X_linguistic
+    X_linguistic,
+    X_ner
 ])
 
 

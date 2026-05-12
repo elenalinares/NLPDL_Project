@@ -257,16 +257,16 @@ print("Classifier saved.")
 
 
 #These are the results we get:
-#Classification Report:
+'''Classification Report:
 
-#              precision    recall  f1-score   support
+              precision    recall  f1-score   support
 
-#           0       0.92      1.00      0.96       328
-#           1       1.00      0.91      0.95       324
+           0       0.98      0.99      0.99      4513
+           1       0.99      0.98      0.99      4610
 
-#    accuracy                           0.96       652
-#   macro avg       0.96      0.96      0.96       652
-#weighted avg       0.96      0.96      0.96       652
+    accuracy                           0.99      9123
+   macro avg       0.99      0.99      0.99      9123
+weighted avg       0.99      0.99      0.99      9123'''
 
 #Also, we can see that the inromal dataset has character spacin issues, this prolly makes classification easier than it should be --> The model would learn that the spacing means inromal
 
