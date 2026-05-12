@@ -4,9 +4,9 @@
 # important to mention that we need pytorch for this, it just makes this so much easier --> converts everything into numbers stored in a special structure called tensor
 # + it's a train engine and a batching system --> really useful for this project
 
+from transformers import BertTokenizerFast, BertForTokenClassification
 import os
 import torch
-from transformers import BertTokenizerFast, BertForTokenClassification
 from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
