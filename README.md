@@ -1,40 +1,77 @@
-# NLPDL_Project
-## This is our project for Natural Language Processing and Deep Learning.
+# NER Robustness vs. Text Formality
 
-We investigate whether linguistic and contextual features can be used to predict text formality across datasets with varying writing styles.
+## Research Question
+**"To what extent does the formality level of a sentence, as determined by lexical and syntactic features, correlate with the F1-score degradation of a BERT-based NER model?"**
 
-__Formality classification and domain variation in English NLP__
+This project investigates how linguistic variation—specifically text formality—impacts the performance and robustness of Named Entity Recognition (NER) systems across diverse web corpora.
 
-Here the docs with info and stuff:
+---
 
-_https://docs.google.com/document/d/1eFa8uVd11gDIJYd-29SsodJffLX6QiSLuEj7furr1jM/edit?usp=sharing_
+## Environment Setup
 
-Here's a nice github repository kinda like what we want to do:
-### https://github.com/stanfordnlp/stanza
+### Option 1: Conda (Recommended)
+```bash
+# Create the environment
+conda create -n nlpdl_project python=3.12 -y
 
-And here's an example from previous years that are kinda similar:
-### examples/noisy_ner_paper.pdf
+# Activate the environment
+conda activate nlpdl_project
 
-We can use these examples to guide ourselves for the project
+# Install dependencies
+pip install -r requirements.txt
+```
 
-##
+### Option 2: Standard Python (venv)
+```bash
+# Create a virtual environment
+python3 -m venv venv
 
-The first submision is the 18th of March and we have to submit: _"The poster should be a single-page PDF file describing the ideas for your project."_
+# Activate the environment
+source venv/bin/activate  # On macOS/Linux
+# venv\Scripts\activate   # On Windows
 
-* Title of the project
-* Names
-* Breifly Describe the project
-* What is the topic of your project, what is the current state off this topic/task/setup
-* What is the new art of your projet? What is the research quesiton of your project
+# Install dependencies
+pip install -r requirements.txt
+```
 
-##
-Topic for our project:
-### https://arxiv.org/pdf/2201.07281
+---
 
-## 
-# IMPORTANT TO READ THE JUPYTER NOTEBOOK IN EXAMPLES
-It has all the info we need ngl
+## How to Run
 
-## REPORT FOR THE PROJECT PROPOSAL
-[Project_proposal_submission.pdf](https://github.com/user-attachments/files/26330900/Project_proposal_submission.pdf)
+### 1. Quick Start: View Evaluation Results
+If you want to see the final results without re-running the entire training process, use the comprehensive evaluation script. This will analyze the existing predictions and generate performance metrics across different formality bins.
 
+```bash
+python comprehensive_eval.py
+```
+
+### 2. Full Pipeline
+To run the entire pipeline from scratch (data processing, classifier training, and NER training, use the master script. 
+
+**Note:** Running the full pipeline is computationally expensive. It is highly recommended to use a machine with a dedicated GPU (**CUDA**) or Apple Silicon (**MPS**). On a standard CPU, training will take a significant amount of time. (Automatically downloads a pre-compiled version of PyTorch that bundles the necessary CUDA
+  runtime libraries)
+
+```bash
+python run_pipeline.py
+```
+
+---
+
+## Project Structure
+
+- `src/preprocessing/`: Scripts for building the formality dataset from EWT.
+- `src/classification/`: Training and inference for the formality classifier.
+- `src/features/`: Extraction of lexical and linguistic features.
+- `src/ner/`: BERT-based NER training and evaluation logic.
+- `data/`: Contains processed IOB2 files and the formality dataset.
+- `outputs/`: Stores model predictions and result summaries.
+
+---
+
+## Computational Requirements
+- **Inference/Evaluation:** Can be run on a CPU in a few minutes.
+- **Training (Full Pipeline):** 
+    - **Recommended:** NVIDIA GPU (CUDA) or Apple Silicon (**MPS**).
+    - **Reference Hardware:** Tested on an **NVIDIA RTX 3060 (12GB VRAM)**.
+    - **Performance:** ~2 mins per epoch (Total: ~6 mins for 3 epochs).
+    - **CPU Estimate:** 10+ hours for full training.
